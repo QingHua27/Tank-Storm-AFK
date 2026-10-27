@@ -1,0 +1,61 @@
+# ===== 凭据 / 会话（含个人信息，绝不上传）=====
+cookies.json
+qrcode.png
+state.json
+config.local.json
+# 从浏览器搬设备记录时的中转文件（--import-device 的输入，含真 cookie）
+dev-cookie*.txt
+
+# ===== 抓包文件（含真实 openid/openkey/uid/cookie）=====
+*.har
+*.saz
+*.pcap
+*.pcapng
+capture.json
+socket_capture*.json
+endpoints-candidates.json
+
+# ===== 打包产物（本地试打包时生成，CI 里由 Actions 产出）=====
+build/
+dist/
+
+# ===== 运行时生成 =====
+debug/
+logs/
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ===== 个人配置 =====
+# 真实密钥（PushPlus token 等）放在 config.local.json，已在上方排除。
+
+# ===== 游戏客户端二进制（版权资产，仅作为 extract_proto.py 的本地输入）=====
+*.swf
+# ===== 交付/工作文件 =====
+files.zip
+新增文件说明.txt
+解密.txt
+
+# ===== Wiki 源文件 =====
+# GitHub Wiki 是另一个仓库（<repo>.wiki.git），这里只是本地工作副本，
+# 提交进主仓库既看不到、又会和 wiki 仓库两头不同步。
+wiki/
+
+# ===== 本地工作笔记（含个人信息与本机路径，不上传）=====
+docs/会话交接.md
+docs/交接*.md
+NOTES.md
+TODO.local.md
+
+# ABC 解析缓存（由 disasm.load 生成，可随时重建）
+*.abccache

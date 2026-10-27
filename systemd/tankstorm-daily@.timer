@@ -1,0 +1,10 @@
+[Unit]
+Description=TankStorm account %i daily at 07:30 China time
+
+[Timer]
+OnCalendar=*-*-* 07:30:00 Asia/Shanghai
+Persistent=true
+Unit=tankstorm-daily@%i.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,29 @@
+[Unit]
+Description=TankStorm account %i keepalive and daily tasks
+Wants=network-online.target
+After=network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=tankstorm
+Group=tankstorm
+WorkingDirectory=/opt/tankstorm/accounts/account-%i
+ExecStart=/opt/tankstorm/accounts/account-%i/tankstorm --keepalive --daily
+Restart=always
+RestartSec=30
+KillSignal=SIGINT
+KillMode=control-group
+TimeoutStopSec=20
+UMask=0077
+Environment=PYTHONUNBUFFERED=1
+Environment=LANG=C.UTF-8
+Environment=TZ=Asia/Shanghai
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/tankstorm/accounts/account-%i
+
+[Install]
+WantedBy=multi-user.target

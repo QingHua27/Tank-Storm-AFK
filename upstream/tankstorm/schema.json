@@ -1,0 +1,17202 @@
+{
+"0200": {
+"name": "_-5b5",
+"cls": "_-5b5",
+"fields": {
+"1": [
+"id",
+"int32"
+],
+"2": [
+"starttime",
+"int32"
+],
+"3": [
+"endtime",
+"int32"
+]
+}
+},
+"0201": {
+"name": "RseLevelBuy",
+"cls": "_-3Cb",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"lv",
+"int32"
+],
+"3": [
+"success",
+"bool"
+]
+}
+},
+"0202": {
+"name": "RseVipOpen",
+"cls": "_-4FD",
+"fields": {
+"3": [
+"vipData",
+"message"
+]
+}
+},
+"0203": {
+"name": "RseVipOpt",
+"cls": "_-0zz",
+"fields": {
+"1": [
+"vipData",
+"message"
+],
+"2": [
+"opType",
+"int32"
+],
+"3": [
+"ret",
+"int32"
+],
+"4": [
+"vipCardID",
+"int32"
+]
+}
+},
+"0204": {
+"name": "RseVipLevelUp",
+"cls": "_-0Ye",
+"fields": {
+"1": [
+"oldlevel",
+"int32"
+],
+"2": [
+"newlevel",
+"int32"
+]
+}
+},
+"0205": {
+"name": "RseSevenDaysTarget",
+"cls": "_-4rc",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"id",
+"int32"
+],
+"3": [
+"success",
+"bool"
+],
+"4": [
+"day",
+"int32"
+],
+"5": [
+"field5",
+"int32"
+],
+"6": [
+"field6",
+"int32"
+],
+"7": [
+"field7",
+"int32"
+],
+"8": [
+"activetype",
+"int32"
+],
+"9": [
+"ntotalScore",
+"int32"
+],
+"10": [
+"field10",
+"bool"
+],
+"11": [
+"nstardtime",
+"int32"
+]
+}
+},
+"0206": {
+"name": "RseYearLast",
+"cls": "_-0li",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nGiftID",
+"int32"
+],
+"3": [
+"nResult",
+"int32"
+],
+"4": [
+"nCostCredit",
+"int32"
+],
+"5": [
+"hasGet",
+"bool"
+]
+}
+},
+"0207": {
+"name": "RseZhaoMu",
+"cls": "_-0o9",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"result",
+"int32"
+],
+"3": [
+"hasGet",
+"bool"
+],
+"4": [
+"hasBind",
+"bool"
+]
+}
+},
+"0208": {
+"name": "RsePrompt",
+"cls": "_-2br",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"promptdata",
+"message"
+]
+}
+},
+"0209": {
+"name": "RseAddArmy",
+"cls": "_-4te",
+"fields": {
+"1": [
+"error",
+"int32"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"army",
+"message"
+]
+}
+},
+"020a": {
+"name": "RseQuest",
+"cls": "_-rR",
+"fields": {
+"1": [
+"type",
+"string"
+],
+"2": [
+"error",
+"int32"
+],
+"3": [
+"r1",
+"string"
+],
+"4": [
+"r2",
+"string"
+],
+"5": [
+"level",
+"string"
+],
+"6": [
+"basevalue",
+"string"
+],
+"7": [
+"basepoints",
+"string"
+]
+}
+},
+"020b": {
+"name": "RseAttack",
+"cls": "_-03v",
+"fields": {
+"1": [
+"baseid",
+"string"
+],
+"2": [
+"canAttack",
+"bool"
+],
+"3": [
+"type",
+"int32"
+],
+"4": [
+"errorid",
+"int32"
+],
+"5": [
+"tax",
+"int32"
+],
+"6": [
+"honor",
+"int32"
+],
+"7": [
+"attackratio",
+"int32"
+],
+"8": [
+"feats",
+"int32"
+],
+"9": [
+"canGetFeats",
+"bool"
+],
+"10": [
+"isStrike",
+"bool"
+],
+"11": [
+"admiralInuse",
+"message"
+],
+"12": [
+"usedsuperweaponnum",
+"int32"
+],
+"13": [
+"usedsuperweapontime",
+"int32"
+],
+"15": [
+"getMedal",
+"string"
+],
+"16": [
+"getOil",
+"string"
+],
+"17": [
+"robbaseresult",
+"message"
+],
+"18": [
+"needopenwgcheck",
+"bool"
+]
+}
+},
+"020c": {
+"name": "RseAuthState",
+"cls": "_-0QY",
+"fields": {
+"1": [
+"leftMin",
+"int32"
+],
+"2": [
+"nCurTime",
+"int32"
+],
+"3": [
+"type",
+"int32"
+],
+"4": [
+"pass",
+"bool"
+],
+"5": [
+"vipmessage",
+"bool"
+],
+"6": [
+"nWeiChengNianTime",
+"int32"
+]
+}
+},
+"020d": {
+"name": "RseBattleModify",
+"cls": "_-3rJ",
+"fields": {
+"1": [
+"checkIdx",
+"int32"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"r1",
+"string"
+],
+"4": [
+"r2",
+"string"
+]
+}
+},
+"020e": {
+"name": "RseBuildingModify",
+"cls": "_-bE",
+"fields": {
+"1": [
+"building",
+"message"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"error",
+"int32"
+],
+"4": [
+"id",
+"int32"
+],
+"5": [
+"bldType",
+"int32"
+],
+"6": [
+"armyType",
+"int32"
+],
+"7": [
+"armyID",
+"int32"
+],
+"8": [
+"academy",
+"message"
+],
+"9": [
+"mushRoom",
+"message"
+],
+"10": [
+"army",
+"message"
+],
+"11": [
+"resources",
+"string"
+],
+"12": [
+"credit",
+"string"
+],
+"13": [
+"level",
+"string"
+],
+"14": [
+"basevalue",
+"string"
+],
+"15": [
+"basepoints",
+"string"
+],
+"16": [
+"honor",
+"string"
+],
+"17": [
+"slaveRoom",
+"message"
+],
+"18": [
+"feats",
+"string"
+],
+"19": [
+"extraMedal",
+"string"
+],
+"20": [
+"extraOil",
+"string"
+],
+"21": [
+"buildingAddCount",
+"int32"
+],
+"22": [
+"ZhuZiTimes",
+"int32"
+],
+"23": [
+"field23",
+"int32"
+],
+"24": [
+"BuildingUpdate",
+"int32"
+],
+"25": [
+"vipMetalAddtion",
+"string"
+],
+"26": [
+"vipOilAddtion",
+"string"
+],
+"27": [
+"upgradeherolst",
+"message"
+],
+"28": [
+"hero",
+"message"
+],
+"29": [
+"towerenhancetype",
+"int32"
+],
+"30": [
+"nGetResTimes",
+"int32"
+],
+"31": [
+"field31",
+"string"
+],
+"32": [
+"field32",
+"message"
+],
+"33": [
+"colonyName",
+"string"
+],
+"34": [
+"colonyPic",
+"string"
+],
+"35": [
+"snowmanMetalAdd",
+"string"
+],
+"36": [
+"snowmanOilAdd",
+"string"
+]
+}
+},
+"020f": {
+"name": "RseBuildingUpdate",
+"cls": "_-63b",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"building",
+"message"
+],
+"3": [
+"army",
+"message"
+],
+"4": [
+"academy",
+"message"
+],
+"5": [
+"resources",
+"string"
+],
+"6": [
+"mineEx",
+"message"
+],
+"7": [
+"credit",
+"string"
+],
+"8": [
+"level",
+"string"
+],
+"9": [
+"basevalue",
+"string"
+],
+"10": [
+"basepoints",
+"string"
+],
+"11": [
+"field11",
+"message"
+],
+"12": [
+"upgradeherolst",
+"message"
+],
+"13": [
+"hero",
+"message"
+],
+"14": [
+"TrapEx",
+"message"
+]
+}
+},
+"0210": {
+"name": "RseCredit",
+"cls": "_-6Nx",
+"fields": {
+"1": [
+"credit",
+"string"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"error",
+"int32"
+],
+"5": [
+"nDayAddCredit",
+"int32"
+],
+"6": [
+"nDayCostCredit",
+"int32"
+]
+}
+},
+"0211": {
+"name": "RseError",
+"cls": "_-0ZX",
+"fields": {
+"1": [
+"errorID",
+"int32"
+],
+"2": [
+"sessionID",
+"string"
+]
+}
+},
+"0212": {
+"name": "RseFightReprot",
+"cls": "_-Oc",
+"fields": {
+"1": [
+"destroytime",
+"int32"
+],
+"2": [
+"field2",
+"message"
+]
+}
+},
+"0213": {
+"name": "RseFriendList",
+"cls": "_-0a2",
+"fields": {
+"1": [
+"field1",
+"message"
+],
+"2": [
+"type",
+"int32"
+]
+}
+},
+"0214": {
+"name": "RseGet",
+"cls": "_-15c",
+"fields": {
+"1": [
+"bases",
+"message"
+],
+"2": [
+"currenttime",
+"int32"
+],
+"3": [
+"type",
+"int32"
+],
+"4": [
+"getid",
+"string"
+],
+"5": [
+"error",
+"string"
+],
+"6": [
+"errorDesc",
+"string"
+],
+"7": [
+"field7",
+"string"
+],
+"8": [
+"h",
+"string"
+],
+"9": [
+"hn",
+"string"
+]
+}
+},
+"0215": {
+"name": "_-5eh",
+"cls": "_-5eh",
+"fields": {}
+},
+"0216": {
+"name": "RseInit",
+"cls": "_-5jh",
+"fields": {
+"1": [
+"userid",
+"string"
+],
+"2": [
+"openId",
+"string"
+],
+"3": [
+"username",
+"string"
+],
+"4": [
+"usernameQz",
+"string"
+],
+"5": [
+"picSquareQz",
+"string"
+],
+"6": [
+"gender",
+"string"
+],
+"7": [
+"picSquare",
+"string"
+],
+"8": [
+"credits",
+"string"
+],
+"9": [
+"lvl",
+"string"
+],
+"10": [
+"baseid",
+"string"
+],
+"11": [
+"basevalue",
+"string"
+],
+"12": [
+"basepoints",
+"string"
+],
+"13": [
+"r1",
+"string"
+],
+"14": [
+"r2",
+"string"
+],
+"15": [
+"r3",
+"string"
+],
+"16": [
+"r4",
+"string"
+],
+"17": [
+"tutorialstage",
+"int32"
+],
+"18": [
+"isYellowVip",
+"bool"
+],
+"19": [
+"isYellowYearVip",
+"bool"
+],
+"20": [
+"yellowVipLevel",
+"int32"
+],
+"21": [
+"canGetYellowAlphaDay",
+"bool"
+],
+"22": [
+"getYellowGift",
+"bool"
+],
+"23": [
+"source",
+"string"
+],
+"24": [
+"friendcount",
+"int32"
+],
+"25": [
+"hasPopMsgToday",
+"bool"
+],
+"26": [
+"hasShare2Web",
+"bool"
+],
+"27": [
+"registTime",
+"uint32"
+],
+"28": [
+"QQDmdLvl",
+"int32"
+],
+"29": [
+"isQQDmd",
+"bool"
+],
+"30": [
+"isQQDmdYear",
+"bool"
+],
+"31": [
+"canGetQqAlphaDay",
+"bool"
+],
+"32": [
+"getQqGift",
+"bool"
+],
+"33": [
+"region",
+"int32"
+],
+"34": [
+"shareTryPlay",
+"int32"
+],
+"35": [
+"coupon",
+"int32"
+],
+"36": [
+"isHighVip",
+"bool"
+],
+"37": [
+"continueLandingDay",
+"int32"
+],
+"38": [
+"isRecall51",
+"bool"
+],
+"39": [
+"atyTime",
+"message"
+],
+"40": [
+"currentTime",
+"int32"
+],
+"41": [
+"hasPickNewPlayerGift",
+"bool"
+],
+"42": [
+"QHallDmdLvl",
+"int32"
+],
+"43": [
+"isQHallDmd",
+"bool"
+],
+"44": [
+"isQHallDmdYear",
+"bool"
+],
+"45": [
+"isHighQHallDmd",
+"bool"
+],
+"46": [
+"isHighQHallDmdYear",
+"bool"
+],
+"47": [
+"canGetQhallDay",
+"bool"
+],
+"48": [
+"getQhallGift",
+"bool"
+],
+"49": [
+"getgrowqhallgift",
+"int32"
+],
+"50": [
+"QHallDmdTime",
+"int32"
+],
+"51": [
+"QHallDmdYearTime",
+"int32"
+],
+"52": [
+"HighQHallDmdTime",
+"int32"
+],
+"53": [
+"HighQHallDmdYearTime",
+"int32"
+],
+"54": [
+"NewReCallDayFlag",
+"int32"
+],
+"55": [
+"bShowFirstDayPic",
+"bool"
+],
+"56": [
+"bShowSecondDayPic",
+"bool"
+],
+"57": [
+"bSiteCredit",
+"bool"
+],
+"58": [
+"gameregion",
+"int32"
+],
+"59": [
+"bCanFetchNewerTxGift",
+"bool"
+],
+"60": [
+"QuietRoomTime",
+"int32"
+],
+"61": [
+"nMaxPveFightStep",
+"int32"
+],
+"62": [
+"nBanpeotimes",
+"int32"
+],
+"63": [
+"nBanBaseNpctimes",
+"int32"
+],
+"64": [
+"nBanDefActivtimes",
+"int32"
+],
+"65": [
+"nBanJiditimes",
+"int32"
+]
+}
+},
+"0217": {
+"name": "RseLoad",
+"cls": "_-34J",
+"fields": {
+"1": [
+"basename",
+"string"
+],
+"2": [
+"baseseed",
+"string"
+],
+"3": [
+"userid",
+"string"
+],
+"4": [
+"credits",
+"string"
+],
+"5": [
+"level",
+"string"
+],
+"6": [
+"tutorialstage",
+"string"
+],
+"7": [
+"openId",
+"string"
+],
+"8": [
+"firstName",
+"string"
+],
+"9": [
+"picSquare",
+"string"
+],
+"10": [
+"currentTime",
+"int32"
+],
+"11": [
+"__protected",
+"string"
+],
+"12": [
+"baseid",
+"string"
+],
+"13": [
+"buildingdata",
+"message"
+],
+"14": [
+"quests",
+"message"
+],
+"15": [
+"basevalue",
+"string"
+],
+"16": [
+"basepoints",
+"string"
+],
+"18": [
+"aiattacks",
+"message"
+],
+"19": [
+"effects",
+"string"
+],
+"20": [
+"mushrooms",
+"message"
+],
+"21": [
+"stats",
+"message"
+],
+"22": [
+"academy",
+"message"
+],
+"23": [
+"monsterbaiter",
+"message"
+],
+"24": [
+"mineEx",
+"message"
+],
+"25": [
+"fbCreditsBalance",
+"string"
+],
+"27": [
+"attacks",
+"message"
+],
+"28": [
+"storedata",
+"message"
+],
+"29": [
+"storeitems",
+"message"
+],
+"30": [
+"flags",
+"message"
+],
+"31": [
+"field31",
+"string"
+],
+"32": [
+"field32",
+"string"
+],
+"33": [
+"army",
+"message"
+],
+"34": [
+"points",
+"int32"
+],
+"35": [
+"name",
+"string"
+],
+"36": [
+"wmstatus",
+"message"
+],
+"37": [
+"factionid",
+"int32"
+],
+"38": [
+"destroycnt",
+"int32"
+],
+"39": [
+"attackcnt",
+"int32"
+],
+"40": [
+"sciencelevel",
+"message"
+],
+"41": [
+"honor",
+"int32"
+],
+"42": [
+"activitydata",
+"message"
+],
+"43": [
+"recoverArmy",
+"message"
+],
+"44": [
+"totallogin24tm",
+"uint32"
+],
+"45": [
+"totallogout24tm",
+"uint32"
+],
+"46": [
+"buffdata",
+"message"
+],
+"47": [
+"comInuse",
+"message"
+],
+"48": [
+"hasLogonToday",
+"bool"
+],
+"49": [
+"slaveRoom",
+"message"
+],
+"50": [
+"wallType",
+"int32"
+],
+"51": [
+"combatpowervalue",
+"uint32"
+],
+"52": [
+"emblemInuse",
+"message"
+],
+"53": [
+"feats",
+"int32"
+],
+"54": [
+"tmsnowiceMode",
+"uint32"
+],
+"55": [
+"admiralInuse",
+"message"
+],
+"56": [
+"popAD",
+"bool"
+],
+"57": [
+"tutorialtype",
+"int32"
+],
+"58": [
+"bookInuse",
+"message"
+],
+"59": [
+"frdBaseExplore",
+"message"
+],
+"60": [
+"countryData",
+"message"
+],
+"61": [
+"nIntegralScore",
+"int32"
+],
+"62": [
+"equipInuse",
+"message"
+],
+"63": [
+"curBloodBtlCnt",
+"int32"
+],
+"64": [
+"lastuseweapontime",
+"int32"
+],
+"65": [
+"userGuild",
+"message"
+],
+"66": [
+"officerPosition",
+"int32"
+],
+"67": [
+"vipData",
+"message"
+],
+"68": [
+"destroynpccnt",
+"int32"
+],
+"69": [
+"attacknpccnt",
+"int32"
+],
+"70": [
+"pvebattlecnt",
+"int32"
+],
+"71": [
+"heroInuse",
+"message"
+],
+"72": [
+"property",
+"message"
+],
+"73": [
+"heroScore",
+"int32"
+],
+"74": [
+"logindays",
+"int32"
+],
+"75": [
+"cmdlv",
+"int32"
+],
+"76": [
+"field76",
+"message"
+],
+"77": [
+"logoutProTime",
+"int32"
+],
+"78": [
+"field78",
+"message"
+],
+"79": [
+"TrapEx",
+"message"
+],
+"80": [
+"mhInuse",
+"message"
+],
+"81": [
+"nLeagueTitle",
+"int32"
+],
+"82": [
+"field82",
+"message"
+],
+"83": [
+"colonyState",
+"int32"
+],
+"84": [
+"field84",
+"message"
+],
+"85": [
+"bSelfVip",
+"bool"
+],
+"86": [
+"nColonyNum",
+"int32"
+],
+"87": [
+"tmspritemode",
+"int32"
+],
+"88": [
+"nSpecailHead",
+"int32"
+],
+"89": [
+"nDayAddCredit",
+"int32"
+],
+"90": [
+"nDayCostCredit",
+"int32"
+],
+"91": [
+"field91",
+"message"
+],
+"92": [
+"tmbattlepassmap",
+"int32"
+],
+"93": [
+"OtherSaveflag",
+"int32"
+],
+"94": [
+"lstUI",
+"message"
+],
+"95": [
+"BuildlstUI",
+"message"
+],
+"96": [
+"usertitle",
+"message"
+],
+"97": [
+"mortarskin",
+"message"
+],
+"98": [
+"Wishtreeskin",
+"message"
+],
+"99": [
+"eggskin",
+"message"
+],
+"100": [
+"cakeinfo",
+"message"
+],
+"101": [
+"basehomeskin",
+"message"
+],
+"102": [
+"skinList",
+"message"
+],
+"103": [
+"field103",
+"message"
+]
+}
+},
+"0218": {
+"name": "RseMineModify",
+"cls": "_-jh",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"error",
+"int32"
+],
+"3": [
+"building",
+"message"
+],
+"4": [
+"mineEx",
+"message"
+],
+"5": [
+"resources",
+"string"
+],
+"6": [
+"credit",
+"string"
+],
+"7": [
+"level",
+"string"
+],
+"8": [
+"basevalue",
+"string"
+],
+"9": [
+"basepoints",
+"string"
+],
+"10": [
+"recycleFlag",
+"bool"
+]
+}
+},
+"0219": {
+"name": "RsePurchase",
+"cls": "_-5bQ",
+"fields": {
+"1": [
+"resources",
+"string"
+],
+"2": [
+"credit",
+"string"
+],
+"3": [
+"type",
+"string"
+],
+"4": [
+"error",
+"int32"
+],
+"5": [
+"count",
+"int32"
+],
+"6": [
+"shopID",
+"int32"
+],
+"7": [
+"itemID",
+"int32"
+],
+"8": [
+"feats",
+"string"
+],
+"9": [
+"nIntegralScore",
+"int32"
+],
+"12": [
+"heroScore",
+"int32"
+],
+"13": [
+"field13",
+"int32"
+],
+"14": [
+"field14",
+"int32"
+],
+"15": [
+"buycount",
+"int32"
+],
+"16": [
+"openBoxScore",
+"int32"
+]
+}
+},
+"021a": {
+"name": "RseRes",
+"cls": "_-5Ih",
+"fields": {
+"1": [
+"metal",
+"int32"
+],
+"2": [
+"oil",
+"int32"
+],
+"3": [
+"electric",
+"int32"
+],
+"4": [
+"human",
+"int32"
+]
+}
+},
+"021b": {
+"name": "RseSave",
+"cls": "_-055",
+"fields": {
+"1": [
+"baseid",
+"string"
+],
+"2": [
+"currenttime",
+"int32"
+],
+"3": [
+"basesaveid",
+"string"
+],
+"4": [
+"__protected",
+"string"
+],
+"5": [
+"installsgenerated",
+"string"
+],
+"6": [
+"credits",
+"string"
+],
+"7": [
+"bookmarked",
+"string"
+],
+"8": [
+"fan",
+"string"
+],
+"9": [
+"emailshared",
+"string"
+],
+"10": [
+"updates",
+"string"
+],
+"11": [
+"saving",
+"string"
+],
+"12": [
+"error",
+"string"
+],
+"13": [
+"errorDesc",
+"string"
+],
+"14": [
+"field14",
+"string"
+],
+"16": [
+"h",
+"string"
+],
+"17": [
+"hn",
+"string"
+],
+"18": [
+"type",
+"int32"
+]
+}
+},
+"021c": {
+"name": "RseTutorialStage",
+"cls": "_-3FU",
+"fields": {
+"1": [
+"stage",
+"int32"
+]
+}
+},
+"021d": {
+"name": "RseUpdateSave",
+"cls": "_-00x",
+"fields": {
+"1": [
+"credits",
+"string"
+],
+"2": [
+"__protected",
+"string"
+],
+"3": [
+"bookmarked",
+"string"
+],
+"4": [
+"fan",
+"string"
+],
+"5": [
+"emailshared",
+"string"
+],
+"6": [
+"installsgenerated",
+"string"
+],
+"7": [
+"updates",
+"string"
+],
+"8": [
+"unreadmessages",
+"string"
+],
+"9": [
+"giftsentcount",
+"string"
+],
+"10": [
+"flags",
+"message"
+],
+"12": [
+"error",
+"string"
+],
+"13": [
+"errorDesc",
+"string"
+],
+"14": [
+"field14",
+"string"
+],
+"15": [
+"currenttime",
+"int32"
+],
+"16": [
+"h",
+"string"
+],
+"17": [
+"hn",
+"string"
+],
+"51": [
+"field51",
+"string"
+],
+"52": [
+"field52",
+"string"
+]
+}
+},
+"021e": {
+"name": "RseUserData",
+"cls": "_-3CA",
+"fields": {
+"1": [
+"selfgiftcount",
+"int32"
+],
+"2": [
+"giftwincount",
+"int32"
+],
+"3": [
+"friendcount",
+"int32"
+],
+"4": [
+"logincount",
+"int32"
+],
+"5": [
+"bannergift",
+"bool"
+],
+"6": [
+"totalpercharge",
+"int32"
+],
+"7": [
+"photonum",
+"int32"
+],
+"8": [
+"alarmclock",
+"int32"
+],
+"9": [
+"numaddcredit",
+"int32"
+],
+"10": [
+"yellowDmdtime",
+"uint32"
+],
+"11": [
+"field11",
+"message"
+],
+"12": [
+"combatpowervalue",
+"uint32"
+],
+"13": [
+"bluecharge",
+"bool"
+]
+}
+},
+"021f": {
+"name": "RseYellowDayGift",
+"cls": "_-6V4",
+"fields": {
+"1": [
+"getYellowGift",
+"bool"
+],
+"2": [
+"r1",
+"int32"
+],
+"3": [
+"r2",
+"int32"
+],
+"4": [
+"succ",
+"bool"
+]
+}
+},
+"0220": {
+"name": "RseYellowNewGift",
+"cls": "_-56m",
+"fields": {
+"1": [
+"getYellowGift",
+"bool"
+],
+"2": [
+"r1",
+"int32"
+],
+"3": [
+"r2",
+"int32"
+],
+"4": [
+"succ",
+"bool"
+]
+}
+},
+"0221": {
+"name": "RseBaseBattleModify",
+"cls": "_-4P4",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"error",
+"int32"
+]
+}
+},
+"0222": {
+"name": "RseCoutinueLandGift",
+"cls": "_-66M",
+"fields": {
+"1": [
+"daycout",
+"int32"
+],
+"2": [
+"GiftBit",
+"int32"
+],
+"3": [
+"day_1Num",
+"int32"
+],
+"4": [
+"day_2Num",
+"int32"
+],
+"5": [
+"day_3Num",
+"int32"
+],
+"6": [
+"day_4Num",
+"int32"
+],
+"7": [
+"day_5Num",
+"int32"
+],
+"8": [
+"day_6Num",
+"int32"
+],
+"9": [
+"day_7Num",
+"int32"
+],
+"10": [
+"exDayCount",
+"int32"
+],
+"11": [
+"exNextGift",
+"int32"
+]
+}
+},
+"0223": {
+"name": "RseRetCoutinueLandGift",
+"cls": "_-h3",
+"fields": {
+"1": [
+"result",
+"int32"
+],
+"2": [
+"type",
+"int32"
+]
+}
+},
+"0224": {
+"name": "RseScienceLevelUp",
+"cls": "_-6jG",
+"fields": {
+"1": [
+"sid",
+"int32"
+],
+"2": [
+"result",
+"int32"
+],
+"3": [
+"sciencelevel",
+"message"
+],
+"4": [
+"sciencetype",
+"int32"
+]
+}
+},
+"0225": {
+"name": "RseUserInfo",
+"cls": "_-30w",
+"fields": {
+"1": [
+"credit",
+"int32"
+],
+"2": [
+"honor",
+"int32"
+],
+"3": [
+"metal",
+"int32"
+],
+"4": [
+"oil",
+"int32"
+],
+"5": [
+"buffdata",
+"message"
+],
+"6": [
+"feats",
+"int32"
+],
+"7": [
+"admiralInuse",
+"message"
+],
+"8": [
+"coupon",
+"int32"
+],
+"9": [
+"gscore",
+"int32"
+],
+"10": [
+"officerPosition",
+"int32"
+],
+"11": [
+"morale",
+"int32"
+],
+"12": [
+"vipData",
+"message"
+],
+"13": [
+"junling",
+"int32"
+],
+"14": [
+"countryScore",
+"int32"
+],
+"15": [
+"jungong",
+"int32"
+],
+"16": [
+"heroScore",
+"int32"
+]
+}
+},
+"0226": {
+"name": "RseFightEquipReprot",
+"cls": "_-6qM",
+"fields": {
+"1": [
+"begintime",
+"int32"
+],
+"2": [
+"attackID",
+"string"
+],
+"3": [
+"recoveryID",
+"string"
+],
+"4": [
+"field4",
+"message"
+],
+"5": [
+"field5",
+"message"
+],
+"6": [
+"atkAdmiralExp",
+"int32"
+],
+"7": [
+"defAdmiralExp",
+"int32"
+],
+"8": [
+"weapon",
+"message"
+]
+}
+},
+"0227": {
+"name": "RseUpBroadcast",
+"cls": "_-1Xa",
+"fields": {
+"1": [
+"name",
+"string"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"id",
+"int32"
+],
+"4": [
+"lvl",
+"int32"
+]
+}
+},
+"0228": {
+"name": "RseSysBroadcast",
+"cls": "_-2k-",
+"fields": {
+"1": [
+"ID",
+"int32"
+]
+}
+},
+"0229": {
+"name": "RseWebBroadcast",
+"cls": "_-4DQ",
+"fields": {
+"1": [
+"content",
+"string"
+]
+}
+},
+"022a": {
+"name": "RseGiftList",
+"cls": "_-0jP",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"dayAskCnt",
+"int32"
+],
+"3": [
+"getGiftCnt",
+"int32"
+],
+"4": [
+"askGiftCnt",
+"int32"
+],
+"5": [
+"canAskFrdOpenid",
+"string"
+],
+"6": [
+"field6",
+"int32"
+],
+"7": [
+"field7",
+"int32"
+],
+"8": [
+"field8",
+"string"
+],
+"9": [
+"getTime",
+"int32"
+],
+"10": [
+"field10",
+"int32"
+],
+"11": [
+"hasDone",
+"int32"
+],
+"12": [
+"bSendGiftGain",
+"bool"
+],
+"13": [
+"baskGiftGain",
+"bool"
+],
+"14": [
+"playerName",
+"string"
+],
+"15": [
+"field15",
+"string"
+]
+}
+},
+"022b": {
+"name": "RseGiftOpt",
+"cls": "RseGiftOpt",
+"fields": {
+"1": [
+"MessageID",
+"int32"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"error",
+"int32"
+],
+"4": [
+"resMedal",
+"string"
+],
+"5": [
+"resOil",
+"string"
+],
+"6": [
+"credit",
+"string"
+]
+}
+},
+"022c": {
+"name": "RseGiftUndealCnt",
+"cls": "_-4Vt",
+"fields": {
+"1": [
+"unDealCnt",
+"int32"
+],
+"2": [
+"unDealFrdCnt",
+"int32"
+]
+}
+},
+"022d": {
+"name": "RseDefenseActivity",
+"cls": "_-6PR",
+"fields": {
+"1": [
+"msgtype",
+"int32"
+],
+"2": [
+"activitydata",
+"message"
+],
+"3": [
+"questresult",
+"int32"
+],
+"4": [
+"customCunt",
+"int32"
+],
+"5": [
+"nGetOil",
+"int32"
+],
+"6": [
+"nGetMetal",
+"int32"
+],
+"7": [
+"field7",
+"message"
+]
+}
+},
+"022e": {
+"name": "RseClientOnceFlag",
+"cls": "_-4a7",
+"fields": {
+"1": [
+"flag",
+"uint32"
+]
+}
+},
+"022f": {
+"name": "RseRecoverArmy",
+"cls": "_-7V6",
+"fields": {
+"1": [
+"ret",
+"int32"
+]
+}
+},
+"0230": {
+"name": "RseComBroadcast",
+"cls": "_-7TE",
+"fields": {
+"1": [
+"id",
+"int32"
+],
+"2": [
+"argslist",
+"string"
+],
+"3": [
+"argi1",
+"int32"
+],
+"4": [
+"argi2",
+"int32"
+],
+"5": [
+"argi3",
+"int32"
+],
+"6": [
+"argi4",
+"int32"
+],
+"7": [
+"argi5",
+"int32"
+],
+"8": [
+"args1",
+"string"
+],
+"9": [
+"args2",
+"string"
+],
+"10": [
+"args3",
+"string"
+],
+"11": [
+"args4",
+"string"
+],
+"12": [
+"args5",
+"string"
+],
+"13": [
+"region",
+"int32"
+],
+"14": [
+"userID",
+"string"
+],
+"15": [
+"nLeagueTitle",
+"int32"
+]
+}
+},
+"0231": {
+"name": "RseNewComerGift",
+"cls": "_-0oD",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nID",
+"int32"
+],
+"3": [
+"nResult",
+"int32"
+],
+"4": [
+"field4",
+"message"
+]
+}
+},
+"0232": {
+"name": "_-1AZ",
+"cls": "_-1AZ",
+"fields": {
+"1": [
+"field1",
+"uint32"
+]
+}
+},
+"0233": {
+"name": "RseAddBuff",
+"cls": "_-12",
+"fields": {
+"1": [
+"buffid",
+"int32"
+],
+"2": [
+"result",
+"int32"
+],
+"3": [
+"buildid",
+"int32"
+]
+}
+},
+"0234": {
+"name": "RseBagItemLst",
+"cls": "_-6lC",
+"fields": {
+"1": [
+"bagLV",
+"int32"
+],
+"2": [
+"field2",
+"message"
+],
+"3": [
+"bagItem",
+"message"
+]
+}
+},
+"0235": {
+"name": "RseMoonAccReward",
+"cls": "_-1XZ",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"accStakeCnt",
+"int32"
+],
+"3": [
+"field3",
+"int32"
+]
+}
+},
+"0236": {
+"name": "RseMoonOpen",
+"cls": "_-4w9",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"goldCardCnt",
+"int32"
+],
+"3": [
+"silverCardCnt",
+"int32"
+],
+"4": [
+"goldLevel",
+"int32"
+],
+"5": [
+"silverLevel",
+"int32"
+],
+"6": [
+"cardtype",
+"int32"
+],
+"7": [
+"leftSilverCardCnt",
+"int32"
+],
+"8": [
+"moonCnt",
+"int32"
+],
+"9": [
+"accMoonCnt",
+"int32"
+],
+"10": [
+"accStakeCnt",
+"int32"
+],
+"11": [
+"field11",
+"int32"
+],
+"12": [
+"field12",
+"int32"
+],
+"13": [
+"activeFlag",
+"int32"
+],
+"14": [
+"dayGetGiftCount",
+"int32"
+],
+"15": [
+"totalGetGiftPrivilege",
+"int32"
+],
+"16": [
+"dayCostGetTime",
+"int32"
+],
+"17": [
+"hasGetRankGift",
+"bool"
+]
+}
+},
+"0237": {
+"name": "RseMoonStake",
+"cls": "_-2Vu",
+"fields": {
+"1": [
+"nStakeCnt",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"goldCardCnt",
+"int32"
+],
+"4": [
+"silverCardCnt",
+"int32"
+],
+"5": [
+"goldLevel",
+"int32"
+],
+"6": [
+"silverLevel",
+"int32"
+],
+"7": [
+"moonCnt",
+"int32"
+],
+"8": [
+"stake",
+"message"
+],
+"9": [
+"activeFlag",
+"int32"
+],
+"10": [
+"dayGetGiftCount",
+"int32"
+],
+"11": [
+"totalGetGiftPrivilege",
+"int32"
+],
+"12": [
+"dayCostGetTime",
+"int32"
+],
+"13": [
+"hasGetRankGift",
+"bool"
+]
+}
+},
+"0238": {
+"name": "RsePlatInviteFriend",
+"cls": "_-1b6",
+"fields": {
+"1": [
+"ntype",
+"int32"
+],
+"2": [
+"invitefriends",
+"message"
+],
+"3": [
+"invitegaincredit",
+"int32"
+],
+"4": [
+"lvlgaincredit",
+"int32"
+],
+"5": [
+"topupgaincredit",
+"int32"
+],
+"6": [
+"gaincreditall",
+"int32"
+],
+"7": [
+"nerror",
+"int32"
+],
+"8": [
+"ncredit",
+"int32"
+]
+}
+},
+"0239": {
+"name": "_-1Qf",
+"cls": "_-1Qf",
+"fields": {
+"1": [
+"field1",
+"message"
+]
+}
+},
+"023a": {
+"name": "RseWPCBaseOpen",
+"cls": "_-7g",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"field2",
+"int32"
+],
+"3": [
+"leftFreeCnt",
+"int32"
+],
+"4": [
+"leftTime",
+"int32"
+],
+"5": [
+"champion",
+"message"
+],
+"6": [
+"list",
+"message"
+],
+"7": [
+"field7",
+"message"
+],
+"8": [
+"searchTime",
+"int32"
+],
+"9": [
+"wishtreeSearchCnt",
+"int32"
+],
+"10": [
+"wpcallcnt",
+"int32"
+]
+}
+},
+"023b": {
+"name": "RseWPCComOpen",
+"cls": "_-7L0",
+"fields": {
+"1": [
+"baseTurnonCnt",
+"int32"
+],
+"2": [
+"armyTurnonCnt",
+"int32"
+],
+"3": [
+"tankTurnonCnt",
+"int32"
+],
+"4": [
+"planeTurnonCnt",
+"int32"
+],
+"5": [
+"comInuse",
+"message"
+],
+"6": [
+"heroTurnonCnt",
+"int32"
+]
+}
+},
+"023c": {
+"name": "RseWPCComOpt",
+"cls": "_-1vu",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"baseType",
+"int32"
+],
+"3": [
+"ret",
+"int32"
+],
+"4": [
+"retCom",
+"message"
+],
+"5": [
+"pageType",
+"int32"
+],
+"6": [
+"overExp",
+"int32"
+],
+"7": [
+"field7",
+"message"
+]
+}
+},
+"023d": {
+"name": "RseWPCExplore",
+"cls": "_-76l",
+"fields": {
+"1": [
+"sceneID",
+"int32"
+],
+"2": [
+"exploreCnt",
+"int32"
+],
+"3": [
+"itemID",
+"int32"
+],
+"5": [
+"leftFreeCnt",
+"int32"
+],
+"6": [
+"leftTime",
+"int32"
+],
+"7": [
+"ret",
+"int32"
+],
+"8": [
+"field8",
+"int32"
+],
+"9": [
+"bookID",
+"int32"
+],
+"10": [
+"discountType",
+"int32"
+],
+"11": [
+"jungong",
+"int32"
+],
+"12": [
+"searchTimes",
+"int32"
+],
+"13": [
+"jammerID",
+"int32"
+],
+"14": [
+"bJinKa",
+"bool"
+],
+"15": [
+"halloweenGetCandy",
+"int32"
+],
+"16": [
+"precisestrikepart",
+"int32"
+],
+"17": [
+"wishtreeSearchCnt",
+"int32"
+],
+"18": [
+"wpcallcnt",
+"int32"
+]
+}
+},
+"023e": {
+"name": "RseBtlCapture",
+"cls": "_-4L9",
+"fields": {
+"1": [
+"baseid",
+"string"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"btlType",
+"int32"
+],
+"4": [
+"errorID",
+"int32"
+],
+"5": [
+"leftRescueCnt",
+"int32"
+],
+"6": [
+"lossUser",
+"bool"
+],
+"7": [
+"needopenwgcheck",
+"bool"
+]
+}
+},
+"023f": {
+"name": "RseSlaveRoomUpdate",
+"cls": "_-26g",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"chgID",
+"string"
+],
+"3": [
+"chgName",
+"string"
+],
+"4": [
+"slaveRoom",
+"message"
+]
+}
+},
+"0240": {
+"name": "RseLeaveMessage",
+"cls": "_-6WR",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"field2",
+"message"
+],
+"3": [
+"nIndex",
+"int32"
+],
+"4": [
+"nError",
+"int32"
+],
+"5": [
+"bIsNew",
+"bool"
+]
+}
+},
+"0241": {
+"name": "RseDailyTask",
+"cls": "_-3aV",
+"fields": {
+"1": [
+"getGift",
+"message"
+],
+"2": [
+"dailyTask",
+"message"
+],
+"3": [
+"privilegeId",
+"int32"
+],
+"4": [
+"hasPrivilegeComplete",
+"bool"
+]
+}
+},
+"0242": {
+"name": "RseWallChgCloth",
+"cls": "_-03e",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+]
+}
+},
+"0243": {
+"name": "RseClientNumStat",
+"cls": "_-1ZG",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"field2",
+"int32"
+],
+"3": [
+"field3",
+"int32"
+]
+}
+},
+"0244": {
+"name": "RseBagItemUse",
+"cls": "_-4hm",
+"fields": {
+"1": [
+"optType",
+"int32"
+],
+"3": [
+"ret",
+"int32"
+],
+"4": [
+"itemID",
+"int32"
+],
+"5": [
+"id",
+"int32"
+],
+"6": [
+"field6",
+"message"
+]
+}
+},
+"0245": {
+"name": "RseBagOpen",
+"cls": "_-6pK",
+"fields": {
+"1": [
+"lastOpenTime",
+"int32"
+],
+"2": [
+"bagLV",
+"int32"
+]
+}
+},
+"0246": {
+"name": "RseLogGet",
+"cls": "_-40d",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"field2",
+"message"
+]
+}
+},
+"0247": {
+"name": "_-1T0",
+"cls": "_-1T0",
+"fields": {
+"1": [
+"field1",
+"message"
+]
+}
+},
+"0248": {
+"name": "RseGetRecords",
+"cls": "_-3FY",
+"fields": {
+"1": [
+"records",
+"message"
+],
+"2": [
+"logonday",
+"int32"
+]
+}
+},
+"0249": {
+"name": "RseBagUpgrade",
+"cls": "_-2qq",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"credit",
+"int32"
+],
+"3": [
+"bagLV",
+"int32"
+]
+}
+},
+"024a": {
+"name": "_-4cC",
+"cls": "_-4cC",
+"fields": {
+"1": [
+"field1",
+"message"
+]
+}
+},
+"024b": {
+"name": "RseWPCEmblemOpen",
+"cls": "_-225",
+"fields": {
+"1": [
+"earthTurnonCnt",
+"int32"
+],
+"2": [
+"airTurnonCnt",
+"int32"
+],
+"3": [
+"baseTurnonCnt",
+"int32"
+],
+"4": [
+"emblemInuse",
+"message"
+],
+"5": [
+"lasertowerTurnonCnt",
+"int32"
+],
+"6": [
+"giantcanonTurnonCnt",
+"int32"
+]
+}
+},
+"024c": {
+"name": "RseWPCEmblemOpt",
+"cls": "_-3M5",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"baseType",
+"int32"
+],
+"4": [
+"emblem",
+"message"
+],
+"5": [
+"overExp",
+"int32"
+]
+}
+},
+"024d": {
+"name": "RseNewPlayer28Day",
+"cls": "_-75A",
+"fields": {
+"1": [
+"nID",
+"int32"
+],
+"2": [
+"nError",
+"int32"
+],
+"3": [
+"bday2",
+"bool"
+],
+"4": [
+"bday8",
+"bool"
+]
+}
+},
+"024e": {
+"name": "RseInviteFriend",
+"cls": "_-62K",
+"fields": {
+"1": [
+"friendcount",
+"int32"
+],
+"2": [
+"giftGain",
+"bool"
+]
+}
+},
+"024f": {
+"name": "RseGetInviteMsg",
+"cls": "_-0qo",
+"fields": {
+"1": [
+"inviteFrdMsg",
+"message"
+],
+"2": [
+"type",
+"int32"
+]
+}
+},
+"0250": {
+"name": "RseGetInviteFriendMsg",
+"cls": "_-2u3",
+"fields": {
+"1": [
+"msg",
+"message"
+],
+"2": [
+"getCreditOver",
+"bool"
+]
+}
+},
+"0251": {
+"name": "RseAdmiralOpen",
+"cls": "_-7ZP",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"canUseCnt",
+"int32"
+],
+"3": [
+"field3",
+"message"
+],
+"4": [
+"soulCnt",
+"int32"
+],
+"5": [
+"field5",
+"int32"
+],
+"6": [
+"freeVisitCnt",
+"int32"
+],
+"7": [
+"finishVisitTime",
+"int32"
+],
+"8": [
+"hasCreditVisit",
+"bool"
+],
+"9": [
+"field9",
+"int32"
+],
+"10": [
+"soul4Admiral",
+"int32"
+],
+"11": [
+"admiralletter",
+"message"
+],
+"12": [
+"remainNum",
+"int32"
+],
+"13": [
+"nRemainSoulBuy",
+"int32"
+],
+"14": [
+"hasHalfPrice",
+"bool"
+],
+"15": [
+"optimusPrimescore",
+"int32"
+],
+"16": [
+"hasGeneralCombine",
+"int32"
+],
+"17": [
+"field17",
+"message"
+],
+"18": [
+"heroskillAddpro",
+"int32"
+],
+"19": [
+"nActVisitCnt",
+"int32"
+],
+"20": [
+"nSuipianEndtime",
+"int32"
+],
+"21": [
+"ngetSuipianAwd",
+"bool"
+]
+}
+},
+"0252": {
+"name": "RseAdmiralOpt",
+"cls": "_-47M",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"optType",
+"int32"
+],
+"3": [
+"admiral",
+"message"
+],
+"4": [
+"field4",
+"int32"
+],
+"5": [
+"soulCnt",
+"int32"
+],
+"6": [
+"admiralInuse",
+"message"
+],
+"7": [
+"itemID",
+"int32"
+],
+"8": [
+"itemCnt",
+"int32"
+],
+"9": [
+"admiralletter",
+"message"
+],
+"10": [
+"trainExp",
+"int32"
+],
+"11": [
+"getType",
+"int32"
+],
+"12": [
+"getsoul",
+"int32"
+],
+"13": [
+"admiralcombineinfo",
+"message"
+]
+}
+},
+"0253": {
+"name": "RseAdmiralVisit",
+"cls": "_-22G",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"4": [
+"freeVisitCnt",
+"int32"
+],
+"5": [
+"hasCreditVisit",
+"bool"
+],
+"6": [
+"finishVisitTime",
+"int32"
+],
+"7": [
+"getType",
+"int32"
+],
+"8": [
+"Admiral",
+"message"
+],
+"9": [
+"soulCnt",
+"int32"
+],
+"10": [
+"itemID",
+"int32"
+],
+"11": [
+"itemCnt",
+"int32"
+],
+"12": [
+"trainExp",
+"int32"
+],
+"13": [
+"admiralletter",
+"message"
+],
+"14": [
+"jungong",
+"int32"
+],
+"15": [
+"remainNum",
+"int32"
+],
+"16": [
+"nRemainSoulBuy",
+"int32"
+],
+"17": [
+"optimusPrimescore",
+"int32"
+],
+"18": [
+"precisestrikepart",
+"int32"
+],
+"19": [
+"bGetTenDrawDayAwd",
+"int32"
+],
+"20": [
+"field20",
+"message"
+],
+"21": [
+"nActVisitCnt",
+"int32"
+]
+}
+},
+"0254": {
+"name": "RseNPCActive",
+"cls": "_-3sv",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"leftAtkCnt",
+"int32"
+],
+"4": [
+"field4",
+"int32"
+],
+"5": [
+"field5",
+"int32"
+],
+"6": [
+"crank",
+"message"
+]
+}
+},
+"0255": {
+"name": "RseBaseDefNPC",
+"cls": "_-3z3",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"msgtype",
+"int32"
+],
+"3": [
+"bestScore",
+"int32"
+],
+"4": [
+"atkTimes",
+"int32"
+],
+"5": [
+"npcID",
+"int32"
+],
+"6": [
+"leftStakeCnt",
+"int32"
+],
+"7": [
+"field7",
+"int32"
+],
+"8": [
+"field8",
+"int32"
+],
+"9": [
+"getItemID",
+"int32"
+],
+"10": [
+"getItemCnt",
+"int32"
+],
+"11": [
+"balance",
+"bool"
+],
+"12": [
+"field12",
+"int32"
+]
+}
+},
+"0256": {
+"name": "RseShopForGift",
+"cls": "_-hG",
+"fields": {
+"1": [
+"uid",
+"string"
+],
+"2": [
+"giftID",
+"int32"
+],
+"3": [
+"count",
+"int32"
+],
+"4": [
+"errorMsg",
+"int32"
+],
+"5": [
+"type",
+"int32"
+]
+}
+},
+"0257": {
+"name": "RseShopForGiftMsg",
+"cls": "_-3YQ",
+"fields": {
+"1": [
+"giftID",
+"int32"
+],
+"2": [
+"field2",
+"int32"
+],
+"3": [
+"field3",
+"int32"
+],
+"4": [
+"sendCountAll",
+"int32"
+]
+}
+},
+"0258": {
+"name": "_-4Jn",
+"cls": "_-4Jn",
+"fields": {
+"1": [
+"field1",
+"int32"
+]
+}
+},
+"0259": {
+"name": "RseAdmiralRank",
+"cls": "_-0Qj",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"id",
+"string"
+],
+"3": [
+"name",
+"string"
+],
+"4": [
+"icon",
+"string"
+],
+"5": [
+"admiralInuse",
+"message"
+],
+"6": [
+"bookInuse",
+"message"
+],
+"7": [
+"nLvl",
+"int32"
+],
+"8": [
+"nFightPow",
+"uint32"
+],
+"9": [
+"equipInuse",
+"message"
+],
+"10": [
+"mhInuse",
+"message"
+],
+"11": [
+"nSpecialHead",
+"int32"
+]
+}
+},
+"025a": {
+"name": "RseBaseChgData",
+"cls": "_-4lT",
+"fields": {
+"1": [
+"periods",
+"int32"
+],
+"2": [
+"custom",
+"int32"
+]
+}
+},
+"025b": {
+"name": "_-6Lw",
+"cls": "_-6Lw",
+"fields": {
+"1": [
+"field1",
+"message"
+]
+}
+},
+"025c": {
+"name": "RseWPCBookOpen",
+"cls": "_-7ZH",
+"fields": {
+"1": [
+"canEquipCnt",
+"int32"
+],
+"2": [
+"bookInuse",
+"message"
+]
+}
+},
+"025d": {
+"name": "RseWPCBookOpt",
+"cls": "_-0CP",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"baseType",
+"int32"
+],
+"4": [
+"book",
+"message"
+],
+"5": [
+"pageType",
+"int32"
+],
+"6": [
+"overExp",
+"int32"
+],
+"7": [
+"brewardone",
+"bool"
+],
+"8": [
+"brewardtwo",
+"bool"
+],
+"9": [
+"nPveNum",
+"int32"
+],
+"10": [
+"nCountyAtkNum",
+"int32"
+],
+"11": [
+"nExploreNum",
+"int32"
+],
+"12": [
+"nDestroyNum",
+"int32"
+],
+"13": [
+"nJunBeiNum",
+"int32"
+],
+"14": [
+"booklockMOre",
+"message"
+]
+}
+},
+"025e": {
+"name": "RseDraw",
+"cls": "_-Mk",
+"fields": {
+"1": [
+"result",
+"int32"
+]
+}
+},
+"025f": {
+"name": "RsePopAd",
+"cls": "_-2aV",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"id",
+"int32"
+],
+"3": [
+"finishTM",
+"int32"
+],
+"4": [
+"picVal",
+"int32"
+]
+}
+},
+"0260": {
+"name": "RsePVEFightOpt",
+"cls": "_-0RK",
+"fields": {
+"1": [
+"fightdata",
+"message"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"result",
+"int32"
+],
+"4": [
+"cdtime",
+"uint32"
+],
+"5": [
+"bTreatSuc",
+"bool"
+],
+"6": [
+"field6",
+"message"
+],
+"8": [
+"nKillBossID",
+"int32"
+],
+"9": [
+"tRewardTime",
+"int32"
+],
+"10": [
+"nIdleRewardID",
+"int32"
+],
+"11": [
+"nIdleRewardNum",
+"int32"
+],
+"12": [
+"field12",
+"message"
+]
+}
+},
+"0261": {
+"name": "RseStrategicArmyInfo",
+"cls": "_-4le",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"optype",
+"int32"
+],
+"3": [
+"field3",
+"message"
+],
+"4": [
+"field4",
+"message"
+],
+"5": [
+"field5",
+"message"
+],
+"6": [
+"generalindex",
+"int32"
+],
+"7": [
+"field7",
+"message"
+],
+"8": [
+"heroInuse",
+"message"
+],
+"9": [
+"curPlan",
+"int32"
+],
+"10": [
+"nret",
+"int32"
+]
+}
+},
+"0262": {
+"name": "RseStrategicArmyOpt",
+"cls": "_-5tn",
+"fields": {
+"1": [
+"optype",
+"int32"
+],
+"2": [
+"field2",
+"int32"
+],
+"3": [
+"optarmytype",
+"int32"
+],
+"4": [
+"optarmycnt",
+"int32"
+],
+"5": [
+"optrel",
+"int32"
+],
+"6": [
+"generalindex",
+"int32"
+],
+"7": [
+"tmpspc",
+"int32"
+],
+"8": [
+"tmpspcend",
+"int32"
+]
+}
+},
+"0263": {
+"name": "RseLuckyNumChoice",
+"cls": "_-2un",
+"fields": {
+"1": [
+"result",
+"int32"
+]
+}
+},
+"0264": {
+"name": "RseLuckyNumMsg",
+"cls": "_-1P5",
+"fields": {
+"1": [
+"nowID",
+"int32"
+],
+"2": [
+"nextTime",
+"int32"
+],
+"3": [
+"field3",
+"message"
+]
+}
+},
+"0265": {
+"name": "RseBaseExploreOpen",
+"cls": "_-1GZ",
+"fields": {
+"1": [
+"openType",
+"int32"
+],
+"2": [
+"exploreTimes",
+"int32"
+],
+"3": [
+"exploreGiftList",
+"message"
+],
+"4": [
+"exploredTimes",
+"int32"
+],
+"5": [
+"exploreRewardList",
+"message"
+],
+"6": [
+"frddays",
+"int32"
+]
+}
+},
+"0266": {
+"name": "RseBaseExploreOpt",
+"cls": "_-4Qg",
+"fields": {
+"1": [
+"optType",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"exploreTimes",
+"int32"
+],
+"4": [
+"frdExploredTimes",
+"int32"
+],
+"5": [
+"nextExploredTime",
+"int32"
+],
+"6": [
+"exploreGiftList",
+"message"
+],
+"7": [
+"curGiftId",
+"int32"
+],
+"8": [
+"curGiftType",
+"int32"
+],
+"9": [
+"exploreRewardList",
+"message"
+],
+"10": [
+"specialGiftId",
+"int32"
+],
+"11": [
+"specialGiftCnt",
+"int32"
+],
+"12": [
+"specialGiftType",
+"int32"
+],
+"13": [
+"halloweenGetCandy",
+"int32"
+]
+}
+},
+"0267": {
+"name": "RseCountryOpen",
+"cls": "RseCountryOpen",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"countryData",
+"message"
+],
+"3": [
+"field3",
+"message"
+],
+"4": [
+"cityTarget",
+"message"
+],
+"5": [
+"getZhanGongRankFromWeb",
+"bool"
+],
+"6": [
+"hasQingMingEffect",
+"bool"
+]
+}
+},
+"0268": {
+"name": "RseCountryOpt",
+"cls": "_-0CT",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"field3",
+"int32"
+],
+"4": [
+"pageInx",
+"int32"
+],
+"5": [
+"userCnt",
+"int32"
+],
+"6": [
+"admiral",
+"message"
+],
+"7": [
+"ememyBack",
+"message"
+],
+"8": [
+"cityData",
+"message"
+],
+"9": [
+"countryData",
+"message"
+],
+"10": [
+"boxPage",
+"message"
+],
+"11": [
+"report",
+"message"
+],
+"12": [
+"field12",
+"message"
+],
+"13": [
+"field13",
+"message"
+],
+"14": [
+"captureCity",
+"message"
+],
+"15": [
+"field15",
+"message"
+],
+"16": [
+"field16",
+"message"
+],
+"17": [
+"cityTarget",
+"message"
+],
+"18": [
+"bloodBtl",
+"message"
+],
+"19": [
+"field19",
+"message"
+],
+"20": [
+"field20",
+"message"
+],
+"21": [
+"dailyGiftId",
+"int32"
+],
+"22": [
+"bloodRewardID",
+"int32"
+],
+"23": [
+"bloodWin",
+"bool"
+],
+"24": [
+"bombZhanGong",
+"int32"
+],
+"25": [
+"wpcRankUid",
+"string"
+],
+"26": [
+"nstormbox",
+"int32"
+],
+"27": [
+"leagueMsg",
+"message"
+],
+"28": [
+"getLeagueReward",
+"bool"
+],
+"29": [
+"CityBuffs",
+"message"
+],
+"30": [
+"dayatktimes",
+"int32"
+],
+"32": [
+"getsheetnum",
+"int32"
+],
+"33": [
+"nSucCountryID",
+"int32"
+],
+"34": [
+"nBuffEndTime",
+"int32"
+],
+"35": [
+"selfHBInfo",
+"message"
+],
+"36": [
+"nCostThrew",
+"int32"
+],
+"37": [
+"bGetCostThrewReward",
+"bool"
+],
+"38": [
+"bHasCostThrewReward",
+"bool"
+],
+"39": [
+"field39",
+"message"
+],
+"40": [
+"field40",
+"int32"
+],
+"41": [
+"nSuperBloodAtkGift",
+"int32"
+],
+"42": [
+"field42",
+"message"
+]
+}
+},
+"0269": {
+"name": "RseCountryUserLst",
+"cls": "_-4XJ",
+"fields": {
+"1": [
+"nCityID",
+"int32"
+],
+"2": [
+"user",
+"message"
+],
+"3": [
+"NoDataCnt",
+"int32"
+]
+}
+},
+"026a": {
+"name": "RseCountryBtlResult",
+"cls": "_-4m",
+"fields": {
+"1": [
+"fightReoprt",
+"message"
+]
+}
+},
+"026b": {
+"name": "RseArmyGradeOpt",
+"cls": "_-3mk",
+"fields": {
+"1": [
+"optype",
+"int32"
+],
+"2": [
+"opmovetype",
+"int32"
+],
+"3": [
+"army1",
+"message"
+],
+"4": [
+"army2",
+"message"
+],
+"5": [
+"retype",
+"int32"
+]
+}
+},
+"026c": {
+"name": "RseLuckyWheel",
+"cls": "_-6AS",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nRet",
+"int32"
+],
+"3": [
+"nTotalCredit",
+"int32"
+],
+"4": [
+"field4",
+"int32"
+],
+"5": [
+"field5",
+"int32"
+],
+"6": [
+"field6",
+"int32"
+],
+"7": [
+"Token",
+"int32"
+],
+"8": [
+"ChosenTimes",
+"int32"
+],
+"9": [
+"nFreeFreshNum",
+"int32"
+],
+"10": [
+"nRoundNum",
+"int32"
+],
+"11": [
+"nRoundReward",
+"int32"
+],
+"12": [
+"id",
+"int32"
+],
+"13": [
+"nReward",
+"int32"
+]
+}
+},
+"026d": {
+"name": "RseLuckyWheelMsg",
+"cls": "_-5Wo",
+"fields": {
+"1": [
+"field1",
+"int32"
+],
+"2": [
+"field2",
+"int32"
+],
+"3": [
+"Token",
+"int32"
+],
+"4": [
+"ChosenTimes",
+"int32"
+],
+"5": [
+"id",
+"int32"
+],
+"6": [
+"type",
+"int32"
+],
+"7": [
+"cost",
+"int32"
+]
+}
+},
+"026e": {
+"name": "RseDaliyCostMsg",
+"cls": "_-3X5",
+"fields": {
+"1": [
+"field1",
+"int32"
+],
+"2": [
+"alltoken",
+"int32"
+],
+"3": [
+"dayhasget1",
+"bool"
+],
+"4": [
+"dayhasget2",
+"bool"
+],
+"5": [
+"dayhasget3",
+"bool"
+],
+"6": [
+"dayhasgetall1",
+"bool"
+],
+"7": [
+"dayhasgetall2",
+"bool"
+],
+"8": [
+"dayhasgetall3",
+"bool"
+],
+"9": [
+"dayhasgetall4",
+"bool"
+],
+"10": [
+"nType",
+"int32"
+]
+}
+},
+"026f": {
+"name": "RseDaliyCostOpt",
+"cls": "_-1xd",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"result",
+"bool"
+]
+}
+},
+"0270": {
+"name": "RseArenaInfo",
+"cls": "_-6qc",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"field2",
+"uint32"
+],
+"3": [
+"field3",
+"uint32"
+],
+"4": [
+"arenareportSelf",
+"message"
+],
+"5": [
+"arenareportFight",
+"message"
+],
+"6": [
+"field6",
+"message"
+],
+"7": [
+"nRankSelf",
+"int32"
+],
+"8": [
+"nRankSelfLast",
+"int32"
+],
+"9": [
+"bLastRankGet",
+"bool"
+],
+"10": [
+"nCanFightTimes",
+"int32"
+],
+"11": [
+"nBuyFightTimes",
+"int32"
+],
+"12": [
+"nIntegralScore",
+"int32"
+],
+"13": [
+"nJoinPlayers",
+"int32"
+],
+"14": [
+"lastfightRecord",
+"message"
+],
+"15": [
+"nLastScore",
+"int32"
+],
+"16": [
+"nNowScore",
+"int32"
+],
+"17": [
+"bScoreGiftGain",
+"bool"
+]
+}
+},
+"0271": {
+"name": "RseArenaOpt",
+"cls": "_-1rz",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"uidself",
+"string"
+],
+"3": [
+"uidfight",
+"string"
+],
+"4": [
+"indexself",
+"int32"
+],
+"5": [
+"indexfight",
+"int32"
+],
+"6": [
+"countryidself",
+"int32"
+],
+"7": [
+"fightGameID",
+"int32"
+],
+"8": [
+"result",
+"int32"
+]
+}
+},
+"0272": {
+"name": "RseWPCEmblem",
+"cls": "_-2QM",
+"fields": {
+"1": [
+"end",
+"bool"
+],
+"2": [
+"field2",
+"message"
+]
+}
+},
+"0273": {
+"name": "RseZhanGongRank",
+"cls": "_-9X",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"countryID",
+"int32"
+],
+"3": [
+"selfRank",
+"int32"
+],
+"4": [
+"user",
+"message"
+]
+}
+},
+"0274": {
+"name": "_-76V",
+"cls": "_-76V",
+"fields": {}
+},
+"0275": {
+"name": "RseDailySignIn",
+"cls": "_-2MV",
+"fields": {
+"1": [
+"field1",
+"bool"
+],
+"2": [
+"nType",
+"int32"
+],
+"3": [
+"nDay",
+"int32"
+],
+"4": [
+"nGiftID",
+"int32"
+],
+"5": [
+"nResult",
+"int32"
+],
+"6": [
+"bSignIn",
+"bool"
+],
+"7": [
+"nReplenishDays",
+"int32"
+],
+"8": [
+"nSignInDays",
+"int32"
+],
+"9": [
+"field9",
+"bool"
+],
+"10": [
+"nActivetype",
+"int32"
+],
+"11": [
+"nTotalSignCnt",
+"int32"
+],
+"12": [
+"field12",
+"bool"
+]
+}
+},
+"0276": {
+"name": "RseWarCollegeOpt",
+"cls": "_-5MK",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"bldlv",
+"int32"
+],
+"4": [
+"cmdlv",
+"int32"
+],
+"5": [
+"strategy",
+"message"
+],
+"6": [
+"strategyexp",
+"int32"
+],
+"7": [
+"skillunlocktype",
+"int32"
+],
+"8": [
+"skilltraintimes",
+"int32"
+],
+"9": [
+"skill",
+"message"
+],
+"10": [
+"resetskilltraintimes",
+"int32"
+],
+"11": [
+"strategytype",
+"int32"
+],
+"12": [
+"trainskilltype",
+"int32"
+],
+"13": [
+"upskilltype",
+"int32"
+],
+"14": [
+"atkadd",
+"int32"
+],
+"15": [
+"crtadd",
+"int32"
+],
+"16": [
+"defadd",
+"int32"
+],
+"17": [
+"hpadd",
+"int32"
+],
+"18": [
+"buyskilltraintimes",
+"int32"
+],
+"19": [
+"wargameTokesNum",
+"int32"
+],
+"20": [
+"wargameReportNum",
+"int32"
+]
+}
+},
+"0277": {
+"name": "RseSecArmsDealer",
+"cls": "_-4He",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"field2",
+"bool"
+],
+"3": [
+"credit",
+"int32"
+],
+"4": [
+"result",
+"int32"
+]
+}
+},
+"0278": {
+"name": "RseWarGameOpt",
+"cls": "_-3XB",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"totolReportNum",
+"int32"
+],
+"4": [
+"tokenNum",
+"int32"
+],
+"5": [
+"totalOccupyTimes",
+"int32"
+],
+"6": [
+"tokenRefreshTime",
+"int32"
+],
+"7": [
+"bOccupySite",
+"bool"
+],
+"8": [
+"siteID",
+"int32"
+],
+"9": [
+"siteLv",
+"int32"
+],
+"10": [
+"siteEndTime",
+"int32"
+],
+"11": [
+"delayTime",
+"int32"
+],
+"12": [
+"fightReoprt",
+"message"
+],
+"13": [
+"field13",
+"message"
+],
+"14": [
+"field14",
+"message"
+],
+"15": [
+"atkName",
+"string"
+],
+"16": [
+"startTime",
+"int32"
+],
+"17": [
+"nAddReport",
+"int32"
+],
+"18": [
+"admiralInuse",
+"message"
+],
+"19": [
+"atkUid",
+"string"
+],
+"20": [
+"bMinGet",
+"bool"
+],
+"21": [
+"nMinGetNum",
+"int32"
+],
+"22": [
+"bLastMsg",
+"bool"
+],
+"23": [
+"TruceStartTime",
+"int32"
+],
+"24": [
+"TruceEndTime",
+"int32"
+],
+"25": [
+"deftUid",
+"string"
+]
+}
+},
+"0279": {
+"name": "RseWarGameShop",
+"cls": "_-1Xu",
+"fields": {
+"1": [
+"nBuyItemID",
+"int32"
+],
+"2": [
+"nBuyItemCnt",
+"int32"
+],
+"3": [
+"nResult",
+"int32"
+],
+"4": [
+"nReportNum",
+"int32"
+]
+}
+},
+"027a": {
+"name": "RseHappyLib",
+"cls": "_-2R3",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"id",
+"int32"
+],
+"4": [
+"times",
+"int32"
+],
+"5": [
+"field5",
+"bool"
+]
+}
+},
+"027b": {
+"name": "RseMilitarySoulOpt",
+"cls": "_-Tc",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nResult",
+"int32"
+],
+"3": [
+"nSoulNum",
+"int32"
+],
+"4": [
+"soulList",
+"message"
+],
+"5": [
+"msUid",
+"string"
+],
+"6": [
+"admiralList",
+"message"
+]
+}
+},
+"027c": {
+"name": "RseSuperStormOpt",
+"cls": "_-6Nk",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nResult",
+"int32"
+],
+"3": [
+"deftUid",
+"string"
+],
+"4": [
+"deftName",
+"string"
+],
+"5": [
+"atkUid",
+"string"
+],
+"6": [
+"atkName",
+"string"
+]
+}
+},
+"027d": {
+"name": "RseHappyBuy",
+"cls": "_-7NK",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"field2",
+"bool"
+],
+"3": [
+"awardflag",
+"int32"
+],
+"4": [
+"ret",
+"int32"
+]
+}
+},
+"027e": {
+"name": "RseArenaRankInfo",
+"cls": "_-3Yl",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"field2",
+"message"
+],
+"3": [
+"field3",
+"message"
+],
+"4": [
+"nTotalNum",
+"int32"
+]
+}
+},
+"027f": {
+"name": "RseFightSimpInfo",
+"cls": "_-75",
+"fields": {
+"1": [
+"field1",
+"message"
+],
+"2": [
+"countryid",
+"int32"
+]
+}
+},
+"0280": {
+"name": "RseGetChickenRank",
+"cls": "_-4wM",
+"fields": {
+"1": [
+"id",
+"int32"
+],
+"2": [
+"success",
+"bool"
+]
+}
+},
+"0281": {
+"name": "RseLoadFile",
+"cls": "_-6uh",
+"fields": {
+"1": [
+"filename",
+"string"
+],
+"2": [
+"fileid",
+"int32"
+],
+"3": [
+"filedata",
+"message"
+],
+"4": [
+"filesection",
+"int32"
+],
+"5": [
+"sectionindex",
+"int32"
+]
+}
+},
+"0282": {
+"name": "RseAnniversaryActive",
+"cls": "_-47c",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"drawtimes",
+"int32"
+],
+"3": [
+"shopid",
+"int32"
+],
+"4": [
+"field4",
+"bool"
+],
+"5": [
+"hasGet",
+"bool"
+],
+"6": [
+"todayValue",
+"int32"
+],
+"7": [
+"msgType",
+"int32"
+]
+}
+},
+"0283": {
+"name": "_-75S",
+"cls": "_-75S",
+"fields": {
+"1": [
+"field1",
+"message"
+]
+}
+},
+"0284": {
+"name": "RseGetRankGift",
+"cls": "_-6AO",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"success",
+"bool"
+],
+"3": [
+"hasGet",
+"int32"
+]
+}
+},
+"0285": {
+"name": "RseEquipOpt",
+"cls": "_-0Xk",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"baseType",
+"int32"
+],
+"4": [
+"quip",
+"message"
+],
+"5": [
+"field5",
+"message"
+],
+"6": [
+"activeType",
+"int32"
+],
+"7": [
+"itemnum",
+"int32"
+],
+"8": [
+"equipphotocombineinfo",
+"message"
+]
+}
+},
+"0286": {
+"name": "_-0P0",
+"cls": "_-0P0",
+"fields": {
+"1": [
+"field1",
+"message"
+]
+}
+},
+"0287": {
+"name": "RseVirtualItemList",
+"cls": "_-7TL",
+"fields": {
+"1": [
+"field1",
+"message"
+],
+"2": [
+"type",
+"int32"
+]
+}
+},
+"0288": {
+"name": "_-56u",
+"cls": "_-56u",
+"fields": {
+"1": [
+"dropItem",
+"message"
+]
+}
+},
+"0289": {
+"name": "RseArmyPropList",
+"cls": "_-7Nn",
+"fields": {
+"1": [
+"field1",
+"message"
+],
+"2": [
+"field2",
+"message"
+],
+"3": [
+"type",
+"int32"
+],
+"4": [
+"field4",
+"message"
+],
+"5": [
+"field5",
+"message"
+]
+}
+},
+"028a": {
+"name": "RseFightDefInfo",
+"cls": "_-6lq",
+"fields": {
+"1": [
+"userID",
+"string"
+],
+"2": [
+"equipInuse",
+"message"
+],
+"3": [
+"admiralInuse",
+"message"
+],
+"4": [
+"bookInuse",
+"message"
+],
+"5": [
+"heroInuse",
+"message"
+],
+"6": [
+"militarysoulID",
+"int32"
+],
+"7": [
+"militarysoulLV",
+"int32"
+],
+"8": [
+"mhInuse",
+"message"
+],
+"9": [
+"nLeagueTitle",
+"int32"
+]
+}
+},
+"028b": {
+"name": "RseItemExchange",
+"cls": "_-6Vi",
+"fields": {
+"1": [
+"itemID",
+"int32"
+],
+"2": [
+"count",
+"int32"
+],
+"3": [
+"success",
+"bool"
+],
+"4": [
+"ntype",
+"int32"
+]
+}
+},
+"028c": {
+"name": "RseWorldArenaInfo",
+"cls": "_-2oy",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"arenareportSelf",
+"message"
+],
+"3": [
+"arenareportFight",
+"message"
+],
+"4": [
+"rankSelf",
+"int32"
+],
+"5": [
+"rankSelfLast",
+"int32"
+],
+"6": [
+"lastRankGet",
+"bool"
+],
+"7": [
+"canFightTimes",
+"int32"
+],
+"8": [
+"buyFightTimes",
+"int32"
+],
+"9": [
+"lastfightRecord",
+"message"
+],
+"10": [
+"nowScore",
+"int32"
+],
+"11": [
+"rankSelfYesterday",
+"int32"
+]
+}
+},
+"028d": {
+"name": "RseWorldArenaOpt",
+"cls": "_-LZ",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"uidself",
+"string"
+],
+"3": [
+"uidfight",
+"string"
+],
+"4": [
+"indexself",
+"int32"
+],
+"5": [
+"indexfight",
+"int32"
+],
+"6": [
+"countryidself",
+"int32"
+],
+"7": [
+"fightGameID",
+"int32"
+],
+"8": [
+"result",
+"int32"
+]
+}
+},
+"028e": {
+"name": "RseWorldArenaRankInfo",
+"cls": "_-1jP",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"field2",
+"message"
+],
+"3": [
+"arenaRanklist",
+"message"
+],
+"4": [
+"arenalastToplist",
+"message"
+],
+"5": [
+"arenaAttacklist",
+"message"
+],
+"6": [
+"field6",
+"message"
+],
+"7": [
+"ranklast",
+"int32"
+],
+"8": [
+"lastRankGet",
+"bool"
+],
+"9": [
+"lastshow",
+"bool"
+]
+}
+},
+"028f": {
+"name": "RseCathectic",
+"cls": "_-0SG",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"success",
+"bool"
+],
+"3": [
+"itemCnt",
+"int32"
+],
+"4": [
+"itemAllCnt",
+"int32"
+],
+"5": [
+"field5",
+"message"
+],
+"6": [
+"hasGetCredit",
+"bool"
+],
+"7": [
+"field7",
+"bool"
+]
+}
+},
+"0290": {
+"name": "RseActiveShop",
+"cls": "_-1O8",
+"fields": {
+"1": [
+"id",
+"int32"
+],
+"2": [
+"cnt",
+"int32"
+],
+"3": [
+"errortype",
+"int32"
+],
+"4": [
+"activetype",
+"int32"
+],
+"5": [
+"buycnt",
+"int32"
+],
+"6": [
+"type",
+"int32"
+],
+"7": [
+"field7",
+"int32"
+],
+"8": [
+"isGetAwd",
+"bool"
+],
+"9": [
+"nRoundID",
+"int32"
+]
+}
+},
+"0291": {
+"name": "RseGuildOpt",
+"cls": "_-4mH",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"field3",
+"message"
+],
+"5": [
+"userGuild",
+"message"
+],
+"6": [
+"page",
+"int32"
+],
+"7": [
+"userCnt",
+"int32"
+],
+"8": [
+"totalGuildCnt",
+"int32"
+],
+"10": [
+"guildBuidlID",
+"int32"
+],
+"11": [
+"stake",
+"message"
+],
+"12": [
+"log",
+"message"
+],
+"13": [
+"shop",
+"message"
+],
+"14": [
+"tarUserID",
+"string"
+],
+"15": [
+"tarUserPosition",
+"int32"
+],
+"16": [
+"userWay0",
+"string"
+],
+"17": [
+"userWay1",
+"string"
+],
+"18": [
+"userWay2",
+"string"
+],
+"22": [
+"bltRet",
+"message"
+],
+"23": [
+"pkGuild",
+"message"
+],
+"24": [
+"retTotal",
+"message"
+],
+"25": [
+"storage",
+"message"
+],
+"26": [
+"dayHasPK",
+"bool"
+],
+"27": [
+"lastBtlRank",
+"int32"
+],
+"28": [
+"curSesionBtlOver",
+"bool"
+],
+"30": [
+"npcList",
+"message"
+],
+"31": [
+"field31",
+"message"
+],
+"32": [
+"field32",
+"message"
+],
+"33": [
+"field33",
+"message"
+],
+"34": [
+"field34",
+"int32"
+],
+"35": [
+"nowMsg",
+"message"
+],
+"36": [
+"lastMsg",
+"message"
+],
+"37": [
+"HighestMsg",
+"message"
+],
+"40": [
+"nowPersonMsg",
+"message"
+],
+"41": [
+"lastPersonMsg",
+"message"
+],
+"42": [
+"HighestPersonMsg",
+"message"
+],
+"43": [
+"morale",
+"int32"
+],
+"44": [
+"thew",
+"int32"
+],
+"45": [
+"syptype",
+"int32"
+],
+"46": [
+"finishskytm",
+"int32"
+],
+"47": [
+"thewtm",
+"int32"
+],
+"48": [
+"bRankGet",
+"bool"
+],
+"49": [
+"thewBuyTime",
+"int32"
+],
+"50": [
+"cityCnt",
+"int32"
+],
+"51": [
+"field51",
+"message"
+],
+"52": [
+"admiral",
+"message"
+],
+"53": [
+"getZhangong",
+"int32"
+],
+"54": [
+"cityZhangong",
+"int32"
+],
+"55": [
+"allNpcCnt",
+"int32"
+],
+"56": [
+"field56",
+"int32"
+],
+"57": [
+"field57",
+"message"
+],
+"58": [
+"listCountryID",
+"int32"
+],
+"59": [
+"lastMsgNew",
+"message"
+],
+"60": [
+"HighestMsgNew",
+"message"
+],
+"62": [
+"guildtaskid",
+"int32"
+],
+"63": [
+"lastAllCountryRank",
+"int32"
+],
+"64": [
+"bAllRankGet",
+"bool"
+],
+"65": [
+"atvQstMsg",
+"message"
+],
+"66": [
+"bCanClickRush",
+"bool"
+],
+"67": [
+"field67",
+"string"
+],
+"68": [
+"field68",
+"message"
+],
+"69": [
+"field69",
+"message"
+],
+"70": [
+"field70",
+"message"
+],
+"71": [
+"nAnonymous",
+"int32"
+]
+}
+},
+"0292": {
+"name": "RseGuildUserLst",
+"cls": "_-70y",
+"fields": {
+"1": [
+"nGuildID",
+"int32"
+],
+"2": [
+"memberType",
+"int32"
+],
+"3": [
+"field3",
+"message"
+]
+}
+},
+"0293": {
+"name": "RseFriendGift",
+"cls": "_-Z9",
+"fields": {
+"1": [
+"uid",
+"string"
+],
+"2": [
+"giftID",
+"int32"
+],
+"3": [
+"count",
+"int32"
+],
+"4": [
+"errorMsg",
+"int32"
+],
+"5": [
+"type",
+"int32"
+],
+"6": [
+"sendCount",
+"int32"
+],
+"7": [
+"getCount",
+"int32"
+]
+}
+},
+"0294": {
+"name": "RseSevenDays",
+"cls": "_-1qL",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"logonDays",
+"int32"
+],
+"3": [
+"hasGetGift",
+"bool"
+],
+"4": [
+"success",
+"int32"
+],
+"5": [
+"field5",
+"int32"
+],
+"6": [
+"hasbuyOne",
+"bool"
+],
+"7": [
+"hasbuyTwo",
+"bool"
+],
+"8": [
+"field8",
+"bool"
+],
+"9": [
+"field9",
+"bool"
+],
+"10": [
+"nQpointID",
+"int32"
+],
+"11": [
+"field11",
+"message"
+],
+"12": [
+"getallbuycnt",
+"int32"
+]
+}
+},
+"0295": {
+"name": "RseWorldGrainDay",
+"cls": "_-3IH",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"battleTimes",
+"int32"
+],
+"3": [
+"hasGet",
+"bool"
+]
+}
+},
+"0296": {
+"name": "RseLoadArmy",
+"cls": "_-3z",
+"fields": {
+"1": [
+"end",
+"bool"
+],
+"2": [
+"army",
+"message"
+]
+}
+},
+"0297": {
+"name": "_-23r",
+"cls": "_-23r",
+"fields": {
+"1": [
+"field1",
+"message"
+]
+}
+},
+"0298": {
+"name": "RseGuildActive",
+"cls": "_-0by",
+"fields": {
+"1": [
+"id",
+"int32"
+]
+}
+},
+"0299": {
+"name": "RseYellowActive",
+"cls": "_-6wq",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"id",
+"int32"
+],
+"3": [
+"value",
+"int32"
+],
+"4": [
+"yellowTimes",
+"int32"
+],
+"5": [
+"field5",
+"int32"
+],
+"6": [
+"field6",
+"int32"
+],
+"7": [
+"costs",
+"int32"
+],
+"8": [
+"errorType",
+"int32"
+]
+}
+},
+"029a": {
+"name": "RsePassWord",
+"cls": "_-2sK",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"playType",
+"int32"
+],
+"3": [
+"errorType",
+"int32"
+],
+"4": [
+"hasLocked",
+"bool"
+],
+"5": [
+"hasPassword",
+"bool"
+],
+"6": [
+"releaseTime",
+"int32"
+]
+}
+},
+"029b": {
+"name": "RseOfficerOpen",
+"cls": "_-3FI",
+"fields": {
+"1": [
+"opType",
+"int32"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"field3",
+"message"
+],
+"4": [
+"field4",
+"message"
+],
+"5": [
+"rightUseFlag",
+"int32"
+],
+"6": [
+"specialUseFlag",
+"int32"
+],
+"7": [
+"lastCountryRank",
+"int32"
+]
+}
+},
+"029c": {
+"name": "RseOfficerOpt",
+"cls": "_-4q4",
+"fields": {
+"1": [
+"opType",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"rightInfo",
+"message"
+],
+"4": [
+"rightUseFlag",
+"int32"
+],
+"5": [
+"name",
+"string"
+],
+"6": [
+"pic",
+"string"
+],
+"7": [
+"specialRightUseFlag",
+"int32"
+]
+}
+},
+"029d": {
+"name": "RseOfficerRightInfo",
+"cls": "_-0vW",
+"fields": {
+"1": [
+"countryId",
+"int32"
+],
+"2": [
+"region",
+"int32"
+],
+"3": [
+"officerInfo",
+"message"
+],
+"4": [
+"type",
+"int32"
+]
+}
+},
+"029e": {
+"name": "RseActiveUIFlag",
+"cls": "_-598",
+"fields": {
+"1": [
+"flag",
+"int32"
+],
+"2": [
+"isNew",
+"bool"
+],
+"3": [
+"ntype",
+"int32"
+],
+"4": [
+"nopt",
+"int32"
+],
+"5": [
+"noptvalue",
+"int32"
+],
+"6": [
+"optret",
+"int32"
+],
+"7": [
+"giftcouponnum",
+"int32"
+],
+"8": [
+"totalrecharge",
+"int32"
+],
+"9": [
+"bdaylybless",
+"bool"
+],
+"10": [
+"bdaylybox",
+"bool"
+],
+"11": [
+"field11",
+"bool"
+],
+"12": [
+"blesstype",
+"int32"
+],
+"13": [
+"field13",
+"message"
+]
+}
+},
+"029f": {
+"name": "RseNewYearGift",
+"cls": "_-496",
+"fields": {
+"1": [
+"id",
+"int32"
+],
+"2": [
+"result",
+"int32"
+],
+"3": [
+"type",
+"int32"
+],
+"4": [
+"hasbuy",
+"int32"
+]
+}
+},
+"02a0": {
+"name": "_-7JG",
+"cls": "_-7JG",
+"fields": {
+"1": [
+"itemID",
+"int32"
+],
+"2": [
+"itemCnt",
+"int32"
+]
+}
+},
+"02a1": {
+"name": "RseVipDailyShop",
+"cls": "_-0GH",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nResult",
+"int32"
+],
+"3": [
+"hasBye",
+"bool"
+],
+"4": [
+"hasGet",
+"bool"
+],
+"5": [
+"hasbuystone",
+"bool"
+]
+}
+},
+"02a2": {
+"name": "_-5lY",
+"cls": "_-5lY",
+"fields": {
+"1": [
+"field1",
+"int32"
+]
+}
+},
+"02a3": {
+"name": "RseBookCollection",
+"cls": "_-3a9",
+"fields": {
+"1": [
+"OptType",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"rewardItem",
+"message"
+],
+"4": [
+"field4",
+"message"
+],
+"5": [
+"ActiveType",
+"int32"
+]
+}
+},
+"02a4": {
+"name": "RsePveBattleOpt",
+"cls": "_-nF",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"battleid",
+"int32"
+],
+"3": [
+"passid",
+"int32"
+],
+"4": [
+"result",
+"int32"
+],
+"5": [
+"battlevalues",
+"message"
+],
+"6": [
+"lastPassID",
+"int32"
+],
+"7": [
+"firstDown",
+"bool"
+],
+"8": [
+"fightRecord",
+"message"
+],
+"9": [
+"buyCnt",
+"int32"
+]
+}
+},
+"02a5": {
+"name": "RsePveBattleReward",
+"cls": "_-X-",
+"fields": {
+"1": [
+"passID",
+"int32"
+],
+"2": [
+"rewardID",
+"int32"
+],
+"3": [
+"rewardCnt",
+"int32"
+],
+"4": [
+"speRewardID",
+"int32"
+],
+"5": [
+"speRewardCnt",
+"int32"
+]
+}
+},
+"02a6": {
+"name": "RseRegionArenaInfo",
+"cls": "_-4Fo",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"arenareportSelf",
+"message"
+],
+"3": [
+"arenareportFight",
+"message"
+],
+"4": [
+"rankSelf",
+"int32"
+],
+"5": [
+"rankSelfLast",
+"int32"
+],
+"6": [
+"lastRankGet",
+"bool"
+],
+"7": [
+"canFightTimes",
+"int32"
+],
+"8": [
+"buyFightTimes",
+"int32"
+],
+"9": [
+"lastfightRecord",
+"message"
+],
+"10": [
+"nowScore",
+"int32"
+],
+"11": [
+"rankSelfYesterday",
+"int32"
+],
+"12": [
+"bApply",
+"bool"
+],
+"13": [
+"field13",
+"message"
+],
+"14": [
+"nPanelType",
+"int32"
+]
+}
+},
+"02a7": {
+"name": "RseRegionArenaOpt",
+"cls": "_-2SP",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"uidself",
+"string"
+],
+"3": [
+"uidfight",
+"string"
+],
+"4": [
+"indexself",
+"int32"
+],
+"5": [
+"indexfight",
+"int32"
+],
+"6": [
+"countryidself",
+"int32"
+],
+"7": [
+"fightGameID",
+"int32"
+],
+"8": [
+"result",
+"int32"
+],
+"9": [
+"score",
+"int32"
+],
+"10": [
+"scorefight",
+"int32"
+]
+}
+},
+"02a8": {
+"name": "RseRegionArenaRank",
+"cls": "_-VR",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"field2",
+"message"
+],
+"3": [
+"arenaRanklist",
+"message"
+],
+"4": [
+"arenalastToplist",
+"message"
+],
+"5": [
+"arenaAttacklist",
+"message"
+],
+"6": [
+"field6",
+"message"
+],
+"7": [
+"ranklast",
+"int32"
+],
+"8": [
+"lastRankGet",
+"bool"
+],
+"9": [
+"lastshow",
+"bool"
+]
+}
+},
+"02a9": {
+"name": "RseCrossPromotion",
+"cls": "_-15J",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"data",
+"message"
+],
+"3": [
+"reqchanle",
+"string"
+]
+}
+},
+"02aa": {
+"name": "RseAFDay",
+"cls": "_-6Fv",
+"fields": {
+"1": [
+"canGet",
+"bool"
+],
+"2": [
+"canBuy",
+"bool"
+]
+}
+},
+"02ab": {
+"name": "RseTributeActiveGift",
+"cls": "_-1xi",
+"fields": {
+"2": [
+"nItemID",
+"int32"
+],
+"3": [
+"nNum",
+"int32"
+]
+}
+},
+"02ac": {
+"name": "RseUnlockVipMineNum",
+"cls": "_-6CU",
+"fields": {
+"1": [
+"bVip",
+"bool"
+],
+"2": [
+"nUnlockNum",
+"int32"
+]
+}
+},
+"02ad": {
+"name": "RsePokerOpt",
+"cls": "_-6gP",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nerror",
+"int32"
+],
+"3": [
+"nShowResult",
+"int32"
+],
+"4": [
+"field4",
+"message"
+],
+"5": [
+"field5",
+"message"
+],
+"6": [
+"userPokerType",
+"int32"
+],
+"7": [
+"NPCPokerType",
+"int32"
+],
+"8": [
+"nPokerNum",
+"int32"
+],
+"9": [
+"nChangeCordNum",
+"int32"
+],
+"10": [
+"itemList",
+"int32"
+],
+"11": [
+"getItemID",
+"int32"
+],
+"12": [
+"nPoints",
+"int32"
+],
+"13": [
+"nGetPoints",
+"int32"
+],
+"14": [
+"nPos",
+"int32"
+],
+"15": [
+"relacePoker",
+"message"
+]
+}
+},
+"02ae": {
+"name": "RseAdmiralExchange",
+"cls": "_-5e6",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"result",
+"int32"
+],
+"3": [
+"itemID",
+"int32"
+],
+"4": [
+"itemCnt",
+"int32"
+],
+"5": [
+"soulCnt",
+"int32"
+],
+"6": [
+"usableTime",
+"int32"
+],
+"7": [
+"dailycost",
+"int32"
+]
+}
+},
+"02af": {
+"name": "RseCardDuel",
+"cls": "_-7El",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"result",
+"int32"
+],
+"3": [
+"duelResult",
+"int32"
+],
+"4": [
+"cardNum",
+"int32"
+],
+"5": [
+"sequenceNum",
+"int32"
+],
+"6": [
+"cardType",
+"int32"
+],
+"7": [
+"matchState",
+"int32"
+],
+"8": [
+"rivalbases",
+"message"
+],
+"9": [
+"giftID",
+"int32"
+],
+"10": [
+"giftCnt",
+"int32"
+]
+}
+},
+"02b0": {
+"name": "RsePickUniteRegionGift",
+"cls": "_-1Qy",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"giftid",
+"int32"
+],
+"3": [
+"canPick",
+"bool"
+],
+"4": [
+"ret",
+"int32"
+]
+}
+},
+"02b1": {
+"name": "RseWcPredictions",
+"cls": "_-1QW",
+"fields": {
+"1": [
+"opType",
+"int32"
+],
+"2": [
+"nTotalBuy",
+"int32"
+],
+"3": [
+"nRewardCredit",
+"int32"
+],
+"4": [
+"nReward",
+"int32"
+],
+"5": [
+"nRank",
+"int32"
+],
+"6": [
+"field6",
+"message"
+],
+"7": [
+"field7",
+"message"
+]
+}
+},
+"02b2": {
+"name": "RseHeroOpen",
+"cls": "_-0sV",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"canUseCnt",
+"int32"
+],
+"3": [
+"hero",
+"message"
+],
+"4": [
+"letter",
+"message"
+],
+"5": [
+"field5",
+"int32"
+],
+"6": [
+"freeVisitCnt",
+"int32"
+],
+"7": [
+"finishVisitTime",
+"int32"
+],
+"8": [
+"hasCreditVisit",
+"bool"
+],
+"9": [
+"field9",
+"int32"
+],
+"10": [
+"upgradeherolst",
+"message"
+],
+"11": [
+"field11",
+"message"
+],
+"12": [
+"fusionstep",
+"int32"
+],
+"13": [
+"hasHalfPrice",
+"bool"
+],
+"14": [
+"optimusPrimescore",
+"int32"
+],
+"15": [
+"boozepartycnt",
+"int32"
+],
+"16": [
+"bRareResolve",
+"bool"
+],
+"17": [
+"newfusionstep",
+"int32"
+],
+"18": [
+"nChrismasVisitTimes",
+"int32"
+],
+"19": [
+"nMonthCardVisitTimes",
+"int32"
+]
+}
+},
+"02b3": {
+"name": "RseHeroOpt",
+"cls": "_-4Q4",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"optType",
+"int32"
+],
+"3": [
+"hero",
+"message"
+],
+"4": [
+"field4",
+"int32"
+],
+"5": [
+"heroInuse",
+"message"
+],
+"6": [
+"itemID",
+"int32"
+],
+"7": [
+"itemCnt",
+"int32"
+],
+"8": [
+"letter",
+"message"
+],
+"9": [
+"fusionid",
+"int32"
+],
+"10": [
+"fusionlv",
+"int32"
+],
+"11": [
+"fusionstep",
+"int32"
+],
+"12": [
+"Newfusionstep",
+"int32"
+],
+"16": [
+"field16",
+"message"
+],
+"17": [
+"changedHeroCoreNDBID",
+"int32"
+]
+}
+},
+"02b4": {
+"name": "RseHeroVisit",
+"cls": "_-13c",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"freeVisitCnt",
+"int32"
+],
+"4": [
+"finishVisitTime",
+"int32"
+],
+"5": [
+"hasCreditVisit",
+"bool"
+],
+"6": [
+"getType",
+"int32"
+],
+"7": [
+"hero",
+"message"
+],
+"8": [
+"letter",
+"message"
+],
+"9": [
+"itemID",
+"int32"
+],
+"10": [
+"itemCnt",
+"int32"
+],
+"11": [
+"heroLetterID",
+"int32"
+],
+"12": [
+"heroLetterCnt",
+"int32"
+],
+"13": [
+"optimusPrimescore",
+"int32"
+],
+"14": [
+"nAddRes",
+"int32"
+],
+"15": [
+"precisestrikepart",
+"int32"
+],
+"16": [
+"boozePartyCnt",
+"int32"
+],
+"17": [
+"nChrismasVisitTimes",
+"int32"
+],
+"18": [
+"nMonthCardVisitTimes",
+"int32"
+]
+}
+},
+"02b5": {
+"name": "RseHeroLst",
+"cls": "_-1Mx",
+"fields": {
+"1": [
+"field1",
+"message"
+],
+"2": [
+"type",
+"int32"
+]
+}
+},
+"02b6": {
+"name": "RseRegionCountryBtlResult",
+"cls": "_-5dI",
+"fields": {
+"1": [
+"fightReoprt",
+"message"
+]
+}
+},
+"02b7": {
+"name": "RseRegionCountryOpt",
+"cls": "_-1uN",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"countryData",
+"message"
+],
+"4": [
+"cityData",
+"message"
+],
+"5": [
+"boxPage",
+"message"
+],
+"6": [
+"field6",
+"message"
+],
+"7": [
+"report",
+"message"
+],
+"8": [
+"field8",
+"message"
+],
+"9": [
+"pageInx",
+"int32"
+],
+"10": [
+"userCnt",
+"int32"
+],
+"11": [
+"captureCity",
+"message"
+],
+"13": [
+"admiral",
+"message"
+],
+"14": [
+"ememyBack",
+"message"
+],
+"15": [
+"cityTarget",
+"message"
+],
+"16": [
+"bApply",
+"bool"
+],
+"17": [
+"winCountryID",
+"int32"
+],
+"18": [
+"rankList",
+"message"
+],
+"19": [
+"zhangong",
+"int32"
+],
+"20": [
+"rank",
+"int32"
+],
+"21": [
+"idex",
+"int32"
+],
+"22": [
+"winType",
+"int32"
+],
+"25": [
+"chest",
+"int32"
+],
+"26": [
+"field26",
+"int32"
+]
+}
+},
+"02b8": {
+"name": "RseRegionCountryUserLst",
+"cls": "_-59q",
+"fields": {
+"1": [
+"nCityID",
+"int32"
+],
+"2": [
+"user",
+"message"
+],
+"3": [
+"NoDataCnt",
+"int32"
+]
+}
+},
+"02b9": {
+"name": "RseHeroRank",
+"cls": "_-69G",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"id",
+"string"
+],
+"4": [
+"name",
+"string"
+],
+"5": [
+"icon",
+"string"
+],
+"6": [
+"hero",
+"message"
+],
+"7": [
+"usetype",
+"int32"
+],
+"9": [
+"nLvl",
+"int32"
+],
+"10": [
+"nFightPow",
+"uint32"
+],
+"11": [
+"field11",
+"message"
+]
+}
+},
+"02ba": {
+"name": "RseMiddleYearGift",
+"cls": "_-59N",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"result",
+"int32"
+],
+"3": [
+"nCost",
+"int32"
+],
+"4": [
+"giftType",
+"int32"
+],
+"5": [
+"firstGift",
+"int32"
+],
+"6": [
+"secdGift",
+"int32"
+],
+"7": [
+"activeType",
+"int32"
+],
+"8": [
+"threeGift",
+"int32"
+]
+}
+},
+"02bb": {
+"name": "RseLevelLuxuryGift",
+"cls": "_-0rP",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"success",
+"bool"
+]
+}
+},
+"02bc": {
+"name": "RseRedwarMonthCard",
+"cls": "_-4J2",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nResult",
+"int32"
+],
+"3": [
+"nCnt",
+"int32"
+],
+"4": [
+"hasPermit",
+"bool"
+],
+"5": [
+"hasGetDayCredit",
+"bool"
+],
+"6": [
+"bCanBuy",
+"bool"
+],
+"7": [
+"endtime",
+"int32"
+],
+"8": [
+"activetype",
+"int32"
+],
+"9": [
+"hasGetDayfree",
+"bool"
+],
+"10": [
+"field10",
+"int32"
+],
+"11": [
+"isGetAll",
+"bool"
+],
+"12": [
+"field12",
+"int32"
+],
+"13": [
+"field13",
+"bool"
+]
+}
+},
+"02bd": {
+"name": "RseSummerDiscount",
+"cls": "_-4vI",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"hasGet",
+"int32"
+],
+"3": [
+"qitemid",
+"int32"
+],
+"4": [
+"bHasGetTankBoxAllBuyReward",
+"bool"
+],
+"5": [
+"bisGetsecondAwd",
+"bool"
+]
+}
+},
+"02be": {
+"name": "RseQQSNSGift",
+"cls": "_-L3",
+"fields": {
+"1": [
+"nType",
+"int32"
+]
+}
+},
+"02bf": {
+"name": "RseValentinesDayGift",
+"cls": "_-30X",
+"fields": {
+"1": [
+"uid",
+"string"
+],
+"2": [
+"giftID",
+"int32"
+],
+"3": [
+"count",
+"int32"
+],
+"4": [
+"errorMsg",
+"int32"
+]
+}
+},
+"02c0": {
+"name": "_-3Sf",
+"cls": "_-3Sf",
+"fields": {}
+},
+"02c1": {
+"name": "RsePropertyOpt",
+"cls": "_-yb",
+"fields": {
+"1": [
+"opttype",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"propertyid",
+"int32"
+],
+"4": [
+"property",
+"message"
+],
+"5": [
+"itemid",
+"int32"
+],
+"6": [
+"itemcount",
+"int32"
+]
+}
+},
+"02c2": {
+"name": "RseGVEBtlResult",
+"cls": "_-1ul",
+"fields": {
+"1": [
+"fightReoprt",
+"message"
+]
+}
+},
+"02c3": {
+"name": "RseSoulPersent",
+"cls": "_-4gg",
+"fields": {
+"1": [
+"soulNum",
+"int32"
+]
+}
+},
+"02c4": {
+"name": "RsePickNewPlayerGift",
+"cls": "_-5gO",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"bool"
+],
+"3": [
+"activetype",
+"int32"
+],
+"4": [
+"field4",
+"bool"
+],
+"5": [
+"ngetfreeAwd",
+"bool"
+],
+"6": [
+"field6",
+"int32"
+],
+"7": [
+"field7",
+"int32"
+],
+"8": [
+"nstardtime",
+"int32"
+]
+}
+},
+"02c5": {
+"name": "RseHeroArenaInfo",
+"cls": "_-79E",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"arenareportSelf",
+"message"
+],
+"3": [
+"arenareportFight",
+"message"
+],
+"4": [
+"rankSelf",
+"int32"
+],
+"5": [
+"rankSelfLast",
+"int32"
+],
+"6": [
+"lastRankGet",
+"bool"
+],
+"7": [
+"canFightTimes",
+"int32"
+],
+"8": [
+"buyFightTimes",
+"int32"
+],
+"9": [
+"lastfightRecord",
+"message"
+],
+"10": [
+"nowScore",
+"int32"
+],
+"11": [
+"rankSelfYesterday",
+"int32"
+],
+"12": [
+"nIntegralScore",
+"int32"
+]
+}
+},
+"02c6": {
+"name": "RseHeroArenaOpt",
+"cls": "_-7Rk",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"uidself",
+"string"
+],
+"3": [
+"uidfight",
+"string"
+],
+"4": [
+"indexself",
+"int32"
+],
+"5": [
+"indexfight",
+"int32"
+],
+"6": [
+"countryidself",
+"int32"
+],
+"7": [
+"fightGameID",
+"int32"
+],
+"8": [
+"result",
+"int32"
+]
+}
+},
+"02c7": {
+"name": "RseHeroArenaRankInfo",
+"cls": "_-1oj",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"field2",
+"message"
+],
+"3": [
+"arenaRanklist",
+"message"
+],
+"4": [
+"arenalastToplist",
+"message"
+],
+"5": [
+"arenaAttacklist",
+"message"
+],
+"6": [
+"field6",
+"message"
+],
+"7": [
+"ranklast",
+"int32"
+],
+"8": [
+"lastRankGet",
+"bool"
+],
+"9": [
+"lastshow",
+"bool"
+]
+}
+},
+"02c8": {
+"name": "RseShopItemOpen",
+"cls": "_-2Xk",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"field2",
+"message"
+]
+}
+},
+"02c9": {
+"name": "RseHeroBoozeBenefit",
+"cls": "_-1qp",
+"fields": {
+"1": [
+"opType",
+"int32"
+],
+"2": [
+"nResult",
+"int32"
+],
+"3": [
+"nCnt",
+"int32"
+]
+}
+},
+"02ca": {
+"name": "RseBackFlowGift",
+"cls": "_-6WX",
+"fields": {
+"1": [
+"opType",
+"int32"
+],
+"2": [
+"nType",
+"int32"
+],
+"3": [
+"nDay",
+"int32"
+],
+"4": [
+"nResult",
+"int32"
+],
+"5": [
+"bGetGift",
+"bool"
+]
+}
+},
+"02cb": {
+"name": "RseResourceOpt",
+"cls": "_-6U7",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"resourceID",
+"int32"
+],
+"4": [
+"searchType",
+"int32"
+],
+"5": [
+"field5",
+"message"
+],
+"6": [
+"resourceEndTime",
+"int32"
+],
+"7": [
+"searchTimes",
+"int32"
+],
+"8": [
+"getTimes",
+"int32"
+],
+"9": [
+"fightReoprt",
+"message"
+],
+"10": [
+"admiral",
+"message"
+],
+"11": [
+"field11",
+"message"
+],
+"12": [
+"addmetal",
+"int32"
+],
+"13": [
+"addoil",
+"int32"
+],
+"14": [
+"captureTime",
+"int32"
+],
+"15": [
+"dayFightTime",
+"int32"
+],
+"16": [
+"searchTimesMid",
+"int32"
+],
+"17": [
+"atkUserID",
+"string"
+],
+"18": [
+"addsoul",
+"int32"
+]
+}
+},
+"02cc": {
+"name": "RseVipMonthCard",
+"cls": "_-3Rb",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nResult",
+"int32"
+],
+"3": [
+"nCnt",
+"int32"
+],
+"4": [
+"hasPermit",
+"bool"
+],
+"5": [
+"hasGetDayGift",
+"bool"
+],
+"6": [
+"field6",
+"int32"
+],
+"7": [
+"bCanBuy",
+"bool"
+],
+"8": [
+"hasgetwish",
+"bool"
+],
+"9": [
+"activetype",
+"int32"
+],
+"10": [
+"endtime",
+"int32"
+],
+"11": [
+"field11",
+"int32"
+],
+"12": [
+"isGetAll",
+"bool"
+]
+}
+},
+"02cd": {
+"name": "RseWeaponCompRent",
+"cls": "_-3ix",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nResult",
+"int32"
+],
+"3": [
+"field3",
+"message"
+]
+}
+},
+"02ce": {
+"name": "RseGvgOpt",
+"cls": "_-5XK",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"cityID",
+"int32"
+],
+"4": [
+"field4",
+"message"
+],
+"5": [
+"field5",
+"message"
+],
+"6": [
+"field6",
+"message"
+],
+"7": [
+"field7",
+"message"
+],
+"8": [
+"controlCityID",
+"int32"
+],
+"9": [
+"field9",
+"int32"
+],
+"10": [
+"cityPoint",
+"int32"
+],
+"11": [
+"guildData",
+"message"
+],
+"12": [
+"addAtkPct",
+"int32"
+],
+"13": [
+"addBloodPct",
+"int32"
+],
+"14": [
+"winCount",
+"int32"
+],
+"15": [
+"field15",
+"message"
+],
+"16": [
+"fightReoprt",
+"message"
+],
+"17": [
+"HasGetReward",
+"bool"
+],
+"18": [
+"admiral",
+"message"
+],
+"19": [
+"fightCD",
+"int32"
+],
+"20": [
+"field20",
+"int32"
+],
+"21": [
+"field21",
+"int32"
+],
+"22": [
+"offLineCityID",
+"int32"
+],
+"23": [
+"canGetCityReward",
+"bool"
+]
+}
+},
+"02cf": {
+"name": "RseAllWPCInUse",
+"cls": "_-4hX",
+"fields": {
+"1": [
+"allWPCInfo",
+"message"
+]
+}
+},
+"02d0": {
+"name": "RseExploreSecretArsenal",
+"cls": "_-uQ",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nResult",
+"int32"
+],
+"3": [
+"nRemainCredit",
+"int32"
+],
+"4": [
+"nRemainFreeNum",
+"int32"
+],
+"5": [
+"nRemainNum",
+"int32"
+],
+"6": [
+"nGetRes",
+"int32"
+],
+"7": [
+"field7",
+"int32"
+],
+"8": [
+"nExploreType",
+"int32"
+],
+"9": [
+"nExplorePoint",
+"int32"
+],
+"10": [
+"nExchangeID",
+"int32"
+],
+"11": [
+"field11",
+"int32"
+],
+"12": [
+"nChouJiangRank",
+"int32"
+],
+"13": [
+"strName",
+"string"
+],
+"14": [
+"field14",
+"message"
+],
+"15": [
+"field15",
+"message"
+],
+"16": [
+"field16",
+"message"
+],
+"17": [
+"specRewardMsg",
+"message"
+]
+}
+},
+"02d1": {
+"name": "RseCountryBomb",
+"cls": "_-4IV",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nResult",
+"int32"
+],
+"3": [
+"hasBuyNum",
+"int32"
+],
+"4": [
+"nJunGongNum",
+"int32"
+],
+"5": [
+"nDuiHuanTime",
+"int32"
+]
+}
+},
+"02d2": {
+"name": "RseWPCComExtraOpen",
+"cls": "_-3NN",
+"fields": {
+"1": [
+"baseType",
+"int32"
+],
+"2": [
+"nResult",
+"int32"
+],
+"3": [
+"nGiftID",
+"int32"
+],
+"4": [
+"nGiftCnt",
+"int32"
+]
+}
+},
+"02d3": {
+"name": "RseEquip",
+"cls": "_-4mF",
+"fields": {
+"1": [
+"end",
+"bool"
+],
+"2": [
+"field2",
+"message"
+]
+}
+},
+"02d4": {
+"name": "RseWPCBagCom",
+"cls": "_-28K",
+"fields": {
+"1": [
+"end",
+"bool"
+],
+"2": [
+"field2",
+"message"
+]
+}
+},
+"02d5": {
+"name": "RseWPCBook",
+"cls": "_-0lY",
+"fields": {
+"1": [
+"end",
+"bool"
+],
+"2": [
+"book",
+"message"
+]
+}
+},
+"02d6": {
+"name": "RseCountryChatMsg",
+"cls": "_-zr",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"field2",
+"message"
+],
+"3": [
+"mask",
+"message"
+],
+"4": [
+"ret",
+"int32"
+]
+}
+},
+"02d7": {
+"name": "RseRebate",
+"cls": "_-4ge",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"id",
+"int32"
+],
+"4": [
+"credit",
+"int32"
+],
+"5": [
+"buyed",
+"bool"
+],
+"6": [
+"field6",
+"bool"
+]
+}
+},
+"02d8": {
+"name": "RseDoubleElevenOfficer",
+"cls": "_-2TR",
+"fields": {
+"1": [
+"optype",
+"int32"
+],
+"2": [
+"id",
+"int32"
+],
+"3": [
+"day",
+"int32"
+],
+"4": [
+"canbuy",
+"bool"
+],
+"5": [
+"success",
+"bool"
+],
+"6": [
+"starttime",
+"int32"
+],
+"7": [
+"activetype",
+"int32"
+],
+"8": [
+"field8",
+"int32"
+],
+"9": [
+"ngetdailyawd",
+"bool"
+],
+"10": [
+"ncangetCnt",
+"int32"
+]
+}
+},
+"02d9": {
+"name": "RseBossOpt",
+"cls": "_-4Wl",
+"fields": {
+"1": [
+"atkType",
+"int32"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"ret",
+"int32"
+],
+"4": [
+"field4",
+"message"
+],
+"5": [
+"killerUnit",
+"message"
+],
+"6": [
+"field6",
+"message"
+],
+"7": [
+"bossID",
+"int32"
+],
+"8": [
+"bossDamage",
+"string"
+],
+"9": [
+"selfRank",
+"int32"
+],
+"10": [
+"bossPoint",
+"string"
+],
+"11": [
+"bGetReward",
+"bool"
+],
+"12": [
+"field12",
+"message"
+],
+"13": [
+"bossHp",
+"string"
+],
+"14": [
+"addatk",
+"int32"
+],
+"15": [
+"creditAddTime",
+"int32"
+],
+"16": [
+"fightReoprt",
+"message"
+],
+"17": [
+"admiral",
+"message"
+],
+"18": [
+"field18",
+"string"
+],
+"19": [
+"atkDmg",
+"string"
+],
+"20": [
+"OldHp",
+"string"
+],
+"21": [
+"bossLevel",
+"int32"
+],
+"22": [
+"maxSp",
+"string"
+],
+"23": [
+"perHp",
+"int32"
+],
+"24": [
+"cdTime",
+"int32"
+],
+"25": [
+"bKill",
+"bool"
+],
+"26": [
+"bOpen",
+"bool"
+],
+"27": [
+"nRewardID",
+"int32"
+],
+"28": [
+"nTotalStartNum",
+"int32"
+],
+"29": [
+"nTotalFinishNum",
+"int32"
+],
+"30": [
+"nAtkReward",
+"int32"
+]
+}
+},
+"02da": {
+"name": "RseGuildRedEnvelopeOpt",
+"cls": "_-57-",
+"fields": {
+"1": [
+"optType",
+"int32"
+],
+"2": [
+"redType",
+"int32"
+],
+"3": [
+"nCredit",
+"int32"
+],
+"4": [
+"nID",
+"int32"
+],
+"5": [
+"nResult",
+"int32"
+],
+"6": [
+"nCreditNum",
+"int32"
+],
+"7": [
+"envelopeInfo",
+"message"
+],
+"8": [
+"nSnappeNum",
+"int32"
+],
+"9": [
+"nRegionNum",
+"int32"
+],
+"10": [
+"field10",
+"message"
+],
+"11": [
+"field11",
+"message"
+],
+"12": [
+"field12",
+"message"
+],
+"13": [
+"field13",
+"message"
+],
+"14": [
+"field14",
+"message"
+],
+"15": [
+"field15",
+"message"
+],
+"16": [
+"field16",
+"message"
+],
+"17": [
+"field17",
+"message"
+],
+"18": [
+"nGuildID",
+"int32"
+],
+"19": [
+"nAdjType",
+"int32"
+],
+"20": [
+"field20",
+"string"
+],
+"21": [
+"field21",
+"int32"
+]
+}
+},
+"02db": {
+"name": "RseBigGift",
+"cls": "_-1HH",
+"fields": {
+"1": [
+"nRet",
+"int32"
+],
+"2": [
+"buyid",
+"int32"
+],
+"3": [
+"ngetFreeGift",
+"bool"
+],
+"4": [
+"activType",
+"int32"
+]
+}
+},
+"02dc": {
+"name": "RseChristmas",
+"cls": "_-4uI",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"field2",
+"int32"
+],
+"3": [
+"field3",
+"int32"
+],
+"4": [
+"discount",
+"int32"
+]
+}
+},
+"02dd": {
+"name": "RseJammerOpt",
+"cls": "_-3TU",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"baseType",
+"int32"
+],
+"3": [
+"ret",
+"int32"
+],
+"4": [
+"retJammer",
+"message"
+],
+"5": [
+"overExp",
+"int32"
+],
+"6": [
+"pageType",
+"int32"
+],
+"7": [
+"field7",
+"message"
+],
+"8": [
+"field8",
+"message"
+]
+}
+},
+"02de": {
+"name": "RseWPCBagJammer",
+"cls": "_-ho",
+"fields": {
+"1": [
+"end",
+"bool"
+],
+"2": [
+"field2",
+"message"
+]
+}
+},
+"02df": {
+"name": "_-1iC",
+"cls": "_-1iC",
+"fields": {
+"1": [
+"field1",
+"message"
+]
+}
+},
+"02e0": {
+"name": "RseHappyCard",
+"cls": "_-4B1",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"rewardid",
+"int32"
+],
+"3": [
+"itemRewardid",
+"int32"
+]
+}
+},
+"02e1": {
+"name": "RseGetGreatAVCnt",
+"cls": "_-7X5",
+"fields": {
+"1": [
+"getgreatAVcnt",
+"int32"
+]
+}
+},
+"02e2": {
+"name": "RseArmRace",
+"cls": "_-Ts",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"labSearchCnt",
+"int32"
+],
+"3": [
+"list",
+"message"
+]
+}
+},
+"02e3": {
+"name": "RseBlueGrowGift",
+"cls": "_-7KG",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"metal",
+"int32"
+],
+"3": [
+"oil",
+"int32"
+]
+}
+},
+"02e4": {
+"name": "RseSiteTestCredit",
+"cls": "_-3HS",
+"fields": {
+"1": [
+"ret",
+"uint32"
+],
+"2": [
+"award",
+"uint32"
+],
+"3": [
+"credit",
+"uint32"
+]
+}
+},
+"02e5": {
+"name": "RseSiteTestLogin",
+"cls": "_-0Fn",
+"fields": {
+"1": [
+"ret",
+"uint32"
+],
+"2": [
+"days",
+"uint32"
+],
+"3": [
+"award",
+"uint32"
+]
+}
+},
+"02e6": {
+"name": "RseAssistGift",
+"cls": "_-7IE",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"canbuy",
+"bool"
+],
+"3": [
+"ret",
+"int32"
+]
+}
+},
+"02e7": {
+"name": "RseWeaponSearch",
+"cls": "_-5Lt",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"searchCnt",
+"int32"
+],
+"3": [
+"field3",
+"int32"
+],
+"4": [
+"ret",
+"int32"
+]
+}
+},
+"02e8": {
+"name": "RseCityBuffInfo",
+"cls": "_-7VW",
+"fields": {
+"1": [
+"region",
+"int32"
+],
+"2": [
+"flag",
+"int32"
+],
+"3": [
+"field3",
+"message"
+],
+"4": [
+"state",
+"int32"
+]
+}
+},
+"02e9": {
+"name": "RseRandomBuff",
+"cls": "_-3AY",
+"fields": {
+"1": [
+"cityID",
+"int32"
+],
+"2": [
+"buffID",
+"int32"
+],
+"3": [
+"activeTm",
+"int32"
+]
+}
+},
+"02ea": {
+"name": "RseQQHallGift",
+"cls": "_-5wL",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"bCanFetchDayGift",
+"bool"
+],
+"3": [
+"bCanFetchPlayerGift",
+"bool"
+],
+"4": [
+"field4",
+"int32"
+],
+"5": [
+"bCanFetchHallGift",
+"bool"
+],
+"6": [
+"ret",
+"int32"
+]
+}
+},
+"02eb": {
+"name": "RseDuanWuVip",
+"cls": "_-0dd",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"bcanbuy",
+"bool"
+],
+"3": [
+"buycnt",
+"int32"
+],
+"4": [
+"optype",
+"int32"
+],
+"5": [
+"field5",
+"int32"
+],
+"6": [
+"bBaoMing",
+"bool"
+],
+"7": [
+"nAwdID",
+"int32"
+],
+"8": [
+"field8",
+"bool"
+],
+"9": [
+"field9",
+"int32"
+],
+"10": [
+"actType",
+"int32"
+],
+"11": [
+"chiqingtuanTotal",
+"int32"
+],
+"12": [
+"field12",
+"int32"
+],
+"13": [
+"field13",
+"int32"
+],
+"14": [
+"nTotalQpoint",
+"int32"
+],
+"15": [
+"field15",
+"bool"
+],
+"16": [
+"field16",
+"message"
+],
+"17": [
+"field17",
+"message"
+],
+"18": [
+"nbuySpecial",
+"bool"
+],
+"19": [
+"field19",
+"bool"
+]
+}
+},
+"02ec": {
+"name": "RseOpenBoxShop",
+"cls": "_-0Ts",
+"fields": {
+"1": [
+"openBoxScore",
+"int32"
+]
+}
+},
+"02ed": {
+"name": "RseBuyGift",
+"cls": "_-0qh",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"giftType",
+"int32"
+],
+"4": [
+"bCanBuy",
+"bool"
+]
+}
+},
+"02ee": {
+"name": "RseTrapModify",
+"cls": "_-6-4",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"error",
+"int32"
+],
+"3": [
+"building",
+"message"
+],
+"4": [
+"TrapEx",
+"message"
+],
+"5": [
+"resources",
+"string"
+],
+"6": [
+"credit",
+"string"
+],
+"7": [
+"level",
+"string"
+],
+"8": [
+"basevalue",
+"string"
+],
+"9": [
+"basepoints",
+"string"
+],
+"10": [
+"recycleFlag",
+"bool"
+],
+"11": [
+"trapType",
+"int32"
+]
+}
+},
+"02ef": {
+"name": "RseUnlockVipTrapNum",
+"cls": "_-5AQ",
+"fields": {
+"1": [
+"bVip",
+"bool"
+],
+"2": [
+"nUnlockNum",
+"int32"
+]
+}
+},
+"02f0": {
+"name": "RseBagMedalHonor",
+"cls": "_-0Iu",
+"fields": {
+"1": [
+"end",
+"bool"
+],
+"2": [
+"field2",
+"message"
+]
+}
+},
+"02f1": {
+"name": "_-4h7",
+"cls": "_-4h7",
+"fields": {
+"1": [
+"field1",
+"message"
+]
+}
+},
+"02f2": {
+"name": "RseMedalHonorOpt",
+"cls": "_-3q",
+"fields": {
+"1": [
+"nMedalHonorid",
+"int32"
+],
+"2": [
+"nType",
+"int32"
+],
+"3": [
+"nAdmiralID",
+"int32"
+],
+"4": [
+"nExpID",
+"int32"
+],
+"5": [
+"nCreditType",
+"int32"
+],
+"6": [
+"nTokenNum",
+"int32"
+],
+"7": [
+"nResult",
+"int32"
+],
+"8": [
+"nDecoratedLevel",
+"int32"
+],
+"9": [
+"nCastNum",
+"int32"
+],
+"10": [
+"nExpOver",
+"int32"
+],
+"11": [
+"nAcMedalHonorNum",
+"int32"
+],
+"12": [
+"nAcMedalHonorCountry",
+"int32"
+],
+"13": [
+"field13",
+"int32"
+],
+"14": [
+"field14",
+"int32"
+],
+"15": [
+"field15",
+"int32"
+],
+"16": [
+"admiralList",
+"message"
+],
+"17": [
+"nActDecoratTime",
+"int32"
+],
+"18": [
+"nRebateTime",
+"int32"
+],
+"19": [
+"nStrongTokenNum",
+"int32"
+],
+"20": [
+"nStrongCastNum",
+"int32"
+]
+}
+},
+"02f3": {
+"name": "RseZhaoCaiJinBao",
+"cls": "_-0XX",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nResult",
+"int32"
+],
+"3": [
+"nChoiceNum",
+"int32"
+],
+"4": [
+"nCreditNum",
+"int32"
+],
+"5": [
+"nZhaoCaiType",
+"int32"
+],
+"6": [
+"nGetCredit",
+"int32"
+],
+"7": [
+"nRechargeNum",
+"int32"
+],
+"8": [
+"nGetredadw",
+"bool"
+]
+}
+},
+"02f4": {
+"name": "RseOneYuanPurchase",
+"cls": "_-3XX",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"rewardkey",
+"int32"
+],
+"4": [
+"num1",
+"string"
+],
+"5": [
+"num2",
+"string"
+],
+"6": [
+"field6",
+"message"
+],
+"7": [
+"name",
+"string"
+]
+}
+},
+"02f5": {
+"name": "RseBuyGreatAdmiral",
+"cls": "_-6YV",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"flag",
+"int32"
+],
+"4": [
+"admirals",
+"int32"
+],
+"5": [
+"field5",
+"int32"
+]
+}
+},
+"02f6": {
+"name": "RseUpdateInUseAdmiral",
+"cls": "_-3ar",
+"fields": {
+"1": [
+"admirals",
+"message"
+]
+}
+},
+"02f7": {
+"name": "RseOneCreditSendPrizeTips",
+"cls": "_-4W8",
+"fields": {
+"1": [
+"flag",
+"int32"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"cnt",
+"int32"
+]
+}
+},
+"02f8": {
+"name": "RseOneYuanCredit",
+"cls": "_-47x",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"field3",
+"message"
+],
+"4": [
+"lastresult",
+"message"
+],
+"5": [
+"buycnt",
+"int32"
+],
+"6": [
+"buyflag",
+"message"
+],
+"7": [
+"field7",
+"int32"
+],
+"8": [
+"name",
+"string"
+],
+"9": [
+"record",
+"message"
+]
+}
+},
+"02f9": {
+"name": "RseBuyCreditGiftTips",
+"cls": "_-372",
+"fields": {
+"1": [
+"credit",
+"int32"
+]
+}
+},
+"02fa": {
+"name": "RseNationCelebration",
+"cls": "_-1SL",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"lottery",
+"int32"
+],
+"4": [
+"unlock",
+"bool"
+],
+"5": [
+"freecnt",
+"int32"
+],
+"6": [
+"buylottery",
+"int32"
+]
+}
+},
+"02fb": {
+"name": "RseDailyRecommend",
+"cls": "_-3Hx",
+"fields": {
+"1": [
+"flag",
+"uint32"
+]
+}
+},
+"02fc": {
+"name": "RseRobBase",
+"cls": "_-1v2",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"field3",
+"message"
+],
+"4": [
+"selfrank",
+"int32"
+],
+"5": [
+"selfscore",
+"int32"
+],
+"6": [
+"bcanfetch",
+"bool"
+],
+"7": [
+"challengetimes",
+"int32"
+],
+"8": [
+"buycnt",
+"int32"
+],
+"9": [
+"totalPage",
+"int32"
+]
+}
+},
+"02fd": {
+"name": "RseRobBaseBattle",
+"cls": "_-32y",
+"fields": {
+"1": [
+"demagescore",
+"int32"
+]
+}
+},
+"02fe": {
+"name": "RseQPointResult",
+"cls": "_-2Co",
+"fields": {
+"1": [
+"id",
+"int32"
+],
+"2": [
+"bsucces",
+"bool"
+]
+}
+},
+"02ff": {
+"name": "RseSuperZhaoMu",
+"cls": "_-4Lw",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"admiralID",
+"int32"
+],
+"3": [
+"canbuy",
+"bool"
+]
+}
+},
+"0300": {
+"name": "RseCharitmasSnowMan",
+"cls": "_-4gx",
+"fields": {
+"1": [
+"optType",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"canbuy",
+"bool"
+],
+"4": [
+"buySockCnt",
+"int32"
+]
+}
+},
+"0301": {
+"name": "RseWPCCraft",
+"cls": "_-4nR",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+]
+}
+},
+"0302": {
+"name": "RseRedpacketOpt",
+"cls": "_-1-D",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"field3",
+"string"
+],
+"4": [
+"leftpacket",
+"int32"
+],
+"5": [
+"canbuy",
+"bool"
+],
+"6": [
+"name",
+"string"
+],
+"7": [
+"buytype",
+"int32"
+]
+}
+},
+"0303": {
+"name": "RseTips",
+"cls": "_-4Zv",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"args",
+"string"
+],
+"3": [
+"field3",
+"int32"
+]
+}
+},
+"0304": {
+"name": "RseSpriteLucklyBagOpt",
+"cls": "_-6yF",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"field3",
+"message"
+],
+"4": [
+"totalexchange",
+"int32"
+],
+"5": [
+"field5",
+"bool"
+]
+}
+},
+"0305": {
+"name": "RseSpriteZhuanZhuanZhuan",
+"cls": "_-094",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"discountcnt",
+"int32"
+],
+"4": [
+"totaldrawcnt",
+"int32"
+],
+"5": [
+"box",
+"message"
+],
+"6": [
+"field6",
+"int32"
+],
+"7": [
+"drawtype",
+"int32"
+],
+"8": [
+"nGetRedPackageNum",
+"int32"
+],
+"9": [
+"nWholeRedPackageNum",
+"int32"
+]
+}
+},
+"0306": {
+"name": "RseOptimusPrimeScore",
+"cls": "_-4oZ",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"score",
+"int32"
+],
+"4": [
+"leftcnt",
+"int32"
+]
+}
+},
+"0307": {
+"name": "RseFierceFightingOpt",
+"cls": "_-3a-",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nRet",
+"int32"
+],
+"3": [
+"nGetPoint",
+"int32"
+],
+"4": [
+"nTotalPoint",
+"int32"
+],
+"5": [
+"nTaskFlag",
+"int32"
+],
+"6": [
+"nDestroyBaseCnt",
+"int32"
+],
+"7": [
+"nCountryAtkCnt",
+"int32"
+],
+"8": [
+"rewardList",
+"message"
+]
+}
+},
+"0308": {
+"name": "RseBlackShopOpt",
+"cls": "_-195",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"shoppoint",
+"int32"
+],
+"4": [
+"field4",
+"message"
+]
+}
+},
+"0309": {
+"name": "RseOptimusPrimeTurntable",
+"cls": "_-5SL",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"gift",
+"int32"
+],
+"4": [
+"drawcnt",
+"int32"
+]
+}
+},
+"030a": {
+"name": "RseWarTankResearchOpt",
+"cls": "_-0do",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"tanks",
+"message"
+],
+"4": [
+"field4",
+"message"
+]
+}
+},
+"030b": {
+"name": "RseFiveYearActive",
+"cls": "_-3un",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nSubType",
+"int32"
+],
+"3": [
+"nValue1",
+"int32"
+],
+"4": [
+"nValue2",
+"int32"
+],
+"5": [
+"nRet",
+"int32"
+],
+"6": [
+"nProgress",
+"int32"
+],
+"7": [
+"nTokenNum",
+"int32"
+],
+"8": [
+"nDonateTokenNum",
+"int32"
+],
+"9": [
+"nRemainTime",
+"int32"
+],
+"10": [
+"hasGetProgressGift",
+"int32"
+],
+"11": [
+"field11",
+"int32"
+]
+}
+},
+"030c": {
+"name": "RseCostGiftGet",
+"cls": "_-2ly",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nRet",
+"int32"
+],
+"3": [
+"nLastGetGift",
+"int32"
+],
+"4": [
+"nCreditNum",
+"int32"
+],
+"5": [
+"strName",
+"string"
+],
+"6": [
+"rankList",
+"message"
+]
+}
+},
+"030d": {
+"name": "RseMysticalBlueBox",
+"cls": "_-0QF",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nID",
+"int32"
+],
+"3": [
+"nRet",
+"int32"
+],
+"4": [
+"nCreditNum",
+"int32"
+],
+"5": [
+"nRemain",
+"int32"
+],
+"6": [
+"nDiscount",
+"int32"
+],
+"7": [
+"nNum",
+"int32"
+],
+"8": [
+"admiralInfo",
+"message"
+],
+"9": [
+"field9",
+"int32"
+],
+"10": [
+"nFlag",
+"int32"
+]
+}
+},
+"030e": {
+"name": "RseTrenchMortarOpt",
+"cls": "_-2QB",
+"fields": {
+"1": [
+"optType",
+"int32"
+],
+"2": [
+"subType",
+"int32"
+],
+"3": [
+"mortarID",
+"int32"
+],
+"4": [
+"gunnerID",
+"int32"
+],
+"5": [
+"nRet",
+"int32"
+],
+"6": [
+"nItemID",
+"int32"
+],
+"7": [
+"freeVisitCnt",
+"int32"
+],
+"8": [
+"finishVisitTime",
+"int32"
+],
+"9": [
+"curMortar",
+"message"
+],
+"10": [
+"curGunner",
+"message"
+],
+"11": [
+"field11",
+"message"
+],
+"12": [
+"field12",
+"message"
+],
+"13": [
+"field13",
+"message"
+],
+"14": [
+"field14",
+"message"
+],
+"15": [
+"field15",
+"message"
+],
+"16": [
+"bNeedGuide",
+"bool"
+],
+"17": [
+"thanksgivingCnt",
+"int32"
+],
+"18": [
+"suipianEndTime",
+"int32"
+],
+"19": [
+"WishTreeVisitCnt",
+"int32"
+],
+"20": [
+"drawFreeEndTime",
+"int32"
+],
+"21": [
+"field21",
+"int32"
+]
+}
+},
+"030f": {
+"name": "RseHalloween",
+"cls": "_-1Vw",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"RetVal",
+"int32"
+],
+"3": [
+"leftExchangeTimes",
+"int32"
+],
+"4": [
+"hasCandyNow",
+"int32"
+],
+"5": [
+"nactivetype",
+"int32"
+],
+"6": [
+"field6",
+"int32"
+],
+"7": [
+"field7",
+"int32"
+],
+"8": [
+"nusestorey",
+"int32"
+],
+"9": [
+"field9",
+"int32"
+],
+"10": [
+"nBuyQpoint",
+"bool"
+],
+"11": [
+"field11",
+"int32"
+],
+"12": [
+"field12",
+"message"
+],
+"13": [
+"field13",
+"message"
+],
+"14": [
+"field14",
+"message"
+],
+"15": [
+"ntotaldonate",
+"int32"
+],
+"16": [
+"strName",
+"string"
+],
+"17": [
+"field17",
+"bool"
+]
+}
+},
+"0310": {
+"name": "RseMortarLimitAct",
+"cls": "_-4r5",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nRewardID",
+"int32"
+],
+"3": [
+"nRet",
+"int32"
+],
+"4": [
+"nPoint",
+"int32"
+],
+"5": [
+"nPointReward",
+"int32"
+],
+"6": [
+"bRankReward",
+"bool"
+],
+"7": [
+"nRank",
+"int32"
+],
+"8": [
+"field8",
+"message"
+]
+}
+},
+"0311": {
+"name": "RsePreciseStrikeOpt",
+"cls": "_-3AG",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nRet",
+"int32"
+],
+"3": [
+"nPartNum",
+"int32"
+],
+"4": [
+"nCurEnergy",
+"int32"
+],
+"5": [
+"nRewardID",
+"int32"
+],
+"6": [
+"nCurCircle",
+"int32"
+],
+"7": [
+"nRandNum",
+"int32"
+],
+"8": [
+"field8",
+"int32"
+],
+"9": [
+"field9",
+"message"
+]
+}
+},
+"0312": {
+"name": "RseAdviserOpt",
+"cls": "_-ZN",
+"fields": {
+"1": [
+"nret",
+"int32"
+],
+"2": [
+"noptType",
+"int32"
+],
+"3": [
+"field3",
+"message"
+],
+"4": [
+"field4",
+"message"
+],
+"5": [
+"field5",
+"int32"
+],
+"6": [
+"sVisitData",
+"message"
+],
+"7": [
+"nDeleteAdviserCnt",
+"int32"
+],
+"8": [
+"nGetAdviserSoul",
+"int32"
+],
+"9": [
+"field9",
+"int32"
+],
+"10": [
+"nVistAdvCnt",
+"int32"
+],
+"11": [
+"suipianxianshigouEndTime",
+"int32"
+],
+"12": [
+"suipianxianshigouvisitCnt",
+"int32"
+],
+"13": [
+"advcombineinfo",
+"message"
+],
+"14": [
+"bend",
+"bool"
+],
+"15": [
+"field15",
+"message"
+]
+}
+},
+"0313": {
+"name": "RseSixYearBuildGuild",
+"cls": "_-1MI",
+"fields": {
+"1": [
+"nret",
+"int32"
+],
+"2": [
+"ntype",
+"int32"
+],
+"3": [
+"bindGuildID",
+"int32"
+],
+"4": [
+"bindGuildName",
+"string"
+],
+"5": [
+"playerDonateCnt",
+"int32"
+],
+"6": [
+"guidDonateCnt",
+"int32"
+],
+"7": [
+"field7",
+"bool"
+],
+"8": [
+"guildBindState",
+"int32"
+],
+"9": [
+"bbinded",
+"bool"
+],
+"10": [
+"tokencnt",
+"int32"
+],
+"11": [
+"nGetRedAward",
+"int32"
+],
+"12": [
+"field12",
+"int32"
+],
+"13": [
+"nAwardId",
+"int32"
+],
+"14": [
+"nAwardNum",
+"int32"
+],
+"15": [
+"log",
+"message"
+],
+"16": [
+"activeType",
+"int32"
+],
+"17": [
+"field17",
+"bool"
+],
+"18": [
+"field18",
+"int32"
+],
+"19": [
+"field19",
+"int64"
+],
+"20": [
+"field20",
+"int32"
+],
+"21": [
+"field21",
+"int32"
+],
+"22": [
+"nItemID",
+"int32"
+],
+"23": [
+"nhasFreeSet",
+"int32"
+],
+"24": [
+"field24",
+"string"
+],
+"25": [
+"isfirstfinish",
+"bool"
+],
+"26": [
+"nlevel",
+"int32"
+],
+"27": [
+"nyestadaylev",
+"int32"
+],
+"28": [
+"nGuildAllExp",
+"int32"
+],
+"29": [
+"field29",
+"int32"
+],
+"30": [
+"field30",
+"int32"
+],
+"31": [
+"field31",
+"int32"
+],
+"32": [
+"buildskinlst",
+"message"
+]
+}
+},
+"0314": {
+"name": "RseAdviserDaily",
+"cls": "_-6SP",
+"fields": {
+"1": [
+"nret",
+"int32"
+],
+"2": [
+"noptType",
+"int32"
+],
+"3": [
+"field3",
+"int32"
+],
+"4": [
+"field4",
+"int32"
+],
+"5": [
+"nfreeTimes",
+"int32"
+],
+"6": [
+"nfreshTimes",
+"int32"
+],
+"7": [
+"field7",
+"int32"
+],
+"8": [
+"nDayBuyTimes",
+"int32"
+],
+"9": [
+"nExp",
+"int32"
+],
+"10": [
+"nRecord",
+"message"
+],
+"11": [
+"nCoolDown",
+"int32"
+],
+"12": [
+"nResetTime",
+"int32"
+],
+"13": [
+"nDefeatMax",
+"int32"
+],
+"14": [
+"field14",
+"bool"
+],
+"15": [
+"field15",
+"message"
+]
+}
+},
+"0315": {
+"name": "RseAdviserVisitUpAtv",
+"cls": "_-38J",
+"fields": {
+"1": [
+"nret",
+"int32"
+],
+"2": [
+"noptType",
+"int32"
+],
+"3": [
+"nVisitTimes",
+"int32"
+],
+"4": [
+"nDaySoul",
+"int32"
+],
+"5": [
+"bAwardFive",
+"bool"
+],
+"6": [
+"bAwardThirty",
+"bool"
+],
+"7": [
+"field7",
+"bool"
+],
+"8": [
+"bGetSpcAwd",
+"bool"
+],
+"9": [
+"nAdviserSoulNow",
+"int32"
+],
+"10": [
+"bnewadviser",
+"bool"
+]
+}
+},
+"0316": {
+"name": "RseWeekQuestOpt",
+"cls": "_-1JD",
+"fields": {
+"1": [
+"nret",
+"int32"
+],
+"2": [
+"ntype",
+"int32"
+],
+"3": [
+"nstate",
+"int32"
+],
+"4": [
+"field4",
+"int32"
+],
+"5": [
+"nquestid",
+"int32"
+],
+"6": [
+"nquestfinish",
+"int32"
+],
+"7": [
+"field7",
+"int32"
+],
+"8": [
+"tfinish",
+"int32"
+]
+}
+},
+"0317": {
+"name": "RseTurtleShellGame",
+"cls": "_-5nY",
+"fields": {
+"1": [
+"nret",
+"int32"
+],
+"2": [
+"nopt",
+"int32"
+],
+"3": [
+"npos",
+"int32"
+],
+"4": [
+"field4",
+"int32"
+],
+"5": [
+"nround",
+"int32"
+],
+"6": [
+"nrandawd",
+"int32"
+],
+"8": [
+"nDayround",
+"int32"
+],
+"9": [
+"broudAwdGet",
+"bool"
+],
+"10": [
+"nstate",
+"int32"
+],
+"11": [
+"field11",
+"int32"
+],
+"12": [
+"bFirstCreditDraw",
+"bool"
+],
+"13": [
+"field13",
+"int32"
+],
+"14": [
+"field14",
+"int32"
+],
+"15": [
+"field15",
+"bool"
+],
+"16": [
+"nActivtype",
+"int32"
+],
+"17": [
+"field17",
+"bool"
+],
+"18": [
+"field18",
+"message"
+],
+"19": [
+"field19",
+"bool"
+],
+"20": [
+"field20",
+"int32"
+]
+}
+},
+"0318": {
+"name": "RseGoldenPig",
+"cls": "_-3Ke",
+"fields": {
+"1": [
+"nret",
+"int32"
+],
+"2": [
+"nopt",
+"int32"
+],
+"3": [
+"nrank",
+"int32"
+],
+"4": [
+"ntotalpig",
+"int32"
+],
+"5": [
+"field5",
+"int32"
+],
+"6": [
+"nselfmorale",
+"int32"
+],
+"7": [
+"nselfhealth",
+"int32"
+],
+"8": [
+"field8",
+"int32"
+],
+"9": [
+"field9",
+"string"
+],
+"10": [
+"field10",
+"int32"
+],
+"11": [
+"ntype",
+"int32"
+],
+"12": [
+"ntotaladviser",
+"int32"
+],
+"13": [
+"field13",
+"string"
+],
+"14": [
+"field14",
+"int32"
+],
+"15": [
+"isGetSnowBuff",
+"bool"
+],
+"16": [
+"nSnowmanLevel",
+"int32"
+],
+"17": [
+"nSnowmanGiftTime",
+"int32"
+],
+"18": [
+"nSnowmangiftNum",
+"int32"
+]
+}
+},
+"0319": {
+"name": "RseGoldenPigBuffs",
+"cls": "_-l-",
+"fields": {
+"1": [
+"nret",
+"int32"
+],
+"2": [
+"nAtkBuffTime",
+"int32"
+],
+"3": [
+"nHpBuffs",
+"int32"
+],
+"4": [
+"nAtkBuffCnt",
+"int32"
+],
+"5": [
+"nHpBuffCnt",
+"int32"
+]
+}
+},
+"031a": {
+"name": "RseJunBeiOpt",
+"cls": "_-1-K",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"overExp",
+"int32"
+],
+"4": [
+"nPoint",
+"int32"
+],
+"5": [
+"field5",
+"int32"
+],
+"6": [
+"field6",
+"message"
+],
+"7": [
+"field7",
+"message"
+],
+"8": [
+"field8",
+"message"
+],
+"9": [
+"lstLetter",
+"message"
+],
+"10": [
+"field10",
+"message"
+],
+"11": [
+"field11",
+"message"
+],
+"12": [
+"dayatktimes",
+"int32"
+],
+"13": [
+"cdTime",
+"int32"
+],
+"14": [
+"field14",
+"message"
+],
+"16": [
+"bTurnOn",
+"bool"
+],
+"17": [
+"nJunBeiID",
+"int32"
+],
+"18": [
+"fightreoprt",
+"message"
+],
+"19": [
+"nSkillPoint",
+"int32"
+],
+"20": [
+"nDayExpNum",
+"int32"
+],
+"21": [
+"field21",
+"int32"
+],
+"22": [
+"bend",
+"bool"
+],
+"23": [
+"wishtreeExploreCnt",
+"int32"
+],
+"24": [
+"nCenterJunbeiPoint",
+"int32"
+]
+}
+},
+"031b": {
+"name": "RseVipFuLiPkg",
+"cls": "_-5MD",
+"fields": {
+"1": [
+"nret",
+"int32"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"bgetdaypkg",
+"bool"
+],
+"4": [
+"field4",
+"message"
+],
+"5": [
+"nbuyitem",
+"int32"
+],
+"6": [
+"field6",
+"int32"
+],
+"7": [
+"bgetfreereward",
+"bool"
+],
+"8": [
+"bgetmonthfreeCnt",
+"int32"
+],
+"9": [
+"field9",
+"message"
+]
+}
+},
+"031c": {
+"name": "RseShenJiangDaRen",
+"cls": "_-6lU",
+"fields": {
+"1": [
+"nRet",
+"int32"
+],
+"2": [
+"nopt",
+"int32"
+],
+"3": [
+"nItem",
+"int32"
+],
+"4": [
+"nDrawCnt",
+"int32"
+],
+"5": [
+"field5",
+"int32"
+],
+"6": [
+"field6",
+"message"
+]
+}
+},
+"031d": {
+"name": "RseChinaJie",
+"cls": "_-5AJ",
+"fields": {
+"1": [
+"field1",
+"bool"
+],
+"2": [
+"ntype",
+"int32"
+],
+"3": [
+"nAtvtype",
+"int32"
+],
+"4": [
+"field4",
+"bool"
+],
+"5": [
+"field5",
+"bool"
+],
+"6": [
+"nTotalQpointCnt",
+"int32"
+],
+"7": [
+"nGetQpointAwd",
+"bool"
+]
+}
+},
+"031e": {
+"name": "RseMouseYouHaveMoney",
+"cls": "_-4xS",
+"fields": {
+"1": [
+"nret",
+"int32"
+],
+"2": [
+"nopt",
+"int32"
+],
+"3": [
+"ncredit",
+"int32"
+],
+"4": [
+"field4",
+"bool"
+]
+}
+},
+"031f": {
+"name": "RseCallBackAct",
+"cls": "_-Qe",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"3": [
+"ret",
+"int32"
+],
+"4": [
+"bBack",
+"bool"
+],
+"5": [
+"closeTime",
+"int32"
+],
+"10": [
+"field10",
+"message"
+],
+"11": [
+"field11",
+"message"
+],
+"12": [
+"field12",
+"message"
+],
+"13": [
+"nBuyRewardNum",
+"int32"
+],
+"14": [
+"nTotalPoint",
+"int32"
+],
+"15": [
+"field15",
+"message"
+],
+"16": [
+"nActivType",
+"int32"
+],
+"17": [
+"field17",
+"message"
+],
+"18": [
+"nFinishGame",
+"int32"
+],
+"19": [
+"nGetGiftIndex",
+"int32"
+],
+"20": [
+"field20",
+"bool"
+],
+"21": [
+"nGetDailyQpointAwd",
+"bool"
+]
+}
+},
+"0320": {
+"name": "RseGuoZhanDaRen",
+"cls": "_-3DK",
+"fields": {
+"1": [
+"nret",
+"int32"
+],
+"2": [
+"ntype",
+"int32"
+],
+"3": [
+"field3",
+"bool"
+],
+"4": [
+"field4",
+"int32"
+],
+"5": [
+"ntimes",
+"int32"
+]
+}
+},
+"0321": {
+"name": "RseBattleToken",
+"cls": "_-1Lx",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nRet",
+"int32"
+],
+"3": [
+"nlevel",
+"int32"
+],
+"4": [
+"bGolden",
+"bool"
+],
+"5": [
+"nexp",
+"int32"
+],
+"6": [
+"buynum",
+"int32"
+],
+"7": [
+"normalreward",
+"string"
+],
+"8": [
+"goldenreward",
+"string"
+],
+"9": [
+"goldenspecreward",
+"string"
+],
+"10": [
+"field10",
+"message"
+],
+"11": [
+"field11",
+"message"
+],
+"12": [
+"buyType",
+"int32"
+]
+}
+},
+"0322": {
+"name": "RsePingTu",
+"cls": "_-6r0",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"field3",
+"int32"
+],
+"4": [
+"field4",
+"bool"
+],
+"5": [
+"nCanBuQian",
+"int32"
+],
+"6": [
+"field6",
+"int32"
+],
+"7": [
+"nRandRwd",
+"int32"
+]
+}
+},
+"0323": {
+"name": "RseCommanderStation",
+"cls": "_-1Fz",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nResult",
+"int32"
+],
+"3": [
+"nStationType",
+"int32"
+],
+"4": [
+"nJunBeihasBuy",
+"bool"
+],
+"5": [
+"field5",
+"bool"
+],
+"6": [
+"nCardhasBuy",
+"bool"
+],
+"7": [
+"nActiveDay",
+"int32"
+],
+"8": [
+"nActiveType",
+"int32"
+],
+"9": [
+"field9",
+"bool"
+],
+"10": [
+"field10",
+"int32"
+],
+"11": [
+"nLevel",
+"int32"
+],
+"12": [
+"nTimes",
+"int32"
+],
+"13": [
+"nGetValue",
+"int32"
+],
+"14": [
+"nFirstValue",
+"int32"
+],
+"15": [
+"field15",
+"int32"
+],
+"16": [
+"field16",
+"int32"
+],
+"17": [
+"field17",
+"int32"
+],
+"18": [
+"field18",
+"int32"
+],
+"19": [
+"field19",
+"int32"
+],
+"20": [
+"field20",
+"int32"
+]
+}
+},
+"0324": {
+"name": "RseQixiActive",
+"cls": "_-75K",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nAllScore",
+"int32"
+],
+"3": [
+"field3",
+"bool"
+],
+"4": [
+"nGetFinishAwd",
+"bool"
+],
+"5": [
+"nGetBuyAwd",
+"bool"
+],
+"6": [
+"field6",
+"bool"
+],
+"7": [
+"nFinishCnt",
+"int32"
+],
+"8": [
+"field8",
+"int32"
+],
+"9": [
+"nGetAllBuycnt",
+"int32"
+],
+"10": [
+"field10",
+"int32"
+]
+}
+},
+"0325": {
+"name": "RseLootBrother",
+"cls": "_-0rv",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nResult",
+"int32"
+],
+"3": [
+"field3",
+"bool"
+],
+"4": [
+"field4",
+"int32"
+],
+"5": [
+"field5",
+"message"
+],
+"6": [
+"field6",
+"bool"
+],
+"7": [
+"nTotalFinish",
+"int32"
+],
+"8": [
+"nBuyType",
+"int32"
+],
+"9": [
+"nGetOnline",
+"bool"
+],
+"10": [
+"nTotalOnline",
+"bool"
+],
+"11": [
+"nOnlineTime",
+"int32"
+],
+"12": [
+"nTaskCnt",
+"int32"
+],
+"13": [
+"nPosition",
+"int32"
+],
+"14": [
+"field14",
+"int32"
+],
+"15": [
+"field15",
+"int32"
+],
+"16": [
+"nactivetype",
+"int32"
+],
+"17": [
+"field17",
+"message"
+],
+"18": [
+"field18",
+"message"
+],
+"19": [
+"nSnowmaninfo",
+"message"
+]
+}
+},
+"0326": {
+"name": "RseWishPool",
+"cls": "_-6jr",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nResult",
+"int32"
+],
+"3": [
+"nWishtype",
+"int32"
+],
+"4": [
+"field4",
+"bool"
+],
+"5": [
+"field5",
+"int32"
+],
+"6": [
+"nGetCredit",
+"bool"
+],
+"7": [
+"nGetwish",
+"bool"
+],
+"8": [
+"nGetTime",
+"int32"
+],
+"9": [
+"activetype",
+"int32"
+],
+"10": [
+"nExchangeNum",
+"int32"
+],
+"11": [
+"field11",
+"int32"
+]
+}
+},
+"0327": {
+"name": "RseConsumeRank",
+"cls": "_-OZ",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nFlag",
+"int32"
+],
+"3": [
+"nRet",
+"int32"
+],
+"4": [
+"nNum",
+"int32"
+],
+"5": [
+"nRank",
+"int32"
+],
+"6": [
+"lstRankUser",
+"message"
+],
+"7": [
+"bGetRankReward",
+"bool"
+],
+"8": [
+"nActivetype",
+"int32"
+],
+"11": [
+"strName",
+"string"
+],
+"12": [
+"strHead",
+"string"
+]
+}
+},
+"0328": {
+"name": "RseDailygiftbuy",
+"cls": "_-4GL",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nResult",
+"int32"
+],
+"3": [
+"field3",
+"int32"
+]
+}
+},
+"0329": {
+"name": "RseHeroEquipOpt",
+"cls": "_-2Ad",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nRet",
+"int32"
+],
+"3": [
+"nHeroID",
+"int32"
+],
+"4": [
+"nEquipDBID",
+"int32"
+],
+"5": [
+"field5",
+"int32"
+],
+"6": [
+"field6",
+"int32"
+],
+"7": [
+"equipInfo",
+"message"
+],
+"8": [
+"field8",
+"message"
+],
+"9": [
+"bEnd",
+"bool"
+],
+"10": [
+"heroInfo",
+"message"
+],
+"11": [
+"lstHeroLetter",
+"message"
+],
+"12": [
+"ngetstrengthstone",
+"int32"
+]
+}
+},
+"032a": {
+"name": "RseMortarSuppyGiftOpt",
+"cls": "_-7EQ",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"awardstate",
+"int32"
+],
+"4": [
+"field4",
+"message"
+]
+}
+},
+"032b": {
+"name": "RseRechargeRebateOpt",
+"cls": "_-0JH",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"allcredit",
+"int32"
+],
+"3": [
+"ret",
+"int32"
+],
+"4": [
+"rewardid",
+"int32"
+]
+}
+},
+"032c": {
+"name": "RseGuildBuildOpt",
+"cls": "_-7Eh",
+"fields": {
+"1": [
+"ntype",
+"int32"
+],
+"2": [
+"nSkillID",
+"int32"
+],
+"3": [
+"nTaskID",
+"int32"
+],
+"4": [
+"nRet",
+"int32"
+],
+"5": [
+"nFreshNum",
+"int32"
+],
+"6": [
+"nCreditFreshNum",
+"int32"
+],
+"7": [
+"nFinishNum",
+"int32"
+],
+"8": [
+"nDonateNum",
+"int32"
+],
+"9": [
+"nDonateTime",
+"int32"
+],
+"10": [
+"nDonateExp",
+"int32"
+],
+"11": [
+"nSkillLv",
+"int32"
+],
+"15": [
+"strGuildName",
+"string"
+],
+"20": [
+"field20",
+"message"
+],
+"21": [
+"field21",
+"message"
+],
+"22": [
+"field22",
+"message"
+],
+"23": [
+"field23",
+"message"
+],
+"30": [
+"nTaskProcess",
+"int32"
+],
+"31": [
+"nNormalPoint",
+"int32"
+],
+"32": [
+"nHighPoint",
+"int32"
+],
+"33": [
+"nGuildPoint",
+"int32"
+],
+"34": [
+"field34",
+"message"
+]
+}
+},
+"032d": {
+"name": "RseQQBirthdayGift",
+"cls": "_-1R-",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nActiveType",
+"int32"
+],
+"3": [
+"field3",
+"int32"
+],
+"4": [
+"ngetsecond",
+"bool"
+],
+"5": [
+"ngetthrird",
+"bool"
+],
+"6": [
+"nLoginday",
+"int32"
+],
+"7": [
+"nAllcredit",
+"int32"
+],
+"8": [
+"ngetcredit",
+"int32"
+]
+}
+},
+"032e": {
+"name": "RseQQgiftBuildGuild",
+"cls": "_-42H",
+"fields": {
+"1": [
+"nret",
+"int32"
+],
+"2": [
+"ntype",
+"int32"
+],
+"3": [
+"bindGuildID",
+"int32"
+],
+"4": [
+"bindGuildName",
+"string"
+],
+"5": [
+"playerTotalCnt",
+"int32"
+],
+"6": [
+"guidTotalCnt",
+"int32"
+],
+"7": [
+"activeType",
+"int32"
+],
+"8": [
+"guildBindNum",
+"int32"
+],
+"9": [
+"bbinded",
+"bool"
+],
+"10": [
+"nBuyQpoint",
+"bool"
+],
+"11": [
+"field11",
+"int32"
+],
+"12": [
+"field12",
+"int32"
+],
+"13": [
+"ndonatenum",
+"int32"
+],
+"14": [
+"log",
+"message"
+]
+}
+},
+"032f": {
+"name": "RseSpecialStore",
+"cls": "_-3xR",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ret",
+"int32"
+],
+"3": [
+"field3",
+"message"
+],
+"4": [
+"refreshCnt",
+"int32"
+],
+"5": [
+"hastehuiItem",
+"bool"
+],
+"6": [
+"freefreshcnt",
+"int32"
+]
+}
+},
+"0330": {
+"name": "RseZhongQiuActive",
+"cls": "_-1cn",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"field2",
+"int32"
+],
+"3": [
+"field3",
+"bool"
+],
+"4": [
+"nTotalDonate",
+"int32"
+],
+"5": [
+"field5",
+"int32"
+],
+"6": [
+"field6",
+"message"
+],
+"7": [
+"ngetallbuyawd",
+"int32"
+],
+"8": [
+"field8",
+"int32"
+]
+}
+},
+"0331": {
+"name": "RseGiftTenMonth",
+"cls": "_-6Oz",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"field2",
+"int32"
+],
+"3": [
+"field3",
+"bool"
+],
+"4": [
+"nTotalDonate",
+"int32"
+],
+"5": [
+"field5",
+"int32"
+],
+"6": [
+"nBuyCredit",
+"bool"
+],
+"7": [
+"nBuyQpoint",
+"bool"
+],
+"8": [
+"field8",
+"int32"
+],
+"9": [
+"field9",
+"message"
+],
+"10": [
+"strName",
+"string"
+],
+"11": [
+"usephoto",
+"int32"
+],
+"12": [
+"field12",
+"int32"
+],
+"13": [
+"activetype",
+"int32"
+],
+"14": [
+"field14",
+"bool"
+],
+"15": [
+"field15",
+"bool"
+],
+"16": [
+"nlevel",
+"int32"
+],
+"17": [
+"nwishitem",
+"int32"
+],
+"18": [
+"nGetwishitem",
+"bool"
+],
+"19": [
+"field19",
+"message"
+],
+"20": [
+"field20",
+"message"
+],
+"21": [
+"field21",
+"int32"
+],
+"22": [
+"cakeinfo",
+"message"
+],
+"23": [
+"headui",
+"string"
+],
+"24": [
+"field24",
+"int32"
+],
+"25": [
+"nGetallbuyawdCnt",
+"int32"
+],
+"26": [
+"field26",
+"int32"
+]
+}
+},
+"0332": {
+"name": "RseBindGuildAct",
+"cls": "_-6y3",
+"fields": {
+"1": [
+"nret",
+"int32"
+],
+"2": [
+"ntype",
+"int32"
+],
+"3": [
+"bindGuildID",
+"int32"
+],
+"4": [
+"bindGuildName",
+"string"
+],
+"5": [
+"playerDonateCnt",
+"int32"
+],
+"6": [
+"guidDonateCnt",
+"int32"
+],
+"7": [
+"field7",
+"bool"
+],
+"8": [
+"guildBindState",
+"int32"
+],
+"9": [
+"activeType",
+"int32"
+],
+"10": [
+"field10",
+"int32"
+],
+"11": [
+"field11",
+"int32"
+],
+"12": [
+"field12",
+"message"
+],
+"13": [
+"field13",
+"message"
+],
+"14": [
+"countryId",
+"int32"
+],
+"15": [
+"ngetAllbuyAwd",
+"int32"
+],
+"16": [
+"level",
+"int32"
+],
+"17": [
+"field17",
+"int32"
+],
+"18": [
+"isbindGuild",
+"bool"
+]
+}
+},
+"0333": {
+"name": "RseTaskOpt",
+"cls": "_-1pq",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"kind",
+"int32"
+],
+"3": [
+"nMsgIndex",
+"int32"
+],
+"4": [
+"field4",
+"int32"
+],
+"5": [
+"nFlag",
+"int32"
+],
+"6": [
+"nModuleType",
+"int32"
+],
+"7": [
+"nModulePoint",
+"int32"
+],
+"8": [
+"field8",
+"message"
+],
+"9": [
+"field9",
+"message"
+],
+"10": [
+"strName",
+"string"
+],
+"11": [
+"cGuildDuelInfo",
+"message"
+],
+"12": [
+"lstRankUser",
+"message"
+],
+"13": [
+"nDay",
+"int32"
+],
+"14": [
+"field14",
+"message"
+],
+"30": [
+"field30",
+"message"
+],
+"31": [
+"field31",
+"message"
+],
+"32": [
+"cBaseInfo",
+"message"
+],
+"33": [
+"nGuildID",
+"int32"
+],
+"34": [
+"nCurDayPoint",
+"int64"
+]
+}
+},
+"0334": {
+"name": "RseMaterialProtect",
+"cls": "_-4o7",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"ProtectTimes",
+"int32"
+],
+"3": [
+"PlunderTimes",
+"int32"
+],
+"4": [
+"RefreshTimes",
+"int32"
+],
+"5": [
+"field5",
+"message"
+],
+"6": [
+"field6",
+"message"
+],
+"7": [
+"field7",
+"message"
+],
+"8": [
+"nguildid",
+"int32"
+],
+"9": [
+"result",
+"int32"
+],
+"10": [
+"fightReoprt",
+"message"
+],
+"11": [
+"admiralInuse",
+"message"
+],
+"12": [
+"field12",
+"int32"
+],
+"13": [
+"carIteminfo",
+"message"
+]
+}
+},
+"0335": {
+"name": "RseSeaTreasure",
+"cls": "_-0TN",
+"fields": {
+"1": [
+"opttype",
+"int32"
+],
+"2": [
+"result",
+"int32"
+],
+"3": [
+"passunlocked",
+"bool"
+],
+"4": [
+"totalopen",
+"int32"
+],
+"5": [
+"freerefreshleft",
+"int32"
+],
+"6": [
+"field6",
+"message"
+],
+"7": [
+"tasks",
+"message"
+],
+"8": [
+"progress",
+"message"
+],
+"9": [
+"field9",
+"message"
+],
+"10": [
+"field10",
+"message"
+],
+"11": [
+"field11",
+"message"
+],
+"12": [
+"myrank",
+"int32"
+],
+"13": [
+"field13",
+"message"
+],
+"14": [
+"field14",
+"message"
+]
+}
+},
+"0336": {
+"name": "RseMail",
+"cls": "_-5ph",
+"fields": {
+"1": [
+"opttype",
+"int32"
+],
+"2": [
+"result",
+"int32"
+],
+"3": [
+"field3",
+"message"
+],
+"4": [
+"newSyncGlobalId",
+"int64"
+],
+"5": [
+"claimableCount",
+"int32"
+],
+"6": [
+"mailId",
+"int64"
+],
+"7": [
+"field7",
+"message"
+],
+"8": [
+"targetUid",
+"int64"
+],
+"9": [
+"cond",
+"message"
+]
+}
+},
+"0337": {
+"name": "RseGardenOpt",
+"cls": "_-31T",
+"fields": {
+"1": [
+"ret",
+"int32"
+],
+"2": [
+"optType",
+"int32"
+],
+"3": [
+"skinList",
+"message"
+]
+}
+},
+"0400": {
+"name": "RceHeroOpen",
+"cls": "_-5oU",
+"fields": {
+"3": [
+"type",
+"int32"
+]
+}
+},
+"0401": {
+"name": "RceHeroOpt",
+"cls": "_-7XM",
+"fields": {
+"1": [
+"id",
+"int32"
+],
+"2": [
+"optType",
+"int32"
+],
+"3": [
+"field3",
+"int32"
+],
+"4": [
+"otherID",
+"int32"
+],
+"5": [
+"itemCnt",
+"int32"
+],
+"6": [
+"itemID",
+"int32"
+],
+"7": [
+"usetype",
+"int32"
+],
+"8": [
+"heroIndex",
+"int32"
+],
+"9": [
+"letter",
+"message"
+],
+"10": [
+"letternum",
+"int32"
+],
+"11": [
+"otherheroIndex",
+"int32"
+],
+"12": [
+"nChangeType",
+"int32"
+],
+"13": [
+"beyondid",
+"int32"
+],
+"14": [
+"beyondnum",
+"int32"
+],
+"15": [
+"fusionid",
+"int32"
+],
+"17": [
+"heroCoreNDBID",
+"int32"
+],
+"18": [
+"heroCoreBlueprintItemID",
+"int32"
+]
+}
+},
+"0402": {
+"name": "RceHeroVisit",
+"cls": "_-00-",
+"fields": {
+"1": [
+"credit",
+"int32"
+],
+"2": [
+"itemID",
+"int32"
+],
+"3": [
+"free",
+"int32"
+],
+"4": [
+"type",
+"int32"
+],
+"5": [
+"heroID",
+"int32"
+],
+"6": [
+"universalLetter",
+"int32"
+],
+"7": [
+"heroLetterID",
+"int32"
+],
+"8": [
+"heroLetterCnt",
+"int32"
+],
+"9": [
+"universalLetterCnt",
+"int32"
+]
+}
+},
+"0403": {
+"name": "RceRegionCountryOpt",
+"cls": "_-6J0",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"countryID",
+"int32"
+],
+"3": [
+"cityID",
+"int32"
+],
+"4": [
+"costCredit",
+"int32"
+],
+"5": [
+"count",
+"int32"
+],
+"6": [
+"chgBoxID",
+"int32"
+],
+"7": [
+"atkUserID",
+"string"
+],
+"8": [
+"pageInx",
+"int32"
+],
+"9": [
+"atkTargetCity",
+"int32"
+],
+"10": [
+"defTargetCity",
+"int32"
+],
+"11": [
+"defTCountry",
+"int32"
+],
+"12": [
+"hasSign",
+"bool"
+],
+"13": [
+"regionID",
+"int32"
+],
+"14": [
+"normalCountryID",
+"int32"
+],
+"15": [
+"name",
+"string"
+]
+}
+},
+"0404": {
+"name": "RceHeroRank",
+"cls": "_-04I",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"id",
+"string"
+],
+"3": [
+"heroid",
+"int32"
+],
+"4": [
+"usetype",
+"int32"
+]
+}
+},
+"0405": {
+"name": "RceMiddleYearGift",
+"cls": "_-0nB",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"giftType",
+"int32"
+],
+"3": [
+"itemID",
+"int32"
+],
+"4": [
+"activeType",
+"int32"
+]
+}
+},
+"0406": {
+"name": "RceVipDailyShop",
+"cls": "_-Zm",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"0407": {
+"name": "RceLevelLuxuryGift",
+"cls": "_-5PJ",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"0408": {
+"name": "RceRedwarMonthCard",
+"cls": "_-25n",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"activetype",
+"int32"
+]
+}
+},
+"0409": {
+"name": "RceSummerDiscount",
+"cls": "_-3Nn",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"itemId",
+"int32"
+]
+}
+},
+"040a": {
+"name": "_-5Zm",
+"cls": "_-5Zm",
+"fields": {}
+},
+"040b": {
+"name": "RceValentinesDayGift",
+"cls": "_-1qo",
+"fields": {
+"1": [
+"uid",
+"string"
+],
+"2": [
+"giftID",
+"int32"
+],
+"3": [
+"count",
+"int32"
+]
+}
+},
+"040c": {
+"name": "_-40W",
+"cls": "_-40W",
+"fields": {
+"1": [
+"build",
+"message"
+]
+}
+},
+"040d": {
+"name": "RcePropertyOpt",
+"cls": "_-20T",
+"fields": {
+"1": [
+"opttype",
+"int32"
+],
+"2": [
+"propertyid",
+"int32"
+]
+}
+},
+"040e": {
+"name": "RceHeartbeat",
+"cls": "RceHeartbeat",
+"fields": {}
+},
+"040f": {
+"name": "RceAddArmy",
+"cls": "_-0Hr",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"army",
+"message"
+]
+}
+},
+"0410": {
+"name": "RceQuest",
+"cls": "_-0iA",
+"fields": {
+"1": [
+"type",
+"string"
+]
+}
+},
+"0411": {
+"name": "RceAttack",
+"cls": "_-7Rn",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"baseid",
+"string"
+],
+"3": [
+"errorID",
+"int32"
+],
+"4": [
+"attackName",
+"string"
+],
+"5": [
+"attackLevel",
+"int32"
+],
+"6": [
+"defenceName",
+"string"
+],
+"7": [
+"defencelevel",
+"int32"
+],
+"8": [
+"defenceRes1",
+"string"
+],
+"9": [
+"defenceRes2",
+"string"
+],
+"10": [
+"defencePic",
+"string"
+],
+"11": [
+"attackRes1",
+"string"
+],
+"13": [
+"attackRes2",
+"string"
+],
+"14": [
+"attackPic",
+"string"
+],
+"15": [
+"tax",
+"int32"
+],
+"16": [
+"platType",
+"int32"
+],
+"17": [
+"enterType",
+"int32"
+],
+"18": [
+"sratio",
+"int32"
+],
+"19": [
+"begintime",
+"int32"
+],
+"20": [
+"canGetFeats",
+"bool"
+],
+"21": [
+"strikeCommand",
+"int32"
+],
+"22": [
+"canGetAdmiralExp",
+"bool"
+],
+"23": [
+"canGetDefAdmiralExp",
+"bool"
+],
+"31": [
+"damage",
+"int32"
+],
+"32": [
+"field32",
+"message"
+],
+"33": [
+"bForward",
+"bool"
+],
+"34": [
+"nCurrentHP",
+"int64"
+],
+"35": [
+"nTotalHp",
+"int64"
+],
+"36": [
+"armyStep",
+"int32"
+],
+"37": [
+"armyGroup",
+"int32"
+],
+"38": [
+"pveBattlePassID",
+"int32"
+],
+"40": [
+"usedsuperweaponnum",
+"int32"
+],
+"41": [
+"usedsuperweapontime",
+"int32"
+],
+"42": [
+"bSuperStorm",
+"bool"
+],
+"43": [
+"field43",
+"message"
+],
+"44": [
+"field44",
+"message"
+]
+}
+},
+"0412": {
+"name": "_-430",
+"cls": "_-430",
+"fields": {}
+},
+"0413": {
+"name": "RceBattleModify",
+"cls": "_-6Su",
+"fields": {
+"1": [
+"enemyPrc",
+"message"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"selfPrc",
+"message"
+],
+"4": [
+"field4",
+"int32"
+],
+"5": [
+"damage",
+"int32"
+],
+"6": [
+"ElectricPct",
+"int32"
+],
+"8": [
+"heroSkill",
+"message"
+],
+"20": [
+"r1",
+"string"
+],
+"21": [
+"r2",
+"string"
+],
+"22": [
+"legal",
+"bool"
+],
+"23": [
+"armydirect",
+"int32"
+],
+"24": [
+"btlType",
+"int32"
+],
+"25": [
+"honor",
+"int32"
+],
+"26": [
+"feats",
+"int32"
+],
+"27": [
+"adimralExp",
+"int32"
+],
+"28": [
+"checkIdx",
+"int32"
+],
+"29": [
+"slevel",
+"int32"
+],
+"30": [
+"defAdimralExp",
+"int32"
+],
+"31": [
+"superwpn",
+"message"
+],
+"32": [
+"attackedname",
+"string"
+],
+"33": [
+"nJammerMedalPer",
+"int32"
+],
+"34": [
+"nJammerOilPer",
+"int32"
+],
+"35": [
+"timestamp",
+"int32"
+],
+"36": [
+"selfArmyopt",
+"message"
+]
+}
+},
+"0414": {
+"name": "RceBuildingModify",
+"cls": "_-3Bw",
+"fields": {
+"1": [
+"bldType",
+"int32"
+],
+"2": [
+"id",
+"int32"
+],
+"3": [
+"type",
+"int32"
+],
+"4": [
+"field4",
+"int32"
+],
+"5": [
+"armyID",
+"int32"
+],
+"6": [
+"armyType",
+"int32"
+],
+"7": [
+"x",
+"int32"
+],
+"8": [
+"y",
+"int32"
+],
+"9": [
+"loot",
+"message"
+],
+"10": [
+"credit",
+"int32"
+],
+"11": [
+"time",
+"int32"
+],
+"12": [
+"monster",
+"message"
+],
+"13": [
+"usehonorcredit",
+"int32"
+],
+"14": [
+"captureBaseID",
+"string"
+],
+"15": [
+"heroType",
+"int32"
+],
+"16": [
+"heroupgradeIndex",
+"int32"
+],
+"17": [
+"itemID",
+"int32"
+],
+"18": [
+"itemCount",
+"int32"
+],
+"19": [
+"towerenhancetype",
+"int32"
+],
+"25": [
+"addMedal",
+"int32"
+],
+"26": [
+"addOil",
+"int32"
+],
+"27": [
+"zhuziAll",
+"bool"
+],
+"28": [
+"strName",
+"string"
+],
+"29": [
+"nAtkScienceLevel",
+"int32"
+],
+"30": [
+"nLv",
+"int32"
+],
+"31": [
+"nJammerMedal",
+"int32"
+],
+"32": [
+"nJammerOil",
+"int32"
+]
+}
+},
+"0415": {
+"name": "RceCalYellowGift",
+"cls": "_-0OL",
+"fields": {
+"1": [
+"para1",
+"string"
+],
+"2": [
+"para2",
+"string"
+],
+"3": [
+"para3",
+"string"
+],
+"4": [
+"para4",
+"string"
+],
+"5": [
+"para5",
+"string"
+],
+"6": [
+"para6",
+"string"
+]
+}
+},
+"0416": {
+"name": "RceClearData",
+"cls": "_-4gP",
+"fields": {
+"1": [
+"uid",
+"string"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"count",
+"int32"
+]
+}
+},
+"0417": {
+"name": "RceCredit",
+"cls": "_-1vY",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"credit",
+"string"
+]
+}
+},
+"0418": {
+"name": "_-764",
+"cls": "_-764",
+"fields": {}
+},
+"0419": {
+"name": "_-3R0",
+"cls": "_-3R0",
+"fields": {}
+},
+"041a": {
+"name": "RceGet",
+"cls": "_-4Nb",
+"fields": {
+"1": [
+"baseid",
+"string"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"getid",
+"string"
+],
+"4": [
+"h",
+"string"
+],
+"5": [
+"hn",
+"string"
+],
+"6": [
+"loginCode",
+"string"
+],
+"7": [
+"pf",
+"string"
+],
+"8": [
+"pfkey",
+"string"
+],
+"9": [
+"level",
+"int32"
+],
+"10": [
+"field10",
+"int64"
+],
+"11": [
+"wtype",
+"int32"
+],
+"12": [
+"region",
+"int32"
+],
+"13": [
+"nCountryID",
+"int32"
+]
+}
+},
+"041b": {
+"name": "_-UB",
+"cls": "_-UB",
+"fields": {}
+},
+"041c": {
+"name": "RceInit",
+"cls": "_-e5",
+"fields": {
+"3": [
+"versionKey",
+"string"
+]
+}
+},
+"041d": {
+"name": "RceLoad",
+"cls": "_-1sB",
+"fields": {
+"2": [
+"baseid",
+"string"
+],
+"3": [
+"type",
+"string"
+],
+"4": [
+"h",
+"string"
+],
+"5": [
+"hn",
+"string"
+],
+"6": [
+"enterType",
+"int32"
+]
+}
+},
+"041e": {
+"name": "RceMineModify",
+"cls": "_-1QL",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"id",
+"int32"
+],
+"3": [
+"x",
+"int32"
+],
+"4": [
+"y",
+"int32"
+],
+"5": [
+"credit",
+"int32"
+],
+"6": [
+"time",
+"int32"
+],
+"7": [
+"recycleFlag",
+"bool"
+]
+}
+},
+"041f": {
+"name": "RcePurchase",
+"cls": "_-70x",
+"fields": {
+"1": [
+"r1",
+"int32"
+],
+"2": [
+"credit",
+"string"
+],
+"3": [
+"type",
+"string"
+],
+"4": [
+"r2",
+"int32"
+],
+"5": [
+"shopID",
+"int32"
+],
+"6": [
+"credittype",
+"int32"
+],
+"7": [
+"buynum",
+"int32"
+]
+}
+},
+"0420": {
+"name": "RceSave",
+"cls": "_-3I6",
+"fields": {
+"1": [
+"type",
+"string"
+],
+"3": [
+"quests",
+"message"
+],
+"4": [
+"selfInfo",
+"message"
+],
+"5": [
+"clientTime",
+"string"
+],
+"6": [
+"h1",
+"string"
+],
+"7": [
+"h2",
+"string"
+],
+"8": [
+"h3",
+"string"
+],
+"9": [
+"h4",
+"string"
+],
+"10": [
+"h5",
+"string"
+],
+"11": [
+"h6",
+"string"
+],
+"12": [
+"h7",
+"string"
+]
+}
+},
+"0421": {
+"name": "RceTutorialStage",
+"cls": "_-5O7",
+"fields": {
+"1": [
+"stage",
+"int32"
+],
+"2": [
+"type",
+"int32"
+]
+}
+},
+"0422": {
+"name": "RceUpdateSave",
+"cls": "RceUpdateSave",
+"fields": {
+"1": [
+"h1",
+"string"
+],
+"2": [
+"h2",
+"string"
+],
+"3": [
+"h3",
+"string"
+],
+"4": [
+"h4",
+"string"
+],
+"5": [
+"h5",
+"string"
+],
+"6": [
+"h6",
+"string"
+],
+"7": [
+"h7",
+"string"
+]
+}
+},
+"0423": {
+"name": "RceYellowDayGift",
+"cls": "_-4Gv",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"0424": {
+"name": "RceYellowNewGift",
+"cls": "_-6t1",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"0425": {
+"name": "_-4qh",
+"cls": "_-4qh",
+"fields": {}
+},
+"0426": {
+"name": "RceElectricPct",
+"cls": "_-7Me",
+"fields": {
+"1": [
+"percent",
+"int32"
+]
+}
+},
+"0427": {
+"name": "RceBaseBattleModify",
+"cls": "_-0Vi",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"army",
+"message"
+],
+"3": [
+"field3",
+"message"
+]
+}
+},
+"0428": {
+"name": "RceAskContinueLandGift",
+"cls": "_-iX",
+"fields": {
+"1": [
+"op",
+"bool"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"getNew",
+"bool"
+]
+}
+},
+"0429": {
+"name": "RceScienceLevelUp",
+"cls": "_-2Ol",
+"fields": {
+"1": [
+"sid",
+"int32"
+],
+"2": [
+"type",
+"int32"
+]
+}
+},
+"042a": {
+"name": "RceFightEquipReprot",
+"cls": "_-sY",
+"fields": {
+"1": [
+"begintime",
+"int32"
+],
+"2": [
+"attackID",
+"string"
+],
+"3": [
+"recoveryID",
+"string"
+]
+}
+},
+"042b": {
+"name": "RceGiftList",
+"cls": "_-64v",
+"fields": {
+"10": [
+"field10",
+"string"
+],
+"11": [
+"dayGetGift2BagCnt",
+"int32"
+],
+"12": [
+"dayAskGift2BagCnt",
+"int32"
+],
+"13": [
+"dayGetGiftCnt",
+"int32"
+],
+"14": [
+"dayResendGiftCnt",
+"int32"
+],
+"15": [
+"msgIdx",
+"int32"
+],
+"16": [
+"lastLoginTime",
+"int64"
+],
+"17": [
+"daySendGiftCnt",
+"int32"
+],
+"18": [
+"field18",
+"int32"
+],
+"19": [
+"field19",
+"int32"
+],
+"20": [
+"field20",
+"string"
+],
+"21": [
+"getTime",
+"int32"
+],
+"22": [
+"field22",
+"int32"
+],
+"23": [
+"hasDone",
+"int32"
+]
+}
+},
+"042c": {
+"name": "RceGiftOpt",
+"cls": "_-2r7",
+"fields": {
+"1": [
+"MessageID",
+"int32"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"error",
+"int32"
+],
+"4": [
+"giftid",
+"int32"
+],
+"5": [
+"undealGiftCnt",
+"int32"
+],
+"6": [
+"undealFrdGiftCnt",
+"int32"
+]
+}
+},
+"042d": {
+"name": "RceDefenseActivity",
+"cls": "_-5IM",
+"fields": {
+"1": [
+"msgtype",
+"int32"
+],
+"2": [
+"activityID",
+"int32"
+],
+"3": [
+"cutindex",
+"int32"
+],
+"4": [
+"field4",
+"message"
+]
+}
+},
+"042e": {
+"name": "RceClientOnceFlag",
+"cls": "_-2L-",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"042f": {
+"name": "RceRecoverArmy",
+"cls": "_-4rN",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"credit",
+"int32"
+]
+}
+},
+"0430": {
+"name": "RceNewComerGift",
+"cls": "_-0ki",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nID",
+"int32"
+]
+}
+},
+"0431": {
+"name": "RcePlayerFlag",
+"cls": "_-71G",
+"fields": {
+"1": [
+"nFlag",
+"int32"
+],
+"2": [
+"bAdd",
+"bool"
+]
+}
+},
+"0432": {
+"name": "RceAddBuff",
+"cls": "_-5Lg",
+"fields": {
+"1": [
+"buffid",
+"int32"
+],
+"2": [
+"buildid",
+"int32"
+],
+"3": [
+"type",
+"int32"
+],
+"4": [
+"vipcardId",
+"int32"
+]
+}
+},
+"0433": {
+"name": "RceMoonAccReward",
+"cls": "_-0Mi",
+"fields": {
+"1": [
+"getCnt",
+"int32"
+]
+}
+},
+"0434": {
+"name": "RceMoonOpen",
+"cls": "_-2nU",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"activeFlag",
+"int32"
+]
+}
+},
+"0435": {
+"name": "RceMoonStake",
+"cls": "_-7P3",
+"fields": {
+"1": [
+"nStakeCnt",
+"int32"
+],
+"2": [
+"activeFlag",
+"int32"
+]
+}
+},
+"0436": {
+"name": "RcePlatInviteFriend",
+"cls": "_-6ao",
+"fields": {
+"1": [
+"nuin",
+"string"
+],
+"2": [
+"ntype",
+"int32"
+]
+}
+},
+"0437": {
+"name": "RceWPCBaseOpen",
+"cls": "_-6T3",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"0438": {
+"name": "_-799",
+"cls": "_-799",
+"fields": {}
+},
+"0439": {
+"name": "RceWPCComOpt",
+"cls": "_-0wq",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"baseType",
+"int32"
+],
+"3": [
+"comID",
+"int32"
+],
+"4": [
+"fittingsID",
+"int32"
+],
+"5": [
+"fittingsTpye",
+"int32"
+],
+"6": [
+"pageType",
+"int32"
+],
+"7": [
+"extraType",
+"int32"
+],
+"8": [
+"field8",
+"int32"
+],
+"9": [
+"ischose",
+"bool"
+],
+"10": [
+"ischoseStrength",
+"bool"
+]
+}
+},
+"043a": {
+"name": "RceWPCExplore",
+"cls": "_-2aF",
+"fields": {
+"1": [
+"sceneID",
+"int32"
+],
+"2": [
+"expType",
+"int32"
+],
+"3": [
+"exploreCnt",
+"int32"
+],
+"4": [
+"credit",
+"int32"
+],
+"5": [
+"useItemID",
+"int32"
+],
+"6": [
+"useItemCnt",
+"int32"
+],
+"7": [
+"discountType",
+"int32"
+]
+}
+},
+"043b": {
+"name": "RceBtlCapture",
+"cls": "_-66l",
+"fields": {
+"1": [
+"baseid",
+"string"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"btlType",
+"int32"
+],
+"4": [
+"errorID",
+"int32"
+],
+"5": [
+"rescueID",
+"string"
+],
+"6": [
+"captureResType",
+"int32"
+],
+"20": [
+"balanceRole",
+"int32"
+],
+"21": [
+"platType",
+"int32"
+],
+"22": [
+"attackID",
+"string"
+],
+"23": [
+"attackName",
+"string"
+],
+"24": [
+"attackLevel",
+"int32"
+],
+"25": [
+"attackPic",
+"string"
+],
+"26": [
+"defenceID",
+"string"
+],
+"27": [
+"defenceName",
+"string"
+],
+"28": [
+"defencelevel",
+"int32"
+],
+"29": [
+"defencePic",
+"string"
+],
+"30": [
+"rescueName",
+"string"
+],
+"31": [
+"rescuelevel",
+"int32"
+],
+"32": [
+"rescuePic",
+"string"
+],
+"33": [
+"begintime",
+"int32"
+],
+"34": [
+"bForward",
+"bool"
+],
+"35": [
+"field35",
+"message"
+],
+"36": [
+"nTotalHp",
+"int64"
+],
+"37": [
+"nCurrentHP",
+"int64"
+],
+"38": [
+"lossUser",
+"bool"
+],
+"43": [
+"field43",
+"message"
+],
+"44": [
+"field44",
+"message"
+]
+}
+},
+"043c": {
+"name": "RceLeaveMessage",
+"cls": "_-70j",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nID",
+"int32"
+],
+"3": [
+"strMsg",
+"string"
+],
+"4": [
+"strUidTar",
+"string"
+],
+"5": [
+"strUid",
+"string"
+],
+"6": [
+"strName",
+"string"
+]
+}
+},
+"043d": {
+"name": "RceDailyTask",
+"cls": "_-1sK",
+"fields": {
+"1": [
+"dailyTask",
+"message"
+],
+"2": [
+"getGift",
+"bool"
+],
+"3": [
+"privilegeId",
+"int32"
+],
+"4": [
+"hasPrivilegeComplete",
+"bool"
+],
+"5": [
+"giftID",
+"int32"
+],
+"6": [
+"taskId",
+"int32"
+]
+}
+},
+"043e": {
+"name": "RceWallChgCloth",
+"cls": "_-6i3",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"043f": {
+"name": "RceClientNumStat",
+"cls": "_-01Q",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"0440": {
+"name": "RceBagItemUse",
+"cls": "_-5qJ",
+"fields": {
+"1": [
+"selectID",
+"int32"
+],
+"3": [
+"count",
+"int32"
+],
+"4": [
+"id",
+"int32"
+],
+"5": [
+"itemID",
+"int32"
+],
+"7": [
+"optType",
+"int32"
+]
+}
+},
+"0441": {
+"name": "_-5cu",
+"cls": "_-5cu",
+"fields": {}
+},
+"0442": {
+"name": "RceLogGet",
+"cls": "_-7AI",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"0443": {
+"name": "RceCostGiftGet",
+"cls": "_-0yV",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"getid",
+"int32"
+],
+"3": [
+"getsuccess",
+"bool"
+]
+}
+},
+"0444": {
+"name": "RceGetDailyRes",
+"cls": "_-4u-",
+"fields": {
+"1": [
+"canGet",
+"bool"
+],
+"2": [
+"platid",
+"string"
+]
+}
+},
+"0445": {
+"name": "_-5a3",
+"cls": "_-5a3",
+"fields": {}
+},
+"0446": {
+"name": "RceBagUpgrade",
+"cls": "_-79V",
+"fields": {
+"1": [
+"credit",
+"int32"
+]
+}
+},
+"0447": {
+"name": "RceWPCEmblemOpt",
+"cls": "_-1E6",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"baseType",
+"int32"
+],
+"3": [
+"id",
+"int32"
+],
+"4": [
+"fittingsID",
+"int32"
+],
+"5": [
+"useFlag",
+"int32"
+]
+}
+},
+"0448": {
+"name": "_-7KV",
+"cls": "_-7KV",
+"fields": {}
+},
+"0449": {
+"name": "RceNewPlayer28Day",
+"cls": "_-7AC",
+"fields": {
+"1": [
+"nID",
+"int32"
+]
+}
+},
+"044a": {
+"name": "RceInviteFriend",
+"cls": "_-kw",
+"fields": {
+"1": [
+"friendcount",
+"int32"
+],
+"2": [
+"giftGain",
+"bool"
+]
+}
+},
+"044b": {
+"name": "RceGetInviteFrdGift",
+"cls": "_-6QY",
+"fields": {
+"1": [
+"inviteFrdID",
+"int32"
+]
+}
+},
+"044c": {
+"name": "RceGetInviteMsg",
+"cls": "_-4HM",
+"fields": {
+"1": [
+"inviteFrdMsg",
+"message"
+],
+"2": [
+"platid",
+"string"
+],
+"3": [
+"bGetCoupon",
+"bool"
+],
+"4": [
+"coupon",
+"int32"
+],
+"5": [
+"type",
+"int32"
+]
+}
+},
+"044d": {
+"name": "RceGetInviteFriendMsg",
+"cls": "_-4j8",
+"fields": {
+"1": [
+"msg",
+"message"
+],
+"2": [
+"getCredit",
+"bool"
+]
+}
+},
+"044e": {
+"name": "RceAdmiralOpen",
+"cls": "_-7b2",
+"fields": {
+"3": [
+"type",
+"int32"
+]
+}
+},
+"044f": {
+"name": "RceAdmiralOpt",
+"cls": "_-5sG",
+"fields": {
+"1": [
+"itemCnt",
+"int32"
+],
+"2": [
+"itemID",
+"int32"
+],
+"3": [
+"optType",
+"int32"
+],
+"4": [
+"id",
+"int32"
+],
+"5": [
+"otherID",
+"int32"
+],
+"6": [
+"field6",
+"int32"
+],
+"7": [
+"costSoul",
+"int32"
+],
+"8": [
+"addProp",
+"int32"
+],
+"9": [
+"itemID1",
+"int32"
+],
+"10": [
+"letterid",
+"int32"
+],
+"11": [
+"lettercnt",
+"int32"
+],
+"12": [
+"itemID2",
+"int32"
+],
+"13": [
+"itemID3",
+"int32"
+]
+}
+},
+"0450": {
+"name": "RceAdmiralVisit",
+"cls": "_-4Al",
+"fields": {
+"2": [
+"itemID",
+"int32"
+],
+"3": [
+"free",
+"int32"
+],
+"4": [
+"type",
+"int32"
+],
+"5": [
+"credit",
+"int32"
+]
+}
+},
+"0451": {
+"name": "RceNPCActive",
+"cls": "_-43i",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"npcID",
+"int32"
+],
+"3": [
+"armyGroup",
+"int32"
+],
+"4": [
+"armyStep",
+"int32"
+]
+}
+},
+"0452": {
+"name": "RceBaseDefNPC",
+"cls": "_-y4",
+"fields": {
+"1": [
+"activityID",
+"int32"
+],
+"2": [
+"msgtype",
+"int32"
+],
+"3": [
+"field3",
+"message"
+],
+"4": [
+"npcID",
+"int32"
+],
+"5": [
+"balance",
+"bool"
+],
+"6": [
+"stakeIdx",
+"int32"
+]
+}
+},
+"0453": {
+"name": "RceShopForGift",
+"cls": "_-cU",
+"fields": {
+"1": [
+"uid",
+"string"
+],
+"2": [
+"giftID",
+"int32"
+],
+"3": [
+"count",
+"int32"
+],
+"4": [
+"name",
+"string"
+],
+"5": [
+"returnMsg",
+"bool"
+],
+"6": [
+"errorMsg",
+"int32"
+],
+"7": [
+"region",
+"int32"
+],
+"8": [
+"reqMsg",
+"bool"
+],
+"9": [
+"reqType",
+"int32"
+]
+}
+},
+"0454": {
+"name": "RceTimeLimitSale",
+"cls": "_-2QJ",
+"fields": {
+"1": [
+"giftID",
+"int32"
+]
+}
+},
+"0455": {
+"name": "RceDebug",
+"cls": "_-2Io",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"info",
+"string"
+]
+}
+},
+"0456": {
+"name": "RceAdmiralRank",
+"cls": "_-6tz",
+"fields": {
+"1": [
+"id",
+"string"
+]
+}
+},
+"0457": {
+"name": "_-14W",
+"cls": "_-14W",
+"fields": {}
+},
+"0458": {
+"name": "RceWPCBookOpt",
+"cls": "_-3xx",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"baseType",
+"int32"
+],
+"3": [
+"id",
+"int32"
+],
+"4": [
+"fittingsID",
+"int32"
+],
+"5": [
+"fittingsType",
+"int32"
+],
+"6": [
+"pageType",
+"int32"
+],
+"7": [
+"field7",
+"int32"
+],
+"8": [
+"ischose",
+"bool"
+],
+"9": [
+"ischoseStrength",
+"bool"
+]
+}
+},
+"0459": {
+"name": "_-6v-",
+"cls": "_-6v-",
+"fields": {}
+},
+"045a": {
+"name": "RceClickAd",
+"cls": "_-249",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"id",
+"int32"
+]
+}
+},
+"045b": {
+"name": "RcePVEFightOpt",
+"cls": "_-M9",
+"fields": {
+"1": [
+"bAutoTreat",
+"bool"
+],
+"2": [
+"type",
+"int32"
+]
+}
+},
+"045c": {
+"name": "RceStrategicArmyInfo",
+"cls": "_-0MN",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"045d": {
+"name": "RceStrategicArmyOpt",
+"cls": "_-6ie",
+"fields": {
+"1": [
+"optype",
+"int32"
+],
+"2": [
+"field2",
+"int32"
+],
+"3": [
+"optarmytype",
+"int32"
+],
+"4": [
+"optarmycnt",
+"int32"
+],
+"5": [
+"field5",
+"message"
+],
+"6": [
+"generalindex",
+"int32"
+],
+"7": [
+"choseplan",
+"int32"
+]
+}
+},
+"045e": {
+"name": "RceLuckyNumChoice",
+"cls": "_-6xu",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"choiceID",
+"int32"
+],
+"3": [
+"choiceNum",
+"int32"
+],
+"4": [
+"count",
+"int32"
+]
+}
+},
+"045f": {
+"name": "RceBaseExploreOpen",
+"cls": "_-7H-",
+"fields": {
+"3": [
+"openType",
+"int32"
+]
+}
+},
+"0460": {
+"name": "RceBaseExploreOpt",
+"cls": "_-0ZH",
+"fields": {
+"1": [
+"giftType",
+"int32"
+],
+"2": [
+"optType",
+"int32"
+],
+"3": [
+"giftId",
+"int32"
+],
+"4": [
+"region",
+"int32"
+],
+"5": [
+"rewardgiftid",
+"int32"
+],
+"6": [
+"frdId",
+"string"
+],
+"7": [
+"exploreTime",
+"int32"
+]
+}
+},
+"0461": {
+"name": "RceBuyPrivilege",
+"cls": "RceBuyPrivilege",
+"fields": {
+"1": [
+"nType",
+"int32"
+]
+}
+},
+"0462": {
+"name": "RceCountryOpen",
+"cls": "RceCountryOpen",
+"fields": {
+"5": [
+"type",
+"int32"
+]
+}
+},
+"0463": {
+"name": "RceCountryOpt",
+"cls": "_-1kH",
+"fields": {
+"1": [
+"costCredit",
+"int32"
+],
+"2": [
+"count",
+"int32"
+],
+"3": [
+"countryID",
+"int32"
+],
+"4": [
+"type",
+"int32"
+],
+"5": [
+"atkUserID",
+"string"
+],
+"6": [
+"cityID",
+"int32"
+],
+"7": [
+"chgBoxID",
+"int32"
+],
+"8": [
+"ArenaIndex",
+"int32"
+],
+"9": [
+"bCheckFinishSet",
+"bool"
+],
+"10": [
+"ChgNpcID",
+"int32"
+],
+"11": [
+"dailyGiftId",
+"int32"
+],
+"12": [
+"leagueTitle",
+"int32"
+],
+"13": [
+"pageInx",
+"int32"
+],
+"14": [
+"defTCountry",
+"int32"
+],
+"15": [
+"atkTargetCity",
+"int32"
+],
+"16": [
+"defTargetCity",
+"int32"
+]
+}
+},
+"0464": {
+"name": "RceArmyGradeOpt",
+"cls": "_-48b",
+"fields": {
+"1": [
+"optype",
+"int32"
+],
+"2": [
+"opmovetype",
+"int32"
+],
+"3": [
+"armyid1",
+"int32"
+],
+"4": [
+"armyid2",
+"int32"
+],
+"5": [
+"itemid",
+"int32"
+],
+"6": [
+"itemcount",
+"int32"
+],
+"7": [
+"credit",
+"int32"
+]
+}
+},
+"0465": {
+"name": "RceLuckyWheel",
+"cls": "_-1ri",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nReward",
+"int32"
+]
+}
+},
+"0466": {
+"name": "RceDaliyCostMsg",
+"cls": "_-5a4",
+"fields": {
+"1": [
+"nType",
+"int32"
+]
+}
+},
+"0467": {
+"name": "RceDaliyCostOpt",
+"cls": "_-5NZ",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"month",
+"int32"
+],
+"3": [
+"day",
+"int32"
+],
+"4": [
+"star",
+"int32"
+],
+"5": [
+"allID",
+"int32"
+]
+}
+},
+"0468": {
+"name": "RceArenaInfo",
+"cls": "_-0rg",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"0469": {
+"name": "RceArenaOpt",
+"cls": "_-1go",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"uidself",
+"string"
+],
+"3": [
+"uidfight",
+"string"
+],
+"4": [
+"indexself",
+"int32"
+],
+"5": [
+"indexfight",
+"int32"
+],
+"6": [
+"countryidself",
+"int32"
+],
+"7": [
+"nArenaIndex",
+"int32"
+],
+"8": [
+"nArenaScore",
+"int32"
+],
+"9": [
+"nArenaScoreAdd",
+"int32"
+],
+"10": [
+"nGainScoreGift",
+"int32"
+]
+}
+},
+"046a": {
+"name": "RceArenaRankInfo",
+"cls": "_-20p",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nIndex",
+"int32"
+],
+"3": [
+"nCountry",
+"int32"
+]
+}
+},
+"046b": {
+"name": "_-7Hp",
+"cls": "_-7Hp",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"046c": {
+"name": "RceGetChickenRank",
+"cls": "_-5Qc",
+"fields": {
+"1": [
+"id",
+"int32"
+]
+}
+},
+"046d": {
+"name": "_-7C4",
+"cls": "_-7C4",
+"fields": {
+"1": [
+"field1",
+"message"
+]
+}
+},
+"046e": {
+"name": "RceAnniversaryActive",
+"cls": "_-3W0",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"msgType",
+"int32"
+]
+}
+},
+"046f": {
+"name": "RceGetRankGift",
+"cls": "_-6LA",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"0470": {
+"name": "_-4tt",
+"cls": "_-4tt",
+"fields": {}
+},
+"0471": {
+"name": "RceEquipOpt",
+"cls": "_-3m0",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"baseType",
+"int32"
+],
+"3": [
+"equipid",
+"int32"
+],
+"4": [
+"fittingsID",
+"int32"
+],
+"5": [
+"field5",
+"int32"
+],
+"6": [
+"itemID1",
+"int32"
+],
+"7": [
+"itemID2",
+"int32"
+],
+"8": [
+"itemID3",
+"int32"
+],
+"9": [
+"strengthenitemID",
+"int32"
+],
+"10": [
+"strengthenitemcount",
+"int32"
+],
+"11": [
+"credit",
+"int32"
+],
+"12": [
+"admiralId",
+"int32"
+]
+}
+},
+"0472": {
+"name": "_-74G",
+"cls": "_-74G",
+"fields": {}
+},
+"0473": {
+"name": "RceItemExchange",
+"cls": "_-3TN",
+"fields": {
+"1": [
+"itemID",
+"int32"
+],
+"2": [
+"count",
+"int32"
+],
+"3": [
+"ntype",
+"int32"
+]
+}
+},
+"0474": {
+"name": "RceWorldArenaInfo",
+"cls": "_-5S4",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"0475": {
+"name": "RceWorldArenaOpt",
+"cls": "_-339",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"uidself",
+"string"
+],
+"3": [
+"uidfight",
+"string"
+],
+"4": [
+"indexself",
+"int32"
+],
+"5": [
+"indexfight",
+"int32"
+],
+"6": [
+"countryidself",
+"int32"
+],
+"7": [
+"nArenaIndex",
+"int32"
+]
+}
+},
+"0476": {
+"name": "RceWorldArenaRankInfo",
+"cls": "_-71W",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nIndex",
+"int32"
+],
+"3": [
+"nCountry",
+"int32"
+],
+"4": [
+"nActiveID",
+"int32"
+]
+}
+},
+"0477": {
+"name": "RceCathectic",
+"cls": "_-1Yi",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"cathecticID",
+"int32"
+],
+"3": [
+"cathecticNum",
+"int32"
+]
+}
+},
+"0478": {
+"name": "RceActiveShop",
+"cls": "_-1Xy",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"id",
+"int32"
+],
+"3": [
+"cnt",
+"int32"
+],
+"4": [
+"activetype",
+"int32"
+]
+}
+},
+"0479": {
+"name": "RceGuildOpt",
+"cls": "_-3oE",
+"fields": {
+"1": [
+"guildID",
+"int32"
+],
+"2": [
+"type",
+"int32"
+],
+"4": [
+"page",
+"int32"
+],
+"5": [
+"tarUserID",
+"string"
+],
+"6": [
+"tarUserName",
+"string"
+],
+"7": [
+"tarCountry",
+"int32"
+],
+"8": [
+"tarPosition",
+"int32"
+],
+"9": [
+"guildName",
+"string"
+],
+"10": [
+"guildSlogan",
+"string"
+],
+"11": [
+"guildBulletin",
+"string"
+],
+"12": [
+"contributeID",
+"int32"
+],
+"13": [
+"guildBuidlID",
+"int32"
+],
+"14": [
+"guildBuildTarLV",
+"int32"
+],
+"16": [
+"field16",
+"int32"
+],
+"17": [
+"shopID",
+"int32"
+],
+"18": [
+"guildSetFlag",
+"int32"
+],
+"19": [
+"userWay0",
+"string"
+],
+"20": [
+"userWay1",
+"string"
+],
+"21": [
+"userWay2",
+"string"
+],
+"22": [
+"turns",
+"int32"
+],
+"23": [
+"session",
+"int32"
+],
+"24": [
+"sendItem",
+"message"
+],
+"25": [
+"npcID",
+"string"
+],
+"26": [
+"boxID",
+"int32"
+],
+"27": [
+"buffID",
+"int32"
+],
+"28": [
+"listCountryID",
+"int32"
+],
+"29": [
+"taskidx",
+"int32"
+],
+"30": [
+"atvQstGetReward",
+"int32"
+]
+}
+},
+"047a": {
+"name": "RceSevenDays",
+"cls": "_-57M",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"day",
+"int32"
+],
+"3": [
+"gifttype",
+"int32"
+]
+}
+},
+"047b": {
+"name": "RceWorldGrainDay",
+"cls": "_-7Jg",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"047c": {
+"name": "RceYellowActive",
+"cls": "_-go",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"id",
+"int32"
+]
+}
+},
+"047d": {
+"name": "RcePassWord",
+"cls": "_-72P",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"passWord",
+"string"
+],
+"3": [
+"newPassWord",
+"string"
+]
+}
+},
+"047e": {
+"name": "RceOfficerOpen",
+"cls": "_-0n5",
+"fields": {
+"1": [
+"opType",
+"int32"
+]
+}
+},
+"047f": {
+"name": "RceOfficerOpt",
+"cls": "_-1vi",
+"fields": {
+"1": [
+"opType",
+"int32"
+],
+"2": [
+"right",
+"int32"
+],
+"3": [
+"position",
+"int32"
+]
+}
+},
+"0480": {
+"name": "RceOfficerRightInfo",
+"cls": "_-6Gt",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"0481": {
+"name": "RceActiveUIFlag",
+"cls": "_-1LM",
+"fields": {
+"1": [
+"flag",
+"int32"
+],
+"2": [
+"ntype",
+"int32"
+],
+"3": [
+"nopt",
+"int32"
+],
+"4": [
+"noptvalue",
+"int32"
+]
+}
+},
+"0482": {
+"name": "_-3Ic",
+"cls": "_-3Ic",
+"fields": {}
+},
+"0483": {
+"name": "RceLevelBuy",
+"cls": "_-1qU",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"0484": {
+"name": "_-5Gh",
+"cls": "_-5Gh",
+"fields": {}
+},
+"0485": {
+"name": "RceVipOpt",
+"cls": "_-2yK",
+"fields": {
+"3": [
+"vipCardID",
+"int32"
+],
+"4": [
+"opType",
+"int32"
+]
+}
+},
+"0486": {
+"name": "RceSevenDaysTarget",
+"cls": "_-23i",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"id",
+"int32"
+],
+"3": [
+"activetype",
+"int32"
+]
+}
+},
+"0487": {
+"name": "RceYearLast",
+"cls": "_-7HI",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nGiftID",
+"int32"
+]
+}
+},
+"0488": {
+"name": "RceZhaoMu",
+"cls": "_-5Yh",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"uid",
+"string"
+],
+"6": [
+"errorMsg",
+"int32"
+],
+"7": [
+"region",
+"int32"
+]
+}
+},
+"0489": {
+"name": "RceNewYearGift",
+"cls": "_-2dp",
+"fields": {
+"1": [
+"id",
+"int32"
+],
+"2": [
+"type",
+"int32"
+]
+}
+},
+"048a": {
+"name": "RceBookCollection",
+"cls": "_-6A7",
+"fields": {
+"1": [
+"OptType",
+"int32"
+],
+"2": [
+"ActiveType",
+"int32"
+]
+}
+},
+"048b": {
+"name": "RcePveBattleOpt",
+"cls": "_-6tt",
+"fields": {
+"1": [
+"battleid",
+"int32"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"passid",
+"int32"
+]
+}
+},
+"048c": {
+"name": "RceRegionArenaInfo",
+"cls": "_-56J",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nPanelType",
+"int32"
+]
+}
+},
+"048d": {
+"name": "RceRegionArenaOpt",
+"cls": "_-a1",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"uidself",
+"string"
+],
+"3": [
+"uidfight",
+"string"
+],
+"4": [
+"indexself",
+"int32"
+],
+"5": [
+"indexfight",
+"int32"
+],
+"6": [
+"countryidself",
+"int32"
+],
+"7": [
+"nArenaIndex",
+"int32"
+],
+"8": [
+"regionarenauser",
+"message"
+]
+}
+},
+"048e": {
+"name": "RceRegionArenaRank",
+"cls": "_-4JM",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nIndex",
+"int32"
+],
+"3": [
+"nCountry",
+"int32"
+],
+"4": [
+"nActiveID",
+"int32"
+]
+}
+},
+"048f": {
+"name": "RceCrossPromotion",
+"cls": "_-0RJ",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"chanle",
+"string"
+],
+"3": [
+"date",
+"string"
+],
+"4": [
+"cdk",
+"string"
+]
+}
+},
+"0490": {
+"name": "RcePokerOpt",
+"cls": "_-3Uh",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"pokerInfo",
+"message"
+],
+"3": [
+"pos",
+"int32"
+]
+}
+},
+"0491": {
+"name": "RceCardDuel",
+"cls": "_-u-",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"cardType",
+"int32"
+]
+}
+},
+"0492": {
+"name": "RcePickUniteRegionGift",
+"cls": "_-2up",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"0493": {
+"name": "RceWcPredictions",
+"cls": "_-4Hm",
+"fields": {
+"1": [
+"nType",
+"int32"
+]
+}
+},
+"0494": {
+"name": "RcePickNewPlayerGift",
+"cls": "_-07y",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"activetype",
+"int32"
+],
+"3": [
+"id",
+"int32"
+]
+}
+},
+"0495": {
+"name": "RceHeroArenaInfo",
+"cls": "_-3KH",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"0496": {
+"name": "RceHeroArenaOpt",
+"cls": "_-Q7",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"uidself",
+"string"
+],
+"3": [
+"uidfight",
+"string"
+],
+"4": [
+"indexself",
+"int32"
+],
+"5": [
+"indexfight",
+"int32"
+],
+"6": [
+"countryidself",
+"int32"
+],
+"7": [
+"nArenaIndex",
+"int32"
+]
+}
+},
+"0497": {
+"name": "RceHeroArenaRankInfo",
+"cls": "_-63K",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nIndex",
+"int32"
+],
+"3": [
+"nCountry",
+"int32"
+],
+"4": [
+"nActiveID",
+"int32"
+]
+}
+},
+"0498": {
+"name": "RceShopItemOpen",
+"cls": "_-0st",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"0499": {
+"name": "RceHeroBoozeBenefit",
+"cls": "_-1wt",
+"fields": {
+"1": [
+"opType",
+"int32"
+]
+}
+},
+"049a": {
+"name": "RceResourceOpt",
+"cls": "_-3B6",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"resourceID",
+"int32"
+],
+"3": [
+"searchType",
+"int32"
+],
+"4": [
+"uID",
+"string"
+],
+"5": [
+"getId",
+"int32"
+],
+"6": [
+"playerID",
+"int32"
+]
+}
+},
+"049b": {
+"name": "RceVipMonthCard",
+"cls": "_-3bn",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"activetype",
+"int32"
+]
+}
+},
+"049c": {
+"name": "RceWeaponCompRent",
+"cls": "_-0fA",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"shopID",
+"int32"
+],
+"3": [
+"wpcID",
+"int32"
+],
+"4": [
+"nType",
+"int32"
+],
+"5": [
+"nLevel",
+"int32"
+]
+}
+},
+"049d": {
+"name": "RceGvgOpt",
+"cls": "_-7Ks",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"cityID",
+"int32"
+],
+"3": [
+"session",
+"int32"
+],
+"10": [
+"guildID",
+"int32"
+],
+"11": [
+"cityPoint",
+"int32"
+]
+}
+},
+"049e": {
+"name": "RceExploreSecretArsenal",
+"cls": "_-3Nm",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nExploreType",
+"int32"
+],
+"3": [
+"nExchangeID",
+"int32"
+]
+}
+},
+"049f": {
+"name": "RceCountryBomb",
+"cls": "_-1e8",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"field2",
+"int32"
+]
+}
+},
+"04a0": {
+"name": "RceWPCComExtraOpen",
+"cls": "_-24b",
+"fields": {
+"1": [
+"baseType",
+"int32"
+]
+}
+},
+"04a1": {
+"name": "RceBackFlowGift",
+"cls": "_-4JA",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nDay",
+"int32"
+]
+}
+},
+"04a2": {
+"name": "RceZhanGongRank",
+"cls": "_-7DB",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"countryID",
+"int32"
+]
+}
+},
+"04a3": {
+"name": "RceSuperVipRegister",
+"cls": "_-1Tv",
+"fields": {
+"1": [
+"superVipNum",
+"string"
+]
+}
+},
+"04a4": {
+"name": "RceDailySignIn",
+"cls": "_-4W0",
+"fields": {
+"1": [
+"nDay",
+"int32"
+],
+"2": [
+"nType",
+"int32"
+],
+"3": [
+"nGiftID",
+"int32"
+],
+"4": [
+"nActivetype",
+"int32"
+]
+}
+},
+"04a5": {
+"name": "RceWarCollegeOpt",
+"cls": "_-3j0",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"strategytype",
+"int32"
+],
+"3": [
+"trainskilltype",
+"int32"
+],
+"4": [
+"upskilltype",
+"int32"
+]
+}
+},
+"04a6": {
+"name": "RceSecArmsDealer",
+"cls": "_-6oC",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"awardidx",
+"int32"
+]
+}
+},
+"04a7": {
+"name": "RceWarGameOpt",
+"cls": "_-1gF",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"siteID",
+"int32"
+],
+"3": [
+"uID",
+"string"
+],
+"4": [
+"forceFlag",
+"bool"
+]
+}
+},
+"04a8": {
+"name": "RceWarGameShop",
+"cls": "_-537",
+"fields": {
+"1": [
+"nBuyItemID",
+"int32"
+],
+"2": [
+"nBuyItemCnt",
+"int32"
+]
+}
+},
+"04a9": {
+"name": "RceHappyLib",
+"cls": "_-7LA",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"id",
+"int32"
+]
+}
+},
+"04aa": {
+"name": "RceMilitarySoulOpt",
+"cls": "_-2PM",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nMilitarySoulType",
+"int32"
+],
+"3": [
+"nSkillIndex",
+"int32"
+],
+"4": [
+"bLock",
+"bool"
+]
+}
+},
+"04ab": {
+"name": "RceSuperStormOpt",
+"cls": "_-0dv",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"atkUid",
+"string"
+],
+"3": [
+"nAtkRegion",
+"int32"
+],
+"4": [
+"atkName",
+"string"
+],
+"5": [
+"nAtkLv",
+"int32"
+],
+"6": [
+"deftName",
+"string"
+],
+"7": [
+"deftUid",
+"string"
+],
+"8": [
+"nResult",
+"int32"
+]
+}
+},
+"04ac": {
+"name": "RceHappyBuy",
+"cls": "_-0zf",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"04ad": {
+"name": "RceCountryChatMsg",
+"cls": "_-0EA",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"maskid",
+"string"
+],
+"3": [
+"maskname",
+"string"
+],
+"4": [
+"chatmsg",
+"string"
+]
+}
+},
+"04ae": {
+"name": "RceRebate",
+"cls": "_-3fS",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"id",
+"int32"
+]
+}
+},
+"04af": {
+"name": "RceDoubleElevenOfficer",
+"cls": "_-64p",
+"fields": {
+"1": [
+"optype",
+"int32"
+],
+"2": [
+"id",
+"int32"
+],
+"3": [
+"recday",
+"int32"
+],
+"4": [
+"activetype",
+"int32"
+]
+}
+},
+"04b0": {
+"name": "RceBossOpt",
+"cls": "_-3EQ",
+"fields": {
+"1": [
+"atkType",
+"int32"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"count",
+"int32"
+],
+"4": [
+"reason",
+"int32"
+],
+"5": [
+"words",
+"string"
+]
+}
+},
+"04b1": {
+"name": "RceGuildRedEnvelopeOpt",
+"cls": "_-0z5",
+"fields": {
+"1": [
+"optType",
+"int32"
+],
+"2": [
+"redType",
+"int32"
+],
+"3": [
+"nCredit",
+"int32"
+],
+"4": [
+"nCopies",
+"int32"
+],
+"5": [
+"nID",
+"int32"
+],
+"6": [
+"nGuildID",
+"int32"
+],
+"7": [
+"nTotalCredit",
+"int32"
+]
+}
+},
+"04b2": {
+"name": "RceBigGift",
+"cls": "_-5Cs",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"id",
+"int32"
+],
+"3": [
+"activType",
+"int32"
+]
+}
+},
+"04b3": {
+"name": "RceChristmas",
+"cls": "_-kr",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"buyid",
+"int32"
+]
+}
+},
+"04b4": {
+"name": "RceJammerOpt",
+"cls": "_-7HM",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"baseType",
+"int32"
+],
+"3": [
+"jammerID",
+"int32"
+],
+"4": [
+"expID",
+"int32"
+],
+"5": [
+"pageType",
+"int32"
+],
+"6": [
+"field6",
+"int32"
+],
+"7": [
+"ischose",
+"bool"
+],
+"8": [
+"ischoseStrength",
+"bool"
+]
+}
+},
+"04b5": {
+"name": "RceHappyCard",
+"cls": "_-4CX",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"cnt",
+"int32"
+]
+}
+},
+"04b6": {
+"name": "RceArmRace",
+"cls": "_-em",
+"fields": {
+"1": [
+"opt",
+"int32"
+]
+}
+},
+"04b7": {
+"name": "RceBlueGrowGift",
+"cls": "_-6DS",
+"fields": {
+"1": [
+"Lvl",
+"int32"
+]
+}
+},
+"04b8": {
+"name": "RceSiteTestCredit",
+"cls": "_-4Kq",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"awardid",
+"int32"
+]
+}
+},
+"04b9": {
+"name": "RceSiteTestLogin",
+"cls": "_-nY",
+"fields": {
+"1": [
+"type",
+"uint32"
+],
+"2": [
+"award",
+"uint32"
+]
+}
+},
+"04ba": {
+"name": "RceAssistGift",
+"cls": "_-2hx",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"04bb": {
+"name": "RceWeaponSearch",
+"cls": "_-4FO",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nPrizeFlag",
+"int32"
+]
+}
+},
+"04bc": {
+"name": "RceQQHallGift",
+"cls": "_-3jC",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"GiftType",
+"int32"
+],
+"3": [
+"nFetchFlag",
+"int32"
+]
+}
+},
+"04bd": {
+"name": "RceDuanWuVip",
+"cls": "_-5JR",
+"fields": {
+"1": [
+"optype",
+"int32"
+],
+"2": [
+"index",
+"int32"
+],
+"3": [
+"nnum",
+"int32"
+],
+"4": [
+"actType",
+"int32"
+]
+}
+},
+"04be": {
+"name": "_-2V7",
+"cls": "_-2V7",
+"fields": {}
+},
+"04bf": {
+"name": "RceBuyGift",
+"cls": "_-2lq",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"giftType",
+"int32"
+],
+"3": [
+"giftId",
+"int32"
+],
+"4": [
+"items",
+"message"
+]
+}
+},
+"04c0": {
+"name": "RceTrapModify",
+"cls": "_-2h3",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"id",
+"int32"
+],
+"3": [
+"x",
+"int32"
+],
+"4": [
+"y",
+"int32"
+],
+"5": [
+"credit",
+"int32"
+],
+"6": [
+"time",
+"int32"
+],
+"7": [
+"recycleFlag",
+"bool"
+],
+"8": [
+"trapType",
+"int32"
+]
+}
+},
+"04c1": {
+"name": "RceMedalHonorOpt",
+"cls": "_-6l6",
+"fields": {
+"1": [
+"nMedalHonorID",
+"int32"
+],
+"2": [
+"type",
+"int32"
+],
+"3": [
+"nExpID",
+"int32"
+],
+"4": [
+"nAdmiralID",
+"int32"
+],
+"5": [
+"nCreditType",
+"int32"
+],
+"6": [
+"bUseItem",
+"bool"
+]
+}
+},
+"04c2": {
+"name": "RceZhaoCaiJinBao",
+"cls": "_-6rb",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"04c3": {
+"name": "RceOneYuanPurchase",
+"cls": "_-e2",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"giftid",
+"int32"
+],
+"3": [
+"bUseItem",
+"bool"
+],
+"4": [
+"buycnt",
+"int32"
+],
+"5": [
+"itemBuyCnt",
+"int32"
+]
+}
+},
+"04c4": {
+"name": "RceBuyGreatAdmiral",
+"cls": "_-4p5",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"flag",
+"int32"
+]
+}
+},
+"04c5": {
+"name": "RceOneYuanCredit",
+"cls": "_-Gj",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"flag",
+"int32"
+],
+"3": [
+"buycnt",
+"int32"
+],
+"4": [
+"page",
+"int32"
+],
+"5": [
+"channel",
+"int32"
+],
+"6": [
+"stage",
+"int32"
+],
+"7": [
+"recordstage",
+"int32"
+]
+}
+},
+"04c6": {
+"name": "RceNationCelebration",
+"cls": "_-1hK",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"04c7": {
+"name": "_-tA",
+"cls": "_-tA",
+"fields": {}
+},
+"04c8": {
+"name": "RceRobBase",
+"cls": "_-2oP",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"page",
+"int32"
+]
+}
+},
+"04c9": {
+"name": "RceSuperZhaoMu",
+"cls": "_-4Yk",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"04ca": {
+"name": "RceCharitmasSnowMan",
+"cls": "_-1O0",
+"fields": {
+"1": [
+"optType",
+"int32"
+]
+}
+},
+"04cb": {
+"name": "RceWPCCraft",
+"cls": "_-2Em",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"comID",
+"int32"
+],
+"3": [
+"fittingsID",
+"int32"
+]
+}
+},
+"04cc": {
+"name": "RceRedpacketOpt",
+"cls": "_-2Xz",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"frdId",
+"string"
+]
+}
+},
+"04cd": {
+"name": "RceSpriteLucklyBagOpt",
+"cls": "_-07C",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"exchangetag",
+"int32"
+],
+"3": [
+"field3",
+"message"
+]
+}
+},
+"04ce": {
+"name": "RceSpriteZhuanZhuanZhuan",
+"cls": "_-6N",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"drawtype",
+"int32"
+],
+"3": [
+"boxid",
+"int32"
+],
+"4": [
+"boxrewardid",
+"int32"
+]
+}
+},
+"04cf": {
+"name": "RceOptimusPrimeScore",
+"cls": "_-3Fb",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"04d0": {
+"name": "RceFierceFightingOpt",
+"cls": "_-4ct",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nTaskID",
+"int32"
+],
+"3": [
+"nRewardID",
+"int32"
+]
+}
+},
+"04d1": {
+"name": "RceBlackShopOpt",
+"cls": "_-2Mt",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"soldId",
+"int32"
+],
+"3": [
+"purchasedId",
+"int32"
+]
+}
+},
+"04d2": {
+"name": "RceOptimusPrimeTurntable",
+"cls": "_-6Dm",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"04d3": {
+"name": "RceWarTankResearchOpt",
+"cls": "_-6YK",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"tanktype",
+"int32"
+],
+"3": [
+"skillid",
+"int32"
+],
+"4": [
+"nItemID",
+"int32"
+],
+"5": [
+"nItemCnt",
+"int32"
+]
+}
+},
+"04d4": {
+"name": "RceFiveYearActive",
+"cls": "_-29s",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nSubType",
+"int32"
+],
+"3": [
+"nValue1",
+"int32"
+],
+"4": [
+"nValue2",
+"int32"
+]
+}
+},
+"04d5": {
+"name": "RceMysticalBlueBox",
+"cls": "_-A-",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nID",
+"int32"
+]
+}
+},
+"04d6": {
+"name": "RceTrenchMortarOpt",
+"cls": "_-0Ur",
+"fields": {
+"1": [
+"optType",
+"int32"
+],
+"2": [
+"subType",
+"int32"
+],
+"3": [
+"mortarID",
+"int32"
+],
+"4": [
+"gunnerID",
+"int32"
+],
+"5": [
+"field5",
+"int32"
+],
+"6": [
+"itemID",
+"int32"
+],
+"7": [
+"itemCnt",
+"int32"
+],
+"8": [
+"bInstall",
+"bool"
+],
+"9": [
+"strUid",
+"string"
+]
+}
+},
+"04d7": {
+"name": "RceHalloween",
+"cls": "_-5Up",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nactivetype",
+"int32"
+],
+"3": [
+"nIndex",
+"int32"
+],
+"4": [
+"wishlist",
+"int32"
+],
+"5": [
+"nNum",
+"int32"
+]
+}
+},
+"04d8": {
+"name": "RceMortarLimitAct",
+"cls": "_-6pP",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nRewardID",
+"int32"
+],
+"3": [
+"nRegion",
+"int32"
+],
+"4": [
+"strName",
+"string"
+]
+}
+},
+"04d9": {
+"name": "RcePreciseStrikeOpt",
+"cls": "_-6UY",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nRewardID",
+"int32"
+]
+}
+},
+"04da": {
+"name": "RceAdviserOpt",
+"cls": "_-1FY",
+"fields": {
+"1": [
+"noptType",
+"int32"
+],
+"2": [
+"nid",
+"int32"
+],
+"3": [
+"notherID",
+"int32"
+],
+"4": [
+"nitemID",
+"int32"
+],
+"5": [
+"naddproptype",
+"int32"
+],
+"6": [
+"naddProp",
+"int32"
+],
+"7": [
+"field7",
+"int32"
+],
+"8": [
+"nitemCnt",
+"int32"
+],
+"9": [
+"ndbcomid",
+"int32"
+],
+"10": [
+"ndbcomidplus",
+"int32"
+],
+"11": [
+"nskillid",
+"int32"
+],
+"12": [
+"dstUid",
+"string"
+],
+"13": [
+"nMedalDbid",
+"int32"
+],
+"14": [
+"nMedalDbidPlus",
+"int32"
+],
+"15": [
+"field15",
+"int32"
+]
+}
+},
+"04db": {
+"name": "RceSixYearBuildGuild",
+"cls": "_-1zQ",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"awardid",
+"int32"
+],
+"3": [
+"activeType",
+"int32"
+],
+"4": [
+"combinNum",
+"int32"
+]
+}
+},
+"04dc": {
+"name": "RceAdviserDaily",
+"cls": "_-32D",
+"fields": {
+"1": [
+"noptType",
+"int32"
+],
+"2": [
+"nid",
+"int32"
+],
+"3": [
+"nbuycnt",
+"int32"
+]
+}
+},
+"04dd": {
+"name": "RceAdviserVisitUpAtv",
+"cls": "_-5FQ",
+"fields": {
+"1": [
+"noptType",
+"int32"
+]
+}
+},
+"04de": {
+"name": "RceWeekQuestOpt",
+"cls": "_-2T7",
+"fields": {
+"1": [
+"ntype",
+"int32"
+],
+"2": [
+"nindex",
+"int32"
+]
+}
+},
+"04df": {
+"name": "RceTurtleShellGame",
+"cls": "_-48A",
+"fields": {
+"1": [
+"nopt",
+"int32"
+],
+"2": [
+"npos",
+"int32"
+],
+"3": [
+"nActivtype",
+"int32"
+]
+}
+},
+"04e0": {
+"name": "RceGoldenPig",
+"cls": "_-4-E",
+"fields": {
+"1": [
+"nopt",
+"int32"
+],
+"2": [
+"npos",
+"int32"
+],
+"3": [
+"natvtype",
+"int32"
+]
+}
+},
+"04e1": {
+"name": "RceJunBeiOpt",
+"cls": "_-1xe",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nJunBeiID",
+"int32"
+],
+"3": [
+"nComposeID",
+"int32"
+],
+"4": [
+"nSkillID",
+"int32"
+],
+"5": [
+"nExlType",
+"int32"
+],
+"6": [
+"EnemyUid",
+"string"
+],
+"7": [
+"nItemID",
+"int32"
+],
+"8": [
+"nCnt",
+"int32"
+],
+"9": [
+"bTurnOn",
+"bool"
+],
+"10": [
+"nSkillTree",
+"int32"
+],
+"11": [
+"lstLetter",
+"message"
+],
+"12": [
+"robLetterID",
+"int32"
+],
+"13": [
+"field13",
+"int32"
+],
+"14": [
+"ischose",
+"bool"
+]
+}
+},
+"04e2": {
+"name": "RceVipFuLiPkg",
+"cls": "_-5SI",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"04e3": {
+"name": "RceShenJiangDaRen",
+"cls": "_-5rR",
+"fields": {
+"1": [
+"nopt",
+"int32"
+],
+"2": [
+"nslot",
+"int32"
+]
+}
+},
+"04e4": {
+"name": "RceChinaJie",
+"cls": "_-4eP",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nIndex",
+"int32"
+]
+}
+},
+"04e5": {
+"name": "RceMouseYouHaveMoney",
+"cls": "_-6yX",
+"fields": {
+"1": [
+"nopt",
+"int32"
+],
+"2": [
+"npos",
+"int32"
+]
+}
+},
+"04e6": {
+"name": "RceCallBackAct",
+"cls": "_-03u",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"strUid",
+"string"
+],
+"4": [
+"strName",
+"string"
+],
+"5": [
+"nPayNum",
+"int32"
+],
+"6": [
+"nLevel",
+"int32"
+],
+"7": [
+"bFirstPay",
+"bool"
+],
+"8": [
+"nItemID",
+"int32"
+],
+"9": [
+"nItemCount",
+"int32"
+],
+"10": [
+"nActivType",
+"int32"
+],
+"11": [
+"strUrl",
+"string"
+]
+}
+},
+"04e7": {
+"name": "RceGuoZhanDaRen",
+"cls": "_-0R0",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nAwdId",
+"int32"
+]
+}
+},
+"04e8": {
+"name": "RceBattleToken",
+"cls": "_-6b9",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nBuyNum",
+"int32"
+],
+"3": [
+"nReward",
+"int32"
+],
+"4": [
+"nRewardType",
+"int32"
+]
+}
+},
+"04e9": {
+"name": "RcePingTu",
+"cls": "_-3Gi",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nslot",
+"int32"
+]
+}
+},
+"04ea": {
+"name": "RceCommanderStation",
+"cls": "_-6-T",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nGiftID",
+"int32"
+],
+"3": [
+"nStationType",
+"int32"
+],
+"4": [
+"nActiveType",
+"int32"
+],
+"5": [
+"field5",
+"int32"
+]
+}
+},
+"04eb": {
+"name": "RceQixiActive",
+"cls": "_-2bf",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nGiftID",
+"int32"
+],
+"3": [
+"nNum",
+"int32"
+]
+}
+},
+"04ec": {
+"name": "RceLootBrother",
+"cls": "_-3ll",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nIndex",
+"int32"
+],
+"3": [
+"iteminfo",
+"message"
+],
+"4": [
+"nactivetype",
+"int32"
+]
+}
+},
+"04ed": {
+"name": "RceWishPool",
+"cls": "_-6tj",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nWishtype",
+"int32"
+],
+"3": [
+"field3",
+"message"
+],
+"4": [
+"activetype",
+"int32"
+]
+}
+},
+"04ee": {
+"name": "RceConsumeRank",
+"cls": "_-6rU",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"nFlag",
+"int32"
+],
+"3": [
+"nActivetype",
+"int32"
+]
+}
+},
+"04ef": {
+"name": "RceDailygiftbuy",
+"cls": "_-64u",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nID",
+"int32"
+]
+}
+},
+"04f0": {
+"name": "RceHeroEquipOpt",
+"cls": "_-52C",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nHeroID",
+"int32"
+],
+"3": [
+"nEquipDBID",
+"int32"
+],
+"4": [
+"field4",
+"int32"
+],
+"5": [
+"luckyItem",
+"int32"
+],
+"6": [
+"protectItem",
+"int32"
+],
+"7": [
+"field7",
+"int32"
+],
+"8": [
+"field8",
+"int32"
+]
+}
+},
+"04f1": {
+"name": "RceMortarSuppyGiftOpt",
+"cls": "_-5Hx",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"04f2": {
+"name": "RceRechargeRebateOpt",
+"cls": "_-4Av",
+"fields": {
+"1": [
+"type",
+"int32"
+]
+}
+},
+"04f3": {
+"name": "RceGuildBuildOpt",
+"cls": "_-52O",
+"fields": {
+"1": [
+"ntype",
+"int32"
+],
+"2": [
+"nSkillID",
+"int32"
+],
+"3": [
+"nTaskID",
+"int32"
+]
+}
+},
+"04f4": {
+"name": "RceQQBirthdayGift",
+"cls": "_-4Bm",
+"fields": {
+"1": [
+"nType",
+"int32"
+],
+"2": [
+"nActiveType",
+"int32"
+],
+"3": [
+"nGiftId",
+"int32"
+]
+}
+},
+"04f5": {
+"name": "RceQQgiftBuildGuild",
+"cls": "_-2E4",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"activeType",
+"int32"
+],
+"3": [
+"awardid",
+"int32"
+],
+"4": [
+"field4",
+"int32"
+]
+}
+},
+"04f6": {
+"name": "RceSpecialStore",
+"cls": "_-4dp",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"buyid",
+"int32"
+],
+"3": [
+"buynum",
+"int32"
+]
+}
+},
+"04f7": {
+"name": "RceZhongQiuActive",
+"cls": "_-4be",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"buyid",
+"int32"
+],
+"3": [
+"buyNum",
+"int32"
+]
+}
+},
+"04f8": {
+"name": "RceGiftTenMonth",
+"cls": "_-3sl",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"index",
+"int32"
+],
+"3": [
+"activetype",
+"int32"
+],
+"4": [
+"num",
+"int32"
+],
+"5": [
+"field5",
+"message"
+]
+}
+},
+"04f9": {
+"name": "RceBindGuildAct",
+"cls": "_-0uG",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"activeType",
+"int32"
+],
+"3": [
+"nId",
+"int32"
+],
+"4": [
+"nNum",
+"int32"
+]
+}
+},
+"04fa": {
+"name": "RceTaskOpt",
+"cls": "_-6H9",
+"fields": {
+"1": [
+"kind",
+"int32"
+],
+"2": [
+"nMsgIndex",
+"int32"
+],
+"3": [
+"field3",
+"int32"
+],
+"4": [
+"nFlag",
+"int32"
+],
+"5": [
+"nModule",
+"int32"
+],
+"6": [
+"nDay",
+"int32"
+],
+"7": [
+"field7",
+"int32"
+]
+}
+},
+"04fb": {
+"name": "RceMaterialProtect",
+"cls": "_-2xw",
+"fields": {
+"1": [
+"type",
+"int32"
+],
+"2": [
+"index",
+"int32"
+],
+"3": [
+"uid",
+"string"
+]
+}
+},
+"04fc": {
+"name": "RceSeaTreasure",
+"cls": "_-6J6",
+"fields": {
+"1": [
+"opttype",
+"int32"
+],
+"2": [
+"targetid",
+"int32"
+],
+"3": [
+"count",
+"int32"
+]
+}
+},
+"04fd": {
+"name": "RceMail",
+"cls": "_-00z",
+"fields": {
+"1": [
+"opttype",
+"int32"
+],
+"2": [
+"lastSyncGlobalId",
+"int64"
+],
+"3": [
+"mailId",
+"int64"
+],
+"4": [
+"field4",
+"int64"
+],
+"5": [
+"level",
+"int32"
+],
+"6": [
+"vip",
+"int32"
+],
+"7": [
+"region",
+"int32"
+],
+"8": [
+"regTime",
+"int32"
+],
+"9": [
+"nGlobalMail",
+"int32"
+]
+}
+},
+"04fe": {
+"name": "RceGardenOpt",
+"cls": "_-5il",
+"fields": {
+"1": [
+"optType",
+"int32"
+],
+"2": [
+"skinId",
+"int32"
+],
+"3": [
+"plotId",
+"int32"
+]
+}
+}
+}

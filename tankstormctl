@@ -1,0 +1,42 @@
+#!/usr/bin/python3
+import argparse,json,pathlib,subprocess,re,os,sys
+parser=argparse.ArgumentParser(description='TankStorm two-account service manager')
+parser.add_argument('action',choices=['status','start','stop','restart','login','logs'])
+account_root=pathlib.Path('/opt/tankstorm/accounts')
+existing=sorted([p.name[8:] for p in account_root.glob('account-*') if p.is_dir() and not p.is_symlink() and re.fullmatch(r'account-[1-9][0-9]?',p.name) and int(p.name[8:])<=32],key=int)
+parser.add_argument('account',nargs='?',choices=existing+['all'],default='all')
+args=parser.parse_args()
+if os.geteuid()!=0:sys.exit('Run with sudo')
+slots=existing if args.account=='all' else [args.account]
+def run(*cmd,check=True):return subprocess.run(cmd,check=check,capture_output=True,text=True)
+def scrub(line):
+ if any(k in line for k in ['提取到的上下文','FlashVars','socket 登录参数','cookie 已保存','uin=','openid','openkey']):return None
+ line=re.sub(r'https?://\S+','[link]',line)
+ return re.sub(r'\b\d{5,}\b','[id]',line)
+if args.action=='login':
+ if len(slots)!=1:sys.exit('Choose account 1 or 2')
+ n=slots[0];run('systemctl','stop',f'tankstorm@{n}.service');run('systemctl','stop',f'tankstorm-login@{n}.service',check=False)
+ pathlib.Path(f'/opt/tankstorm/accounts/account-{n}/qrcode.png').unlink(missing_ok=True)
+ run('systemctl','reset-failed',f'tankstorm-login@{n}.service',check=False)
+ run('systemctl','start','--no-block',f'tankstorm-login@{n}.service')
+ print(f'Account {n}: QR login started; scan /opt/tankstorm/accounts/account-{n}/qrcode.png. Keepalive resumes after success.')
+elif args.action in ['start','restart','stop']:
+ for n in slots:
+  run('systemctl','stop',f'tankstorm-login@{n}.service',check=False)
+  run('systemctl',args.action,f'tankstorm@{n}.service')
+ print('OK')
+else:
+ for n in slots:
+  if args.action=='status':
+   out=run('systemctl','show',f'tankstorm@{n}.service','-p','ActiveState','-p','SubState','-p','MainPID','-p','NRestarts').stdout
+   login=run('systemctl','show',f'tankstorm-login@{n}.service','-p','ActiveState','--value').stdout.strip()
+   print(f'Account {n}: '+out.strip().replace('\n','; ')+f'; QR-login={login}')
+  else:
+   folder=pathlib.Path(f'/opt/tankstorm/accounts/account-{n}/logs')
+   paths=list(folder.glob('*.log'));print(f'Account {n}:')
+   if paths:
+    path=max(paths,key=lambda p:p.stat().st_mtime)
+    with path.open('rb') as f:f.seek(max(0,path.stat().st_size-32768));lines=f.read().decode('utf8','replace').splitlines()
+    safe=[s for line in lines[-100:] if (s:=scrub(line)) is not None]
+    print('\n'.join(safe[-18:]))
+

@@ -1,0 +1,21 @@
+[Unit]
+Description=TankStorm private web console
+After=network.target
+
+[Service]
+User=tankstorm-web
+Group=tankstorm-web
+WorkingDirectory=/opt/tankstorm/web
+EnvironmentFile=/etc/tankstorm-panel.env
+ExecStart=/opt/tankstorm/web-venv/bin/gunicorn --no-control-socket --workers 1 --threads 4 --bind 127.0.0.1:8765 --timeout 60 --access-logfile - app:app
+Restart=always
+RestartSec=5
+UMask=0077
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/opt/tankstorm/accounts /run/tankstorm-panel
+
+[Install]
+WantedBy=multi-user.target
+

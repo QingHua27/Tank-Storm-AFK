@@ -1,0 +1,12 @@
+node_modules/
+__pycache__/
+*.pyc
+.env
+*.pem
+*.key
+cookies.json
+config.local.json
+qrcode.png
+accounts/
+logs/
+debug/

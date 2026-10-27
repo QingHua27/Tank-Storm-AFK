@@ -1,0 +1,27 @@
+[Unit]
+Description=TankStorm account %i QR login
+After=network-online.target
+OnSuccess=tankstorm@%i.service
+Conflicts=tankstorm@%i.service
+
+[Service]
+Type=oneshot
+User=tankstorm
+Group=tankstorm
+WorkingDirectory=/opt/tankstorm/accounts/account-%i
+ExecStartPre=/usr/bin/rm -f /opt/tankstorm/accounts/account-%i/qrcode.png
+ExecStart=/opt/tankstorm/accounts/account-%i/tankstorm --login
+TimeoutStartSec=300
+TimeoutStopSec=20
+KillSignal=SIGINT
+KillMode=control-group
+UMask=0077
+Environment=PYTHONUNBUFFERED=1
+Environment=LANG=C.UTF-8
+Environment=TZ=Asia/Shanghai
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/tankstorm/accounts/account-%i
+

@@ -1,0 +1,7 @@
+[Unit]
+Description=Refresh TankStorm account %i for daily tasks
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/systemctl try-restart tankstorm@%i.service
+TimeoutStartSec=60
